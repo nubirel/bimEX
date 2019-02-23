@@ -34,7 +34,7 @@ To test the package, put the files bimEX.m and bimEX_Working_Example.nb in the s
 
 ### License
 
-GNU GPL3
+GNU GPL-3.0
 
 ### Acknowledgments
 
