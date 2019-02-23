@@ -16,6 +16,14 @@ This repository includes also the source file bimEX.nb and a working example bim
 
 To run bimEX, you need to install Mathematica and the xAct bundle.
 
+### Documentation
+
+The documentation is provided in the form of **Usage messages** in Mathematica. They are accessible by typing
+
+`?<name_of_function_or_option>`
+
+in the Mathematica notebook. We also refer to the associated paper.
+
 ### Testing the package
 
 To test the package, put the files bimEX.m and bimEX_Working_Example.nb in the same folder. Then open bimEX_Working_Example.nb and evaluate the notebook.
