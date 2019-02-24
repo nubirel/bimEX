@@ -30,6 +30,10 @@ in the Mathematica notebook. We also refer to the associated paper.
 
 To test the package, put the files bimEX.m and bimEX_Working_Example.nb in the same folder. Then open bimEX_Working_Example.nb and evaluate the notebook.
 
+### Contributing
+
+Please see the file contributing.md.
+
 ### Author
 
 - Francesco Torsello
