@@ -20,30 +20,6 @@
 
 
 (* ::Input::Initialization:: *)
-(* :Title: bimEX *)
-
-(* :Author: Francesco Torsello *)
-
-(* :Summary: Exact computations in 3+1 bimetric relativity *)
-
-(* :Package Version: 1 *)
-
-(* :Copyright: Francesco Torsello (2019) *)
-
-(* :History: see bimEX.History file *)
-
-(* :Keywords: *)
-
-(* :Source: bimEX.nb *)
-
-(* :Warning: Never allow xAct to contract indices on its own. Use the function SafeSimplification rather than Simplification. *)
-
-(* :Mathematica Version: 11.0 and later *)
-
-(* :Limitations: bimEX has many limitations, but it can be upgraded quite easily. All comments and suggestions are welcome!. *)
-
-
-(* ::Input::Initialization:: *)
 SafeSimplification::usage =
 "SafeSimplification[ expr_ ] := Simplify@ToCanonical[ expr, UseMetricOnVBundle \[Rule] None ]
 
@@ -333,7 +309,8 @@ SetDirectory[NotebookDirectory[]];
 
 
 (* ::Input::Initialization:: *)
-Print["--------------------------------------------------------------------------------
+Print[xAct`xCore`Private`bars];
+Print["
 Package bimEX, bimetric exact computations in 3+1 formalism
 Copyright (C) 2019 Francesco Torsello
 --------------------------------------------------------------------------------
@@ -342,7 +319,8 @@ This program is free software; you can redistribute it and/or modify\[IndentingN
 This program is distributed WITHOUT ANY WARRANTY; without even the implied warranty of\[IndentingNewLine] MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU\[IndentingNewLine] General Public License for more details.
 --------------------------------------------------------------------------------
 You should have received a copy of the GNU General Public License\[IndentingNewLine] along with this program; if not, write to the Free Software\[IndentingNewLine] Foundation, Inc., 59 Temple Place-Suite 330, Boston, MA 02111-1307,\[IndentingNewLine]  USA.
---------------------------------------------------------------------------------"];
+"];
+Print[xAct`xCore`Private`bars];
 
 
 (* ::Input::Initialization:: *)
