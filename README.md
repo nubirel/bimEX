@@ -31,7 +31,7 @@ The documentation is provided in the form of **Usage messages** in Mathematica. 
 
 `?<name_of_function_or_option>`
 
-in the Mathematica notebook. We also refer to the associated paper.
+in the Mathematica notebook. We refer to the associated paper.
 
 ### Testing the package
 
