@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    185229,       4769]
-NotebookOptionsPosition[    180428,       4622]
-NotebookOutlinePosition[    180777,       4637]
-CellTagsIndexPosition[    180734,       4634]
+NotebookDataLength[    253087,       6420]
+NotebookOptionsPosition[    246078,       6216]
+NotebookOutlinePosition[    246427,       6231]
+CellTagsIndexPosition[    246384,       6228]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -45,7 +45,7 @@ Cell[BoxData["\<\"------------------------------------------------------------\
 \"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713520317883`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330322952202*^9}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -58,29 +58,29 @@ Cell[BoxData[
   Editable->False]], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713520317883`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330322962202*^9}],
 
 Cell[BoxData["\<\"CopyRight (C) 2003-2018, Jose M. Martin-Garcia, under the \
 General Public License.\"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.760071352047388*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.7603303229722023`*^9}],
 
 Cell[BoxData["\<\"Connecting to external MinGW executable...\"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713520785885`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.7603303230122023`*^9}],
 
 Cell[BoxData["\<\"Connection established.\"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713521409883`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330323052202*^9}],
 
 Cell[BoxData["\<\"------------------------------------------------------------\
 \"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713521409883`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330323062202*^9}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -94,19 +94,19 @@ Cell[BoxData[
   Editable->False]], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713521409883`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330323062202*^9}],
 
 Cell[BoxData["\<\"CopyRight (C) 2002-2018, Jose M. Martin-Garcia, under the \
 General Public License.\"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713521409883`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330323062202*^9}],
 
 Cell[BoxData["\<\"------------------------------------------------------------\
 \"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713521565886`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.7603303230722017`*^9}],
 
 Cell[BoxData["\<\"These packages come with ABSOLUTELY NO WARRANTY; for \
 details type Disclaimer[]. This is free software, and you are welcome to \
@@ -114,19 +114,19 @@ redistribute it under certain conditions. See the General Public License for \
 details.\"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713521565886`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.7603303230722017`*^9}],
 
 Cell[BoxData["\<\"------------------------------------------------------------\
 \"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713521565886`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330323082202*^9}],
 
 Cell[BoxData["\<\"------------------------------------------------------------\
 \"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713523125887`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330323232202*^9}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -139,19 +139,19 @@ Cell[BoxData[
   Editable->False]], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713523125887`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330323232202*^9}],
 
 Cell[BoxData["\<\"CopyRight (C) 2005-2018, David Yllanes and Jose M. \
 Martin-Garcia, under the General Public License.\"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713523125887`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330323242202*^9}],
 
 Cell[BoxData["\<\"------------------------------------------------------------\
 \"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713523125887`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330323242202*^9}],
 
 Cell[BoxData["\<\"These packages come with ABSOLUTELY NO WARRANTY; for \
 details type Disclaimer[]. This is free software, and you are welcome to \
@@ -159,19 +159,78 @@ redistribute it under certain conditions. See the General Public License for \
 details.\"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713523281884`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330323242202*^9}],
 
 Cell[BoxData["\<\"------------------------------------------------------------\
 \"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713523281884`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330323252202*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ TemplateBox[{
+  "LinkObject","linkd",
+   "\"Unable to communicate with closed link \
+\\!\\(\\*RowBox[{\\\"LinkObject\\\", \\\"[\\\", \
+RowBox[{\\\"\\\\\\\"\\\\\\\\\\\\\\\"C:\\\\\\\\\\\\\\\\Program Files\\\\\\\\\\\
+\\\\\\Wolfram Research\\\\\\\\\\\\\\\\Mathematica\\\\\\\\\\\\\\\\11.0\\\\\\\\\
+\\\\\\\\WolframKernel.exe\\\\\\\\\\\\\\\" -subkernel -noinit -wstp \
+-noicon\\\\\\\"\\\", \\\",\\\", \\\"281\\\", \\\",\\\", \\\"5\\\"}], \
+\\\"]\\\"}]\\).\"",2,2,1,16654079265192279902,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.7603303240792017`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "LinkObject","linkd",
+   "\"Unable to communicate with closed link \
+\\!\\(\\*RowBox[{\\\"LinkObject\\\", \\\"[\\\", \
+RowBox[{\\\"\\\\\\\"\\\\\\\\\\\\\\\"C:\\\\\\\\\\\\\\\\Program Files\\\\\\\\\\\
+\\\\\\Wolfram Research\\\\\\\\\\\\\\\\Mathematica\\\\\\\\\\\\\\\\11.0\\\\\\\\\
+\\\\\\\\WolframKernel.exe\\\\\\\\\\\\\\\" -subkernel -noinit -wstp \
+-noicon\\\\\\\"\\\", \\\",\\\", \\\"282\\\", \\\",\\\", \\\"6\\\"}], \
+\\\"]\\\"}]\\).\"",2,2,2,16654079265192279902,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.760330324099202*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "LinkObject","linkd",
+   "\"Unable to communicate with closed link \
+\\!\\(\\*RowBox[{\\\"LinkObject\\\", \\\"[\\\", \
+RowBox[{\\\"\\\\\\\"\\\\\\\\\\\\\\\"C:\\\\\\\\\\\\\\\\Program Files\\\\\\\\\\\
+\\\\\\Wolfram Research\\\\\\\\\\\\\\\\Mathematica\\\\\\\\\\\\\\\\11.0\\\\\\\\\
+\\\\\\\\WolframKernel.exe\\\\\\\\\\\\\\\" -subkernel -noinit -wstp \
+-noicon\\\\\\\"\\\", \\\",\\\", \\\"283\\\", \\\",\\\", \\\"7\\\"}], \
+\\\"]\\\"}]\\).\"",2,2,3,16654079265192279902,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.7603303241192017`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General","stop",
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"LinkObject\\\", \
+\\\"::\\\", \\\"linkd\\\"}], \\\"MessageName\\\"]\\) will be suppressed \
+during this calculation.\"",2,2,4,16654079265192279902,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.760330324159202*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Parallel`Developer`ConnectKernel","failinit",
+   "\"\\!\\(\\*RowBox[{\\\"8\\\"}]\\) of \\!\\(\\*RowBox[{\\\"8\\\"}]\\) \
+kernels failed to initialize.\"",2,2,5,16654079265192279902,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.760330324199202*^9}],
+
+Cell[CellGroupData[{
 
 Cell[BoxData["\<\"------------------------------------------------------------\
 \"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713534211884`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330324199202*^9}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -184,20 +243,20 @@ Cell[BoxData[
   Editable->False]], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713534211884`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330324199202*^9}],
 
 Cell[BoxData["\<\"CopyRight (C) 2008-2018, Thomas B\[ADoubleDot]ckdahl, Jose \
 M. Martin-Garcia and Barry Wardell, under the General Public License.\"\>"], \
 "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713534211884`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330324199202*^9}],
 
 Cell[BoxData["\<\"------------------------------------------------------------\
 \"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713534367886`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330324209202*^9}],
 
 Cell[BoxData["\<\"These packages come with ABSOLUTELY NO WARRANTY; for \
 details type Disclaimer[]. This is free software, and you are welcome to \
@@ -205,37 +264,74 @@ redistribute it under certain conditions. See the General Public License for \
 details.\"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713534367886`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330324209202*^9}],
 
 Cell[BoxData["\<\"------------------------------------------------------------\
 \"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713534367886`*^9}],
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330324209202*^9}],
 
 Cell[BoxData["\<\"------------------------------------------------------------\
---------------------\\nPackage bimEX, bimetric exact computations in 3+1 \
-formalism\\nCopyright (C) 2019 Francesco \
-Torsello\\n-------------------------------------------------------------------\
--------------\\nThis program is free software; you can redistribute it and/or \
-modify\[IndentingNewLine] it under the terms of the GNU General Public \
-License as published\[IndentingNewLine] by the Free Software Foundation; \
-either version 3 of the License,\[IndentingNewLine]  or (at your option) any \
-later version.\\n-------------------------------------------------------------\
--------------------\\nThis program is distributed WITHOUT ANY WARRANTY; \
-without even the implied warranty of\[IndentingNewLine] MERCHANTABILITY or \
-FITNESS FOR A PARTICULAR PURPOSE. See the GNU\[IndentingNewLine] General \
-Public License for more \
-details.\\n-------------------------------------------------------------------\
--------------\\nYou should have received a copy of the GNU General Public \
-License\[IndentingNewLine] along with this program; if not, write to the Free \
-Software\[IndentingNewLine] Foundation, Inc., 59 Temple Place-Suite 330, \
-Boston, MA 02111-1307,\[IndentingNewLine]  \
-USA.\\n-----------------------------------------------------------------------\
----------\"\>"], "Print",
+\"\>"], "Print",
  CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
   3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
-  3.7600694929559765`*^9, 3.7600713534523883`*^9}]
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330324219202*^9}],
+
+Cell[BoxData["\<\"Package bimEX, bimetric exact computations in 3+1 formalism\
+\\nCopyright (C) 2019 Francesco Torsello\"\>"], "Print",
+ CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
+  3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.7603303242292023`*^9}],
+
+Cell[BoxData["\<\"------------------------------------------------------------\
+\"\>"], "Print",
+ CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
+  3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.7603303242292023`*^9}],
+
+Cell[BoxData["\<\"This program is free software; you can redistribute it \
+and/or modify\[IndentingNewLine] it under the terms of the GNU General Public \
+License as published\[IndentingNewLine] by the Free Software Foundation; \
+either version 3 of the License,\[IndentingNewLine]  or (at your option) any \
+later version.\"\>"], "Print",
+ CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
+  3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.7603303242292023`*^9}],
+
+Cell[BoxData["\<\"------------------------------------------------------------\
+\"\>"], "Print",
+ CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
+  3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330324239202*^9}],
+
+Cell[BoxData["\<\"This program is distributed WITHOUT ANY WARRANTY; without \
+even the implied warranty of\[IndentingNewLine] MERCHANTABILITY or FITNESS \
+FOR A PARTICULAR PURPOSE. See the GNU\[IndentingNewLine] General Public \
+License for more details.\"\>"], "Print",
+ CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
+  3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330324239202*^9}],
+
+Cell[BoxData["\<\"------------------------------------------------------------\
+\"\>"], "Print",
+ CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
+  3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330324239202*^9}],
+
+Cell[BoxData["\<\"You should have received a copy of the GNU General Public \
+License\[IndentingNewLine] along with this program; if not, write to the Free \
+Software\[IndentingNewLine] Foundation, Inc., 59 Temple Place-Suite 330, \
+Boston, MA 02111-1307,\[IndentingNewLine]  USA.\"\>"], "Print",
+ CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
+  3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330324249202*^9}],
+
+Cell[BoxData["\<\"------------------------------------------------------------\
+\"\>"], "Print",
+ CellChangeTimes->{3.759898338603905*^9, 3.7598987054619055`*^9, 
+  3.7598998991599054`*^9, 3.760069355753976*^9, 3.760069390542376*^9, 
+  3.7600694929559765`*^9, 3.7600713520317883`*^9, 3.760330324249202*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -1298,7 +1394,8 @@ Cell[BoxData[
    3.753165798433466*^9, 3.7531658753374662`*^9, 3.753166811662466*^9, 
    3.753177341945866*^9, 3.753443031098067*^9, 3.759898810134905*^9, 
    3.759899902877905*^9, 3.7600693590923758`*^9, 3.760069393774576*^9, 
-   3.760069448971176*^9, 3.7600694962943764`*^9, 3.760071355481388*^9}]
+   3.760069448971176*^9, 3.7600694962943764`*^9, 3.760071355481388*^9, 
+   3.760330326780202*^9}]
 }, Open  ]],
 
 Cell[TextData[{
@@ -1746,7 +1843,7 @@ Cell[BoxData[
         Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
   Function[BoxForm`e$, 
    MatrixForm[BoxForm`e$]]]], "Echo",
- CellChangeTimes->{3.7600713555437884`*^9}]
+ CellChangeTimes->{3.760330326850202*^9}]
 }, Open  ]],
 
 Cell[TextData[{
@@ -1894,18 +1991,21 @@ Cell[BoxData[
       FontColor->RGBColor[1, 0, 0]]}]], " ", 
    RowBox[{"(", 
     RowBox[{
-     FractionBox["2", 
-      SuperscriptBox[
-       StyleBox[
-        OverscriptBox["B", "~"],
-        StripOnInput->False,
-        LineColor->RGBColor[1, 0, 0],
-        FrontFaceColor->RGBColor[1, 0, 0],
-        BackFaceColor->RGBColor[1, 0, 0],
-        GraphicsColor->RGBColor[1, 0, 0],
-        FontColor->RGBColor[1, 0, 0]], "2"]], "+", 
      FractionBox[
-      RowBox[{"4", " ", 
+      RowBox[{"8", " ", 
+       SuperscriptBox[
+        StyleBox["\[Psi]",
+         StripOnInput->False,
+         LineColor->RGBColor[1, 0, 0],
+         FrontFaceColor->RGBColor[1, 0, 0],
+         BackFaceColor->RGBColor[1, 0, 0],
+         GraphicsColor->RGBColor[1, 0, 0],
+         FontColor->RGBColor[1, 0, 0]], 
+        TagBox[
+         RowBox[{"(", 
+          RowBox[{"0", ",", "1"}], ")"}],
+         Derivative],
+        MultilineFunction->None], " ", 
        SuperscriptBox[
         StyleBox[
          OverscriptBox["A", "~"],
@@ -1919,18 +2019,22 @@ Cell[BoxData[
          RowBox[{"(", 
           RowBox[{"0", ",", "1"}], ")"}],
          Derivative],
-        MultilineFunction->None], " ", 
-       RowBox[{"(", 
-        RowBox[{
-         RowBox[{"2", " ", 
-          StyleBox[
-           OverscriptBox["B", "~"],
-           StripOnInput->False,
-           LineColor->RGBColor[1, 0, 0],
-           FrontFaceColor->RGBColor[1, 0, 0],
-           BackFaceColor->RGBColor[1, 0, 0],
-           GraphicsColor->RGBColor[1, 0, 0],
-           FontColor->RGBColor[1, 0, 0]], " ", 
+        MultilineFunction->None]}], 
+      SuperscriptBox[
+       StyleBox[
+        OverscriptBox["A", "~"],
+        StripOnInput->False,
+        LineColor->RGBColor[1, 0, 0],
+        FrontFaceColor->RGBColor[1, 0, 0],
+        BackFaceColor->RGBColor[1, 0, 0],
+        GraphicsColor->RGBColor[1, 0, 0],
+        FontColor->RGBColor[1, 0, 0]], "3"]], "+", 
+     FractionBox[
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "8"}], " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
           SuperscriptBox[
            StyleBox["\[Psi]",
             StripOnInput->False,
@@ -1943,7 +2047,22 @@ Cell[BoxData[
             RowBox[{"(", 
              RowBox[{"0", ",", "1"}], ")"}],
             Derivative],
-           MultilineFunction->None]}], "+", 
+           MultilineFunction->None], ")"}], "2"]}], "-", 
+       FractionBox[
+        RowBox[{"16", " ", 
+         SuperscriptBox[
+          StyleBox["\[Psi]",
+           StripOnInput->False,
+           LineColor->RGBColor[1, 0, 0],
+           FrontFaceColor->RGBColor[1, 0, 0],
+           BackFaceColor->RGBColor[1, 0, 0],
+           GraphicsColor->RGBColor[1, 0, 0],
+           FontColor->RGBColor[1, 0, 0]], 
+          TagBox[
+           RowBox[{"(", 
+            RowBox[{"0", ",", "1"}], ")"}],
+           Derivative],
+          MultilineFunction->None], " ", 
          SuperscriptBox[
           StyleBox[
            OverscriptBox["B", "~"],
@@ -1957,149 +2076,7 @@ Cell[BoxData[
            RowBox[{"(", 
             RowBox[{"0", ",", "1"}], ")"}],
            Derivative],
-          MultilineFunction->None]}], ")"}]}], 
-      RowBox[{
-       SuperscriptBox[
-        StyleBox[
-         OverscriptBox["A", "~"],
-         StripOnInput->False,
-         LineColor->RGBColor[1, 0, 0],
-         FrontFaceColor->RGBColor[1, 0, 0],
-         BackFaceColor->RGBColor[1, 0, 0],
-         GraphicsColor->RGBColor[1, 0, 0],
-         FontColor->RGBColor[1, 0, 0]], "3"], " ", 
-       StyleBox[
-        OverscriptBox["B", "~"],
-        StripOnInput->False,
-        LineColor->RGBColor[1, 0, 0],
-        FrontFaceColor->RGBColor[1, 0, 0],
-        BackFaceColor->RGBColor[1, 0, 0],
-        GraphicsColor->RGBColor[1, 0, 0],
-        FontColor->RGBColor[1, 0, 0]]}]], "-", 
-     FractionBox[
-      RowBox[{"2", " ", 
-       RowBox[{"(", 
-        RowBox[{
-         SuperscriptBox[
-          RowBox[{"(", 
-           SuperscriptBox[
-            StyleBox[
-             OverscriptBox["B", "~"],
-             StripOnInput->False,
-             LineColor->RGBColor[1, 0, 0],
-             FrontFaceColor->RGBColor[1, 0, 0],
-             BackFaceColor->RGBColor[1, 0, 0],
-             GraphicsColor->RGBColor[1, 0, 0],
-             FontColor->RGBColor[1, 0, 0]], 
-            TagBox[
-             RowBox[{"(", 
-              RowBox[{"0", ",", "1"}], ")"}],
-             Derivative],
-            MultilineFunction->None], ")"}], "2"], "+", 
-         RowBox[{"4", " ", 
-          SuperscriptBox[
-           StyleBox[
-            OverscriptBox["B", "~"],
-            StripOnInput->False,
-            LineColor->RGBColor[1, 0, 0],
-            FrontFaceColor->RGBColor[1, 0, 0],
-            BackFaceColor->RGBColor[1, 0, 0],
-            GraphicsColor->RGBColor[1, 0, 0],
-            FontColor->RGBColor[1, 0, 0]], "2"], " ", 
-          RowBox[{"(", 
-           RowBox[{
-            SuperscriptBox[
-             RowBox[{"(", 
-              SuperscriptBox[
-               StyleBox["\[Psi]",
-                StripOnInput->False,
-                LineColor->RGBColor[1, 0, 0],
-                FrontFaceColor->RGBColor[1, 0, 0],
-                BackFaceColor->RGBColor[1, 0, 0],
-                GraphicsColor->RGBColor[1, 0, 0],
-                FontColor->RGBColor[1, 0, 0]], 
-               TagBox[
-                RowBox[{"(", 
-                 RowBox[{"0", ",", "1"}], ")"}],
-                Derivative],
-               MultilineFunction->None], ")"}], "2"], "+", 
-            SuperscriptBox[
-             StyleBox["\[Psi]",
-              StripOnInput->False,
-              LineColor->RGBColor[1, 0, 0],
-              FrontFaceColor->RGBColor[1, 0, 0],
-              BackFaceColor->RGBColor[1, 0, 0],
-              GraphicsColor->RGBColor[1, 0, 0],
-              FontColor->RGBColor[1, 0, 0]], 
-             TagBox[
-              RowBox[{"(", 
-               RowBox[{"0", ",", "2"}], ")"}],
-              Derivative],
-             MultilineFunction->None]}], ")"}]}], "+", 
-         RowBox[{"2", " ", 
-          StyleBox[
-           OverscriptBox["B", "~"],
-           StripOnInput->False,
-           LineColor->RGBColor[1, 0, 0],
-           FrontFaceColor->RGBColor[1, 0, 0],
-           BackFaceColor->RGBColor[1, 0, 0],
-           GraphicsColor->RGBColor[1, 0, 0],
-           FontColor->RGBColor[1, 0, 0]], " ", 
-          RowBox[{"(", 
-           RowBox[{
-            RowBox[{"4", " ", 
-             SuperscriptBox[
-              StyleBox["\[Psi]",
-               StripOnInput->False,
-               LineColor->RGBColor[1, 0, 0],
-               FrontFaceColor->RGBColor[1, 0, 0],
-               BackFaceColor->RGBColor[1, 0, 0],
-               GraphicsColor->RGBColor[1, 0, 0],
-               FontColor->RGBColor[1, 0, 0]], 
-              TagBox[
-               RowBox[{"(", 
-                RowBox[{"0", ",", "1"}], ")"}],
-               Derivative],
-              MultilineFunction->None], " ", 
-             SuperscriptBox[
-              StyleBox[
-               OverscriptBox["B", "~"],
-               StripOnInput->False,
-               LineColor->RGBColor[1, 0, 0],
-               FrontFaceColor->RGBColor[1, 0, 0],
-               BackFaceColor->RGBColor[1, 0, 0],
-               GraphicsColor->RGBColor[1, 0, 0],
-               FontColor->RGBColor[1, 0, 0]], 
-              TagBox[
-               RowBox[{"(", 
-                RowBox[{"0", ",", "1"}], ")"}],
-               Derivative],
-              MultilineFunction->None]}], "+", 
-            SuperscriptBox[
-             StyleBox[
-              OverscriptBox["B", "~"],
-              StripOnInput->False,
-              LineColor->RGBColor[1, 0, 0],
-              FrontFaceColor->RGBColor[1, 0, 0],
-              BackFaceColor->RGBColor[1, 0, 0],
-              GraphicsColor->RGBColor[1, 0, 0],
-              FontColor->RGBColor[1, 0, 0]], 
-             TagBox[
-              RowBox[{"(", 
-               RowBox[{"0", ",", "2"}], ")"}],
-              Derivative],
-             MultilineFunction->None]}], ")"}]}]}], ")"}]}], 
-      RowBox[{
-       SuperscriptBox[
-        StyleBox[
-         OverscriptBox["A", "~"],
-         StripOnInput->False,
-         LineColor->RGBColor[1, 0, 0],
-         FrontFaceColor->RGBColor[1, 0, 0],
-         BackFaceColor->RGBColor[1, 0, 0],
-         GraphicsColor->RGBColor[1, 0, 0],
-         FontColor->RGBColor[1, 0, 0]], "2"], " ", 
-       SuperscriptBox[
+          MultilineFunction->None]}], 
         StyleBox[
          OverscriptBox["B", "~"],
          StripOnInput->False,
@@ -2107,8 +2084,31 @@ Cell[BoxData[
          FrontFaceColor->RGBColor[1, 0, 0],
          BackFaceColor->RGBColor[1, 0, 0],
          GraphicsColor->RGBColor[1, 0, 0],
-         FontColor->RGBColor[1, 0, 0]], "2"]}]]}], ")"}]}]}]], "Echo",
- CellChangeTimes->{3.7600713555905886`*^9}]
+         FontColor->RGBColor[1, 0, 0]]], "-", 
+       RowBox[{"8", " ", 
+        SuperscriptBox[
+         StyleBox["\[Psi]",
+          StripOnInput->False,
+          LineColor->RGBColor[1, 0, 0],
+          FrontFaceColor->RGBColor[1, 0, 0],
+          BackFaceColor->RGBColor[1, 0, 0],
+          GraphicsColor->RGBColor[1, 0, 0],
+          FontColor->RGBColor[1, 0, 0]], 
+         TagBox[
+          RowBox[{"(", 
+           RowBox[{"0", ",", "2"}], ")"}],
+          Derivative],
+         MultilineFunction->None]}]}], 
+      SuperscriptBox[
+       StyleBox[
+        OverscriptBox["A", "~"],
+        StripOnInput->False,
+        LineColor->RGBColor[1, 0, 0],
+        FrontFaceColor->RGBColor[1, 0, 0],
+        BackFaceColor->RGBColor[1, 0, 0],
+        GraphicsColor->RGBColor[1, 0, 0],
+        FontColor->RGBColor[1, 0, 0]], "2"]]}], ")"}]}]}]], "Echo",
+ CellChangeTimes->{3.760330326890202*^9}]
 }, Open  ]],
 
 Cell["\<\
@@ -2177,7 +2177,7 @@ Cell[BoxData[
    AutoSpacing->False],
   $CellContext`gB[$CellContext`i, -$CellContext`j],
   Editable->False]], "Echo",
- CellChangeTimes->{3.7600713556217885`*^9}],
+ CellChangeTimes->{3.7603303269202023`*^9}],
 
 Cell[BoxData[
  TagBox[
@@ -2313,7 +2313,7 @@ Cell[BoxData[
         Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
   Function[BoxForm`e$, 
    MatrixForm[BoxForm`e$]]]], "Echo",
- CellChangeTimes->{3.7600713556841884`*^9}]
+ CellChangeTimes->{3.760330326990202*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -2387,7 +2387,7 @@ Cell[BoxData[
    AutoSpacing->False],
   $CellContext`gBc[$CellContext`i, -$CellContext`j],
   Editable->False]], "Echo",
- CellChangeTimes->{3.7600713557153883`*^9}],
+ CellChangeTimes->{3.760330327030202*^9}],
 
 Cell[BoxData[
  TagBox[
@@ -2464,7 +2464,7 @@ Cell[BoxData[
         Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
   Function[BoxForm`e$, 
    MatrixForm[BoxForm`e$]]]], "Echo",
- CellChangeTimes->{3.760071355777788*^9}]
+ CellChangeTimes->{3.7603303270902023`*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -2642,7 +2642,7 @@ Cell[BoxData[
         Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
   Function[BoxForm`e$, 
    MatrixForm[BoxForm`e$]]]], "Echo",
- CellChangeTimes->{3.760071355855788*^9}],
+ CellChangeTimes->{3.760330327240202*^9}],
 
 Cell[BoxData[
  TagBox[
@@ -2719,7 +2719,7 @@ Cell[BoxData[
         Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
   Function[BoxForm`e$, 
    MatrixForm[BoxForm`e$]]]], "Echo",
- CellChangeTimes->{3.7600713559025884`*^9}]
+ CellChangeTimes->{3.7603303273102016`*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -2774,7 +2774,7 @@ Cell[BoxData[
   FontSize->Larger,
   FontWeight->Bold,
   FontColor->RGBColor[0, 0, 1]]], "Echo",
- CellChangeTimes->{3.760071356729388*^9}],
+ CellChangeTimes->{3.760330328210202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -2818,7 +2818,7 @@ FontColor->RGBColor[0, 0, 1]]\)",
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713567605886`*^9}],
+ CellChangeTimes->{3.760330328250202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -2877,7 +2877,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.760071356791788*^9}],
+ CellChangeTimes->{3.7603303283102016`*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -2919,7 +2919,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713568073883`*^9}],
+ CellChangeTimes->{3.760330328330202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -2954,7 +2954,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713568385887`*^9}],
+ CellChangeTimes->{3.760330328390202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -3026,7 +3026,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.760071356869788*^9}],
+ CellChangeTimes->{3.7603303284402018`*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -3096,7 +3096,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713568853884`*^9}],
+ CellChangeTimes->{3.760330328500202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -3122,7 +3122,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713569165883`*^9}],
+ CellChangeTimes->{3.760330328530202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -3159,7 +3159,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713569477882`*^9}],
+ CellChangeTimes->{3.760330328550202*^9}],
 
 Cell[BoxData[
  TemplateBox[{
@@ -3206,7 +3206,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713569633884`*^9}],
+ CellChangeTimes->{3.760330328580202*^9}],
 
 Cell[BoxData[
  TemplateBox[{RowBox[{
@@ -3299,7 +3299,7 @@ FontColor->RGBColor[1, 0, 0]]\)",
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713569945884`*^9}],
+ CellChangeTimes->{3.760330328610202*^9}],
 
 Cell[BoxData[
  TemplateBox[{
@@ -3344,7 +3344,7 @@ nFontColor->RGBColor[0, 0, 1]], \\\"b\\\"],\\nFontColor->RGBColor[0, 0, \
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713570257883`*^9}],
+ CellChangeTimes->{3.760330328640202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -3378,7 +3378,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713570413885`*^9}],
+ CellChangeTimes->{3.760330328660202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -3572,10 +3572,11 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713571037884`*^9}],
+ CellChangeTimes->{3.7603303287302017`*^9}],
 
 Cell[BoxData["\<\"\"\>"], "Print",
- CellChangeTimes->{3.760069525903577*^9, 3.7600713571193886`*^9}],
+ CellChangeTimes->{3.760069525903577*^9, 3.7600713571193886`*^9, 
+  3.760330328750202*^9}],
 
 Cell[BoxData[
  StyleBox["\<\"The f metric sector.\"\>",
@@ -3588,7 +3589,7 @@ Cell[BoxData[
   FontSize->Larger,
   FontWeight->Bold,
   FontColor->RGBColor[1, 0, 0]]], "Echo",
- CellChangeTimes->{3.7600713574313884`*^9}],
+ CellChangeTimes->{3.760330329080202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -3635,7 +3636,7 @@ FontColor->RGBColor[1, 0, 0]]\)",
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.760071357446988*^9}],
+ CellChangeTimes->{3.760330329100202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -3698,7 +3699,7 @@ FontColor->RGBColor[1, 0, 0]]\)",
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713574781885`*^9}],
+ CellChangeTimes->{3.760330329140202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -3754,7 +3755,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713574937887`*^9}],
+ CellChangeTimes->{3.7603303291702023`*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -3799,7 +3800,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.760071357524988*^9}],
+ CellChangeTimes->{3.760330329200202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -3837,7 +3838,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713575561886`*^9}],
+ CellChangeTimes->{3.7603303292302017`*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -3906,7 +3907,7 @@ FontColor->RGBColor[1, 0, 0]]\)",
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713575717883`*^9}],
+ CellChangeTimes->{3.760330329260202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -3979,7 +3980,7 @@ FontColor->RGBColor[1, 0, 0]]\)",
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713576029882`*^9}],
+ CellChangeTimes->{3.760330329300202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -4005,7 +4006,7 @@ FontColor->RGBColor[1, 0, 0]]\)",
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713576341887`*^9}],
+ CellChangeTimes->{3.760330329330202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -4085,7 +4086,7 @@ FontColor->RGBColor[1, 0, 0]]\)",
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713576497884`*^9}],
+ CellChangeTimes->{3.760330329360202*^9}],
 
 Cell[BoxData[
  TemplateBox[{
@@ -4125,7 +4126,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713576809883`*^9}],
+ CellChangeTimes->{3.760330329390202*^9}],
 
 Cell[BoxData[
  TemplateBox[{RowBox[{
@@ -4177,7 +4178,7 @@ FontColor->RGBColor[1, 0, 0]]\)",
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713577121887`*^9}],
+ CellChangeTimes->{3.7603303294202023`*^9}],
 
 Cell[BoxData[
  TemplateBox[{
@@ -4215,7 +4216,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713577277884`*^9}],
+ CellChangeTimes->{3.760330329450202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -4261,7 +4262,7 @@ FontColor->RGBColor[1, 0, 0]]\)",
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713577589884`*^9}],
+ CellChangeTimes->{3.7603303294802017`*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -4422,7 +4423,7 @@ FontColor->RGBColor[1, 0, 0]]\)",
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713577901883`*^9}],
+ CellChangeTimes->{3.7603303295202017`*^9}],
 
 Cell[BoxData[
  TemplateBox[{StyleBox["\"The Lorentz frame \"", {Bold, Larger, 
@@ -4434,7 +4435,7 @@ Cell[BoxData[
       Rational[2, 3], 0], FontFamily -> "LM Roman 10"}, StripOnInput -> 
     False]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713578369884`*^9}],
+ CellChangeTimes->{3.760330329570202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -4454,7 +4455,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713578525887`*^9}],
+ CellChangeTimes->{3.7603303295902023`*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -4479,7 +4480,7 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.760071357883788*^9}],
+ CellChangeTimes->{3.760330329620202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -4534,7 +4535,7 @@ FontColor->RGBColor[0., 0.5019607843137255, 0.]]\)",
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713578993883`*^9}],
+ CellChangeTimes->{3.760330329650202*^9}],
 
 Cell[BoxData[
  TemplateBox[{InterpretationBox[
@@ -4612,10 +4613,1603 @@ Cell[BoxData[
     Function[BoxForm`e$, 
      MatrixForm[BoxForm`e$]]]},
   "RowDefault"]], "Echo",
- CellChangeTimes->{3.7600713579305887`*^9}],
+ CellChangeTimes->{3.760330329680202*^9}],
 
-Cell[BoxData["1.1544074`"], "Print",
- CellChangeTimes->{3.760069525903577*^9, 3.7600713579461884`*^9}]
+Cell[BoxData["1.1856076`"], "Print",
+ CellChangeTimes->{3.760069525903577*^9, 3.7600713571193886`*^9, 
+  3.760330329700202*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell["The decomposition in the chart \[ScriptCapitalC] is also exported,", \
+"Text",
+ CellChangeTimes->{{3.751195509318803*^9, 3.751195551690803*^9}, {
+  3.7524869086656075`*^9, 3.7524869677306075`*^9}, {3.752487004511607*^9, 
+  3.7524872112336073`*^9}, {3.7524872639546075`*^9, 3.7524874349886074`*^9}, {
+  3.7524875565378075`*^9, 3.752487572739807*^9}, {3.752557036269619*^9, 
+  3.752557066413619*^9}, {3.752557419610819*^9, 3.752557594139819*^9}, {
+  3.752557646901619*^9, 3.752557747182619*^9}, {3.7525578278226185`*^9, 
+  3.752557844028619*^9}, {3.752558224785619*^9, 3.7525582378326187`*^9}, {
+  3.7600697503373785`*^9, 3.7600697535373783`*^9}, {3.760330349440002*^9, 
+  3.760330380209002*^9}},
+ Background->RGBColor[0.87, 0.94, 1]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PrintDecomposition", "[", 
+  RowBox[{
+   RowBox[{"Of", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"g", ",", "f", ",", "h"}], "}"}]}], ",", 
+   RowBox[{"ApplyFunction", "\[Rule]", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"niceOut", "[", 
+       RowBox[{"To\[Lambda]", "[", "#", "]"}], "]"}], "&"}], ")"}]}], ",", 
+   RowBox[{"ChartName", "\[Rule]", "\[ScriptCapitalC]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7352687583024*^9, 3.7352688157734003`*^9}, {
+   3.7352688489734*^9, 3.7352689318454*^9}, {3.7352690555664*^9, 
+   3.7352690576534*^9}, {3.7352713350854*^9, 3.7352713734874*^9}, {
+   3.7353027839044*^9, 3.7353027840624*^9}, {3.7353028335664*^9, 
+   3.7353028549974003`*^9}, {3.7360631975959997`*^9, 
+   3.7360632048199997`*^9}, {3.736066581849*^9, 3.736066585564*^9}, {
+   3.7360671521429996`*^9, 3.73606715294*^9}, {3.7448827583352923`*^9, 
+   3.7448827602632923`*^9}, {3.7456524285696774`*^9, 
+   3.7456524494306774`*^9}, {3.7598988657779055`*^9, 3.759898867502905*^9}, 
+   3.760069379884576*^9, {3.760330342293202*^9, 3.760330346168002*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ StyleBox["\<\"The g metric sector.\"\>",
+  StripOnInput->False,
+  LineColor->RGBColor[0, 0, 1],
+  FrontFaceColor->RGBColor[0, 0, 1],
+  BackFaceColor->RGBColor[0, 0, 1],
+  GraphicsColor->RGBColor[0, 0, 1],
+  FontFamily->"LM Roman 10",
+  FontSize->Larger,
+  FontWeight->Bold,
+  FontColor->RGBColor[0, 0, 1]]], "Echo",
+ CellChangeTimes->{3.7603303662140017`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[OverscriptBox[\"\[Gamma]\", \"_\"],\n\
+FontColor->RGBColor[0, 0, 1]]\)", 
+        StyleBox[
+         GridBox[{{" ", " "}, {"i", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`\[Gamma]c[-$CellContext`i, -$CellContext`j], Editable -> 
+    False],"\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         SuperscriptBox[
+          StyleBox["A", 
+           RGBColor[0, 0, 1], StripOnInput -> False], "2"], "0", "0"}, {"0", 
+         SuperscriptBox[
+          StyleBox["B", 
+           RGBColor[0, 0, 1], StripOnInput -> False], "2"], "0"}, {"0", "0", 
+         SuperscriptBox[
+          StyleBox["B", 
+           RGBColor[0, 0, 1], StripOnInput -> False], "2"]}}, RowSpacings -> 
+       1, ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.7603303662440023`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[\"\[Gamma]\",\nFontColor->RGBColor[0, 0, 1]]\)", 
+        StyleBox[
+         GridBox[{{" ", " "}, {"i", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`\[Gamma][-$CellContext`i, -$CellContext`j], Editable -> 
+    False],"\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"4", " ", 
+              StyleBox["\[Phi]", 
+               RGBColor[0, 0, 1], StripOnInput -> False]}]], " ", 
+           SuperscriptBox[
+            StyleBox["A", 
+             RGBColor[0, 0, 1], StripOnInput -> False], "2"]}], "0", "0"}, {
+        "0", 
+         RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"4", " ", 
+              StyleBox["\[Phi]", 
+               RGBColor[0, 0, 1], StripOnInput -> False]}]], " ", 
+           SuperscriptBox[
+            StyleBox["B", 
+             RGBColor[0, 0, 1], StripOnInput -> False], "2"]}], "0"}, {
+        "0", "0", 
+         RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"4", " ", 
+              StyleBox["\[Phi]", 
+               RGBColor[0, 0, 1], StripOnInput -> False]}]], " ", 
+           SuperscriptBox[
+            StyleBox["B", 
+             RGBColor[0, 0, 1], StripOnInput -> False], "2"]}]}}, RowSpacings -> 
+       1, ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.7603303662840023`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{"\!\(\*\nStyleBox[\"N\",\nFontColor->RGBColor[0, 0, 1]]\)", 
+        StyleBox[
+         GridBox[{{"i"}, {" "}}, RowSpacings -> 0, ColumnSpacings -> 0.05, 
+          GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`gShi[$CellContext`i], Editable -> False],"\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      TagBox[
+       GridBox[{{
+          RowBox[{
+            FractionBox[
+             RowBox[{
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                  RowBox[{"-", "2"}], " ", 
+                  StyleBox["\[Phi]", 
+                   RGBColor[0, 0, 1], StripOnInput -> False]}]], " ", 
+               StyleBox["\[Alpha]", 
+                RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+               StyleBox[
+                SubscriptBox["p", "1"], 
+                RGBColor[1, 0.5, 0], StripOnInput -> False]}], 
+             RowBox[{
+               StyleBox["A", 
+                RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+               StyleBox["\[Lambda]", 
+                RGBColor[1, 0.5, 0], StripOnInput -> False]}]], "+", 
+            StyleBox[
+             SubscriptBox["q", "1"], 
+             RGBColor[0, 
+              Rational[2, 3], 0], StripOnInput -> False]}]}, {"0"}, {"0"}}, 
+        RowSpacings -> 1, ColumnAlignments -> Center, ColumnAlignments -> 
+        Left], Column], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330366314002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{"\!\(\*\nStyleBox[\"n\",\nFontColor->RGBColor[0, 0, 1]]\)", 
+        StyleBox[
+         GridBox[{{"i"}, {" "}}, RowSpacings -> 0, ColumnSpacings -> 0.05, 
+          GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`gn[$CellContext`i], Editable -> False],"\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      TagBox[
+       GridBox[{{
+          FractionBox[
+           RowBox[{
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{
+                RowBox[{"-", "2"}], " ", 
+                StyleBox["\[Phi]", 
+                 RGBColor[0, 0, 1], StripOnInput -> False]}]], " ", 
+             StyleBox[
+              SubscriptBox["p", "1"], 
+              RGBColor[1, 0.5, 0], StripOnInput -> False]}], 
+           RowBox[{
+             StyleBox["A", 
+              RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+             StyleBox["\[Lambda]", 
+              RGBColor[1, 0.5, 0], StripOnInput -> False]}]]}, {"0"}, {"0"}}, 
+        RowSpacings -> 1, ColumnAlignments -> Center, ColumnAlignments -> 
+        Left], Column], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330366334002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[\"\[ScriptCapitalB]\",\nFontColor->RGBColor[0, 0, \
+1]]\)", 
+        StyleBox[
+         GridBox[{{"i", " "}, {" ", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`gB[$CellContext`i, -$CellContext`j], Editable -> False],
+   "\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         FractionBox[
+          RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{
+               RowBox[{
+                 RowBox[{"-", "2"}], " ", 
+                 StyleBox["\[Phi]", 
+                  RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+               RowBox[{"2", " ", 
+                 StyleBox["\[Psi]", 
+                  RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+            StyleBox["\[Lambda]", 
+             RGBColor[1, 0.5, 0], StripOnInput -> False]}], 
+          StyleBox["A", 
+           RGBColor[0, 0, 1], StripOnInput -> False]], "0", "0"}, {"0", 
+         FractionBox[
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{
+             RowBox[{
+               RowBox[{"-", "2"}], " ", 
+               StyleBox["\[Phi]", 
+                RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+             RowBox[{"2", " ", 
+               StyleBox["\[Psi]", 
+                RGBColor[1, 0, 0], StripOnInput -> False]}]}]], 
+          StyleBox["B", 
+           RGBColor[0, 0, 1], StripOnInput -> False]], "0"}, {"0", "0", 
+         FractionBox[
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{
+             RowBox[{
+               RowBox[{"-", "2"}], " ", 
+               StyleBox["\[Phi]", 
+                RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+             RowBox[{"2", " ", 
+               StyleBox["\[Psi]", 
+                RGBColor[1, 0, 0], StripOnInput -> False]}]}]], 
+          StyleBox["B", 
+           RGBColor[0, 0, 1], StripOnInput -> False]]}}, RowSpacings -> 1, 
+       ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330366364002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[\"\[ScriptCapitalD]\",\nFontColor->RGBColor[0, 0, \
+1]]\)", 
+        StyleBox[
+         GridBox[{{"i", " "}, {" ", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`gD[$CellContext`i, -$CellContext`j], Editable -> False],
+   "\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         FractionBox[
+          RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{
+               RowBox[{"2", " ", 
+                 StyleBox["\[Phi]", 
+                  RGBColor[0, 0, 1], StripOnInput -> False]}], "-", 
+               RowBox[{"2", " ", 
+                 StyleBox["\[Psi]", 
+                  RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+            StyleBox["A", 
+             RGBColor[0, 0, 1], StripOnInput -> False]}], 
+          StyleBox["\[Lambda]", 
+           RGBColor[1, 0.5, 0], StripOnInput -> False]], "0", "0"}, {"0", 
+         RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+              RowBox[{"2", " ", 
+                StyleBox["\[Phi]", 
+                 RGBColor[0, 0, 1], StripOnInput -> False]}], "-", 
+              RowBox[{"2", " ", 
+                StyleBox["\[Psi]", 
+                 RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+           StyleBox["B", 
+            RGBColor[0, 0, 1], StripOnInput -> False]}], "0"}, {"0", "0", 
+         RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+              RowBox[{"2", " ", 
+                StyleBox["\[Phi]", 
+                 RGBColor[0, 0, 1], StripOnInput -> False]}], "-", 
+              RowBox[{"2", " ", 
+                StyleBox["\[Psi]", 
+                 RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+           StyleBox["B", 
+            RGBColor[0, 0, 1], StripOnInput -> False]}]}}, RowSpacings -> 1, 
+       ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.7603303664240017`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[\"\[ScriptCapitalQ]\",\nFontColor->RGBColor[0, 0, \
+1]]\)", 
+        StyleBox[
+         GridBox[{{"i", " "}, {" ", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`gQ[$CellContext`i, -$CellContext`j], Editable -> False],
+   "\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         SuperscriptBox[
+          StyleBox["\[Lambda]", 
+           RGBColor[1, 0.5, 0], StripOnInput -> False], "2"], "0", "0"}, {
+        "0", "1", "0"}, {"0", "0", "1"}}, RowSpacings -> 1, ColumnSpacings -> 
+       1, RowAlignments -> Baseline, ColumnAlignments -> Center], 
+      "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330366444002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[\"\[ScriptCapitalU]\",\nFontColor->RGBColor[0, 0, \
+1]]\)", 
+        StyleBox[
+         GridBox[{{"i", " "}, {" ", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`gU[$CellContext`i, -$CellContext`j], Editable -> False],
+   "\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         RowBox[{"-", 
+           FractionBox[
+            SubscriptBox["\[Beta]", "1"], 
+            StyleBox["\[Lambda]", 
+             RGBColor[1, 0.5, 0], StripOnInput -> False]]}], "0", "0"}, {"0", 
+         RowBox[{"-", 
+           FractionBox[
+            SubscriptBox["\[Beta]", "1"], 
+            StyleBox["\[Lambda]", 
+             RGBColor[1, 0.5, 0], StripOnInput -> False]]}], "0"}, {"0", "0", 
+         RowBox[{"-", 
+           FractionBox[
+            SubscriptBox["\[Beta]", "1"], 
+            StyleBox["\[Lambda]", 
+             RGBColor[1, 0.5, 0], StripOnInput -> False]]}]}}, RowSpacings -> 
+       1, ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330366474002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"\\!\\(\\*\\nStyleBox[\\\"\[ScriptCapitalV]\\\",\\nFontColor->RGBColor[0, \
+0, 1]]\\)\"","\" = \"",TagBox[
+    RowBox[{
+      RowBox[{"-", 
+        SubscriptBox["\[Beta]", "0"]}], "-", 
+      FractionBox[
+       RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{
+            RowBox[{
+              RowBox[{"-", "2"}], " ", 
+              StyleBox["\[Phi]", 
+               RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+            RowBox[{"2", " ", 
+              StyleBox["\[Psi]", 
+               RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+         RowBox[{"(", 
+           RowBox[{
+             StyleBox["B", 
+              RGBColor[0, 0, 1], StripOnInput -> False], "+", 
+             RowBox[{"2", " ", 
+               StyleBox["A", 
+                RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+               StyleBox["\[Lambda]", 
+                RGBColor[1, 0.5, 0], StripOnInput -> False]}]}], ")"}], " ", 
+         SubscriptBox["\[Beta]", "1"]}], 
+       RowBox[{
+         StyleBox["A", 
+          RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+         StyleBox["B", 
+          RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+         StyleBox["\[Lambda]", 
+          RGBColor[1, 0.5, 0], StripOnInput -> False]}]]}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.7603303664940023`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{RowBox[{
+     InterpretationBox[
+      StyleBox[
+       GridBox[{{
+         "\!\(\*\nStyleBox[OverscriptBox[\"\[ScriptCapitalU]\", \"~\"],\n\
+FontColor->RGBColor[1, 0, 0]]\)", 
+          StyleBox[
+           
+           GridBox[{{"k", " "}, {" ", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+            0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+           Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> 
+        Center], AutoSpacing -> False, ShowAutoStyles -> False], 
+      $CellContext`fU[$CellContext`k, -$CellContext`j], Editable -> False], 
+     " ", 
+     InterpretationBox[
+      StyleBox[
+       GridBox[{{
+         "\!\(\*\nStyleBox[\"\[ScriptCapitalQ]\",\nFontColor->RGBColor[0, 0, \
+1]]\)", 
+          StyleBox[
+           
+           GridBox[{{"i", " "}, {" ", "k"}}, RowSpacings -> 0, ColumnSpacings -> 
+            0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+           Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> 
+        Center], AutoSpacing -> False, ShowAutoStyles -> False], 
+      $CellContext`gQ[$CellContext`i, -$CellContext`k], Editable -> False]}],
+   "\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         RowBox[{"-", 
+           FractionBox[
+            RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                 RowBox[{
+                   RowBox[{"-", "2"}], " ", 
+                   StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+                 RowBox[{"2", " ", 
+                   StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+              StyleBox["\[Lambda]", 
+               RGBColor[1, 0.5, 0], StripOnInput -> False], " ", 
+              SubscriptBox["\[Beta]", "1"]}], 
+            StyleBox["A", 
+             RGBColor[0, 0, 1], StripOnInput -> False]]}], "0", "0"}, {"0", 
+         RowBox[{"-", 
+           FractionBox[
+            RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                 RowBox[{
+                   RowBox[{"-", "2"}], " ", 
+                   StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+                 RowBox[{"2", " ", 
+                   StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+              SubscriptBox["\[Beta]", "1"]}], 
+            StyleBox["B", 
+             RGBColor[0, 0, 1], StripOnInput -> False]]}], "0"}, {"0", "0", 
+         RowBox[{"-", 
+           FractionBox[
+            RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                 RowBox[{
+                   RowBox[{"-", "2"}], " ", 
+                   StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+                 RowBox[{"2", " ", 
+                   StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+              SubscriptBox["\[Beta]", "1"]}], 
+            StyleBox["B", 
+             RGBColor[0, 0, 1], StripOnInput -> False]]}]}}, RowSpacings -> 1,
+        ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.7603303665340023`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"\\!\\(\\*\\nStyleBox[SubscriptBox[\\nStyleBox[\\\"\[Rho]\\\",\\\
+nFontColor->RGBColor[0, 0, 1]], \\\"b\\\"],\\nFontColor->RGBColor[0, 0, \
+1]]\\)\"","\" = \"",TagBox[
+    RowBox[{
+      SubscriptBox["\[Beta]", "0"], "+", 
+      FractionBox[
+       RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{
+            RowBox[{
+              RowBox[{"-", "2"}], " ", 
+              StyleBox["\[Phi]", 
+               RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+            RowBox[{"2", " ", 
+              StyleBox["\[Psi]", 
+               RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+         RowBox[{"(", 
+           RowBox[{
+             RowBox[{"2", " ", 
+               StyleBox["A", 
+                RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+             RowBox[{
+               StyleBox["B", 
+                RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+               StyleBox["\[Lambda]", 
+                RGBColor[1, 0.5, 0], StripOnInput -> False]}]}], ")"}], " ", 
+         SubscriptBox["\[Beta]", "1"]}], 
+       RowBox[{
+         StyleBox["A", 
+          RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+         StyleBox["B", 
+          RGBColor[0, 0, 1], StripOnInput -> False]}]]}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330366554002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[SubscriptBox[\"j\", \"b\"],\nFontColor->RGBColor[0, \
+0, 1]]\)", 
+        StyleBox[
+         GridBox[{{" "}, {"i"}}, RowSpacings -> 0, ColumnSpacings -> 0.05, 
+          GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`gjb[-$CellContext`i], Editable -> False],"\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      TagBox[
+       GridBox[{{
+          RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"2", " ", 
+               StyleBox["\[Psi]", 
+                RGBColor[1, 0, 0], StripOnInput -> False]}]], " ", 
+            StyleBox[
+             SubscriptBox["p", "1"], 
+             RGBColor[1, 0.5, 0], StripOnInput -> False], " ", 
+            SubscriptBox["\[Beta]", "1"]}]}, {"0"}, {"0"}}, RowSpacings -> 1, 
+        ColumnAlignments -> Center, ColumnAlignments -> Left], Column], 
+      "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330366584002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[SubscriptBox[\"J\", \"b\"],\nFontColor->RGBColor[0, \
+0, 1]]\)", 
+        StyleBox[
+         GridBox[{{"i", " "}, {" ", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`gJb[$CellContext`i, -$CellContext`j], Editable -> False],
+   "\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         RowBox[{
+           RowBox[{"-", 
+             SubscriptBox["\[Beta]", "0"]}], "+", 
+           FractionBox[
+            RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                 RowBox[{
+                   RowBox[{"-", "2"}], " ", 
+                   StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+                 RowBox[{"2", " ", 
+                   StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+              StyleBox["\[Lambda]", 
+               RGBColor[1, 0.5, 0], StripOnInput -> False], " ", 
+              SubscriptBox["\[Beta]", "1"]}], 
+            StyleBox["A", 
+             RGBColor[0, 0, 1], StripOnInput -> False]], "-", 
+           FractionBox[
+            RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                 RowBox[{
+                   RowBox[{"-", "2"}], " ", 
+                   StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+                 RowBox[{"2", " ", 
+                   StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+              RowBox[{"(", 
+                RowBox[{
+                  StyleBox["B", 
+                   RGBColor[0, 0, 1], StripOnInput -> False], "+", 
+                  RowBox[{"2", " ", 
+                    StyleBox["A", 
+                    RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+                    StyleBox["\[Lambda]", 
+                    RGBColor[1, 0.5, 0], StripOnInput -> False]}]}], ")"}], 
+              " ", 
+              SubscriptBox["\[Beta]", "1"]}], 
+            RowBox[{
+              StyleBox["A", 
+               RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+              StyleBox["B", 
+               RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+              StyleBox["\[Lambda]", 
+               RGBColor[1, 0.5, 0], StripOnInput -> False]}]], "-", 
+           FractionBox[
+            RowBox[{
+              StyleBox[
+               OverscriptBox["\[Alpha]", "~"], 
+               RGBColor[1, 0, 0], StripOnInput -> False], " ", 
+              SubscriptBox["\[Beta]", "1"]}], 
+            RowBox[{
+              StyleBox["\[Alpha]", 
+               RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+              StyleBox["\[Lambda]", 
+               RGBColor[1, 0.5, 0], StripOnInput -> False]}]]}], "0", "0"}, {
+        "0", 
+         RowBox[{
+           RowBox[{"-", 
+             SubscriptBox["\[Beta]", "0"]}], "-", 
+           FractionBox[
+            RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                 RowBox[{
+                   RowBox[{"-", "2"}], " ", 
+                   StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+                 RowBox[{"2", " ", 
+                   StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+              SubscriptBox["\[Beta]", "1"]}], 
+            StyleBox["B", 
+             RGBColor[0, 0, 1], StripOnInput -> False]], "-", 
+           FractionBox[
+            RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                 RowBox[{
+                   RowBox[{"-", "2"}], " ", 
+                   StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+                 RowBox[{"2", " ", 
+                   StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+              SubscriptBox["\[Beta]", "1"]}], 
+            RowBox[{
+              StyleBox["A", 
+               RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+              StyleBox["\[Lambda]", 
+               RGBColor[1, 0.5, 0], StripOnInput -> False]}]], "-", 
+           FractionBox[
+            RowBox[{
+              StyleBox[
+               OverscriptBox["\[Alpha]", "~"], 
+               RGBColor[1, 0, 0], StripOnInput -> False], " ", 
+              SubscriptBox["\[Beta]", "1"]}], 
+            RowBox[{
+              StyleBox["\[Alpha]", 
+               RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+              StyleBox["\[Lambda]", 
+               RGBColor[1, 0.5, 0], StripOnInput -> False]}]]}], "0"}, {
+        "0", "0", 
+         RowBox[{
+           RowBox[{"-", 
+             SubscriptBox["\[Beta]", "0"]}], "-", 
+           FractionBox[
+            RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                 RowBox[{
+                   RowBox[{"-", "2"}], " ", 
+                   StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+                 RowBox[{"2", " ", 
+                   StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+              SubscriptBox["\[Beta]", "1"]}], 
+            StyleBox["B", 
+             RGBColor[0, 0, 1], StripOnInput -> False]], "-", 
+           FractionBox[
+            RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                 RowBox[{
+                   RowBox[{"-", "2"}], " ", 
+                   StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+                 RowBox[{"2", " ", 
+                   StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+              SubscriptBox["\[Beta]", "1"]}], 
+            RowBox[{
+              StyleBox["A", 
+               RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+              StyleBox["\[Lambda]", 
+               RGBColor[1, 0.5, 0], StripOnInput -> False]}]], "-", 
+           FractionBox[
+            RowBox[{
+              StyleBox[
+               OverscriptBox["\[Alpha]", "~"], 
+               RGBColor[1, 0, 0], StripOnInput -> False], " ", 
+              SubscriptBox["\[Beta]", "1"]}], 
+            RowBox[{
+              StyleBox["\[Alpha]", 
+               RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+              StyleBox["\[Lambda]", 
+               RGBColor[1, 0.5, 0], StripOnInput -> False]}]]}]}}, 
+       RowSpacings -> 1, ColumnSpacings -> 1, RowAlignments -> Baseline, 
+       ColumnAlignments -> Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330366644002*^9}],
+
+Cell[BoxData["\<\"\"\>"], "Print",
+ CellChangeTimes->{3.760069525903577*^9, 3.7600713571193886`*^9, 
+  3.760330328750202*^9, 3.7603303666740017`*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"The f metric sector.\"\>",
+  StripOnInput->False,
+  LineColor->RGBColor[1, 0, 0],
+  FrontFaceColor->RGBColor[1, 0, 0],
+  BackFaceColor->RGBColor[1, 0, 0],
+  GraphicsColor->RGBColor[1, 0, 0],
+  FontFamily->"LM Roman 10",
+  FontSize->Larger,
+  FontWeight->Bold,
+  FontColor->RGBColor[1, 0, 0]]], "Echo",
+ CellChangeTimes->{3.7603303669940023`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[OverscriptBox[\"\[CurlyPhi]\", \"^\"],\n\
+FontColor->RGBColor[1, 0, 0]]\)", 
+        StyleBox[
+         GridBox[{{" ", " "}, {"i", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`\[CurlyPhi]c[-$CellContext`i, -$CellContext`j], Editable -> 
+    False],"\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{"1", "0", "0"}, {"0", "1", "0"}, {"0", "0", "1"}}, 
+       RowSpacings -> 1, ColumnSpacings -> 1, RowAlignments -> Baseline, 
+       ColumnAlignments -> Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330367024002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[OverscriptBox[\"\[CurlyPhi]\", \"~\"],\n\
+FontColor->RGBColor[1, 0, 0]]\)", 
+        StyleBox[
+         GridBox[{{" ", " "}, {"i", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`\[CurlyPhi][-$CellContext`i, -$CellContext`j], Editable -> 
+    False],"\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"4", " ", 
+            StyleBox["\[Psi]", 
+             RGBColor[1, 0, 0], StripOnInput -> False]}]], "0", "0"}, {"0", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"4", " ", 
+            StyleBox["\[Psi]", 
+             RGBColor[1, 0, 0], StripOnInput -> False]}]], "0"}, {"0", "0", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"4", " ", 
+            StyleBox["\[Psi]", 
+             RGBColor[1, 0, 0], StripOnInput -> False]}]]}}, RowSpacings -> 1,
+        ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330367044002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[OverscriptBox[\"m\", \"~\"],\nFontColor->RGBColor[1, \
+0, 0]]\)", 
+        StyleBox[
+         GridBox[{{"i", " "}, {" ", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`m[$CellContext`i, -$CellContext`j], Editable -> False],
+   "\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"2", " ", 
+            StyleBox["\[Psi]", 
+             RGBColor[1, 0, 0], StripOnInput -> False]}]], "0", "0"}, {"0", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"2", " ", 
+            StyleBox["\[Psi]", 
+             RGBColor[1, 0, 0], StripOnInput -> False]}]], "0"}, {"0", "0", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"2", " ", 
+            StyleBox["\[Psi]", 
+             RGBColor[1, 0, 0], StripOnInput -> False]}]]}}, RowSpacings -> 1,
+        ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.7603303670740023`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{"\!\(\*\nStyleBox[\"M\",\nFontColor->RGBColor[1, 0, 0]]\)", 
+        StyleBox[
+         GridBox[{{"i"}, {" "}}, RowSpacings -> 0, ColumnSpacings -> 0.05, 
+          GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`fShi[$CellContext`i], Editable -> False],"\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      TagBox[
+       GridBox[{{
+          RowBox[{
+            RowBox[{"-", 
+              FractionBox[
+               RowBox[{
+                 SuperscriptBox["\[ExponentialE]", 
+                  RowBox[{
+                    RowBox[{"-", "2"}], " ", 
+                    StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]], " ", 
+                 StyleBox[
+                  OverscriptBox["\[Alpha]", "~"], 
+                  RGBColor[1, 0, 0], StripOnInput -> False], " ", 
+                 StyleBox[
+                  SubscriptBox["p", "1"], 
+                  RGBColor[1, 0.5, 0], StripOnInput -> False]}], 
+               StyleBox["\[Lambda]", 
+                RGBColor[1, 0.5, 0], StripOnInput -> False]]}], "+", 
+            StyleBox[
+             SubscriptBox["q", "1"], 
+             RGBColor[0, 
+              Rational[2, 3], 0], StripOnInput -> False]}]}, {"0"}, {"0"}}, 
+        RowSpacings -> 1, ColumnAlignments -> Center, ColumnAlignments -> 
+        Left], Column], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330367104002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[OverscriptBox[\"n\", \"~\"],\nFontColor->RGBColor[1, \
+0, 0]]\)", 
+        StyleBox[
+         GridBox[{{"i"}, {" "}}, RowSpacings -> 0, ColumnSpacings -> 0.05, 
+          GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`fn[$CellContext`i], Editable -> False],"\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      TagBox[
+       GridBox[{{
+          FractionBox[
+           RowBox[{
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{
+                RowBox[{"-", "2"}], " ", 
+                StyleBox["\[Psi]", 
+                 RGBColor[1, 0, 0], StripOnInput -> False]}]], " ", 
+             StyleBox[
+              SubscriptBox["p", "1"], 
+              RGBColor[1, 0.5, 0], StripOnInput -> False]}], 
+           StyleBox["\[Lambda]", 
+            RGBColor[1, 0.5, 0], StripOnInput -> False]]}, {"0"}, {"0"}}, 
+        RowSpacings -> 1, ColumnAlignments -> Center, ColumnAlignments -> 
+        Left], Column], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330367124002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[OverscriptBox[\"\[ScriptCapitalB]\", \"~\"],\n\
+FontColor->RGBColor[1, 0, 0]]\)", 
+        StyleBox[
+         GridBox[{{"i", " "}, {" ", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`fB[$CellContext`i, -$CellContext`j], Editable -> False],
+   "\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+              RowBox[{"2", " ", 
+                StyleBox["\[Phi]", 
+                 RGBColor[0, 0, 1], StripOnInput -> False]}], "-", 
+              RowBox[{"2", " ", 
+                StyleBox["\[Psi]", 
+                 RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+           StyleBox["A", 
+            RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+           StyleBox["\[Lambda]", 
+            RGBColor[1, 0.5, 0], StripOnInput -> False]}], "0", "0"}, {"0", 
+         RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+              RowBox[{"2", " ", 
+                StyleBox["\[Phi]", 
+                 RGBColor[0, 0, 1], StripOnInput -> False]}], "-", 
+              RowBox[{"2", " ", 
+                StyleBox["\[Psi]", 
+                 RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+           StyleBox["B", 
+            RGBColor[0, 0, 1], StripOnInput -> False]}], "0"}, {"0", "0", 
+         RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{
+              RowBox[{"2", " ", 
+                StyleBox["\[Phi]", 
+                 RGBColor[0, 0, 1], StripOnInput -> False]}], "-", 
+              RowBox[{"2", " ", 
+                StyleBox["\[Psi]", 
+                 RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+           StyleBox["B", 
+            RGBColor[0, 0, 1], StripOnInput -> False]}]}}, RowSpacings -> 1, 
+       ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330367154002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[OverscriptBox[\"\[ScriptCapitalD]\", \"~\"],\n\
+FontColor->RGBColor[1, 0, 0]]\)", 
+        StyleBox[
+         GridBox[{{"i", " "}, {" ", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`fD[$CellContext`i, -$CellContext`j], Editable -> False],
+   "\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         FractionBox[
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{
+             RowBox[{
+               RowBox[{"-", "2"}], " ", 
+               StyleBox["\[Phi]", 
+                RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+             RowBox[{"2", " ", 
+               StyleBox["\[Psi]", 
+                RGBColor[1, 0, 0], StripOnInput -> False]}]}]], 
+          RowBox[{
+            StyleBox["A", 
+             RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+            StyleBox["\[Lambda]", 
+             RGBColor[1, 0.5, 0], StripOnInput -> False]}]], "0", "0"}, {"0", 
+         FractionBox[
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{
+             RowBox[{
+               RowBox[{"-", "2"}], " ", 
+               StyleBox["\[Phi]", 
+                RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+             RowBox[{"2", " ", 
+               StyleBox["\[Psi]", 
+                RGBColor[1, 0, 0], StripOnInput -> False]}]}]], 
+          StyleBox["B", 
+           RGBColor[0, 0, 1], StripOnInput -> False]], "0"}, {"0", "0", 
+         FractionBox[
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{
+             RowBox[{
+               RowBox[{"-", "2"}], " ", 
+               StyleBox["\[Phi]", 
+                RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+             RowBox[{"2", " ", 
+               StyleBox["\[Psi]", 
+                RGBColor[1, 0, 0], StripOnInput -> False]}]}]], 
+          StyleBox["B", 
+           RGBColor[0, 0, 1], StripOnInput -> False]]}}, RowSpacings -> 1, 
+       ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330367184002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[OverscriptBox[\"\[ScriptCapitalQ]\", \"~\"],\n\
+FontColor->RGBColor[1, 0, 0]]\)", 
+        StyleBox[
+         GridBox[{{"i", " "}, {" ", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`fQ[$CellContext`i, -$CellContext`j], Editable -> False],
+   "\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         SuperscriptBox[
+          StyleBox["\[Lambda]", 
+           RGBColor[1, 0.5, 0], StripOnInput -> False], "2"], "0", "0"}, {
+        "0", "1", "0"}, {"0", "0", "1"}}, RowSpacings -> 1, ColumnSpacings -> 
+       1, RowAlignments -> Baseline, ColumnAlignments -> Center], 
+      "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.7603303672140017`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[OverscriptBox[\"\[ScriptCapitalU]\", \"~\"],\n\
+FontColor->RGBColor[1, 0, 0]]\)", 
+        StyleBox[
+         GridBox[{{"i", " "}, {" ", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`fU[$CellContext`i, -$CellContext`j], Editable -> False],
+   "\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         RowBox[{"-", 
+           FractionBox[
+            RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                 RowBox[{
+                   RowBox[{"-", "2"}], " ", 
+                   StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+                 RowBox[{"2", " ", 
+                   StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+              SubscriptBox["\[Beta]", "1"]}], 
+            RowBox[{
+              StyleBox["A", 
+               RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+              StyleBox["\[Lambda]", 
+               RGBColor[1, 0.5, 0], StripOnInput -> False]}]]}], "0", "0"}, {
+        "0", 
+         RowBox[{"-", 
+           FractionBox[
+            RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                 RowBox[{
+                   RowBox[{"-", "2"}], " ", 
+                   StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+                 RowBox[{"2", " ", 
+                   StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+              SubscriptBox["\[Beta]", "1"]}], 
+            StyleBox["B", 
+             RGBColor[0, 0, 1], StripOnInput -> False]]}], "0"}, {"0", "0", 
+         RowBox[{"-", 
+           FractionBox[
+            RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                 RowBox[{
+                   RowBox[{"-", "2"}], " ", 
+                   StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+                 RowBox[{"2", " ", 
+                   StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+              SubscriptBox["\[Beta]", "1"]}], 
+            StyleBox["B", 
+             RGBColor[0, 0, 1], StripOnInput -> False]]}]}}, RowSpacings -> 1,
+        ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.7603303672440023`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"\\!\\(\\*\\nStyleBox[\\\"\[ScriptCapitalV]\\\",\\nFontColor->RGBColor[1, \
+0, 0]]\\)\"","\" = \"",TagBox[
+    RowBox[{
+      RowBox[{"-", 
+        FractionBox[
+         SubscriptBox["\[Beta]", "1"], 
+         StyleBox["\[Lambda]", 
+          RGBColor[1, 0.5, 0], StripOnInput -> False]]}], "-", 
+      FractionBox[
+       RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{
+            RowBox[{
+              RowBox[{"-", "6"}], " ", 
+              StyleBox["\[Phi]", 
+               RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+            RowBox[{"6", " ", 
+              StyleBox["\[Psi]", 
+               RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+         SubscriptBox["\[Beta]", "4"]}], 
+       RowBox[{
+         StyleBox["A", 
+          RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+         SuperscriptBox[
+          StyleBox["B", 
+           RGBColor[0, 0, 1], StripOnInput -> False], "2"]}]]}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330367264002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{RowBox[{
+     InterpretationBox[
+      StyleBox[
+       GridBox[{{
+         "\!\(\*\nStyleBox[OverscriptBox[\"\[ScriptCapitalQ]\", \"~\"],\n\
+FontColor->RGBColor[1, 0, 0]]\)", 
+          StyleBox[
+           
+           GridBox[{{"i", " "}, {" ", "k"}}, RowSpacings -> 0, ColumnSpacings -> 
+            0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+           Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> 
+        Center], AutoSpacing -> False, ShowAutoStyles -> False], 
+      $CellContext`fQ[$CellContext`i, -$CellContext`k], Editable -> False], 
+     " ", 
+     InterpretationBox[
+      StyleBox[
+       GridBox[{{
+         "\!\(\*\nStyleBox[\"\[ScriptCapitalU]\",\nFontColor->RGBColor[0, 0, \
+1]]\)", 
+          StyleBox[
+           
+           GridBox[{{"k", " "}, {" ", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+            0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+           Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> 
+        Center], AutoSpacing -> False, ShowAutoStyles -> False], 
+      $CellContext`gU[$CellContext`k, -$CellContext`j], Editable -> False]}],
+   "\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         RowBox[{
+           RowBox[{"-", 
+             StyleBox["\[Lambda]", 
+              RGBColor[1, 0.5, 0], StripOnInput -> False]}], " ", 
+           SubscriptBox["\[Beta]", "1"]}], "0", "0"}, {"0", 
+         RowBox[{"-", 
+           FractionBox[
+            SubscriptBox["\[Beta]", "1"], 
+            StyleBox["\[Lambda]", 
+             RGBColor[1, 0.5, 0], StripOnInput -> False]]}], "0"}, {"0", "0", 
+         RowBox[{"-", 
+           FractionBox[
+            SubscriptBox["\[Beta]", "1"], 
+            StyleBox["\[Lambda]", 
+             RGBColor[1, 0.5, 0], StripOnInput -> False]]}]}}, RowSpacings -> 
+       1, ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330367294002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"\\!\\(\\*\\nStyleBox[SubscriptBox[OverscriptBox[\\nStyleBox[\\\"\[Rho]\\\
+\",\\nFontColor->RGBColor[1, 0, 0]], \\\"~\\\"], \
+\\\"b\\\"],\\nFontColor->RGBColor[1, 0, 0]]\\)\"","\" = \"",TagBox[
+    RowBox[{
+      RowBox[{
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{
+           RowBox[{"6", " ", 
+             StyleBox["\[Phi]", 
+              RGBColor[0, 0, 1], StripOnInput -> False]}], "-", 
+           RowBox[{"6", " ", 
+             StyleBox["\[Psi]", 
+              RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+        StyleBox["A", 
+         RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+        SuperscriptBox[
+         StyleBox["B", 
+          RGBColor[0, 0, 1], StripOnInput -> False], "2"], " ", 
+        StyleBox["\[Lambda]", 
+         RGBColor[1, 0.5, 0], StripOnInput -> False], " ", 
+        SubscriptBox["\[Beta]", "1"]}], "+", 
+      SubscriptBox["\[Beta]", "4"]}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330367314002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[OverscriptBox[SubscriptBox[\"j\", \"b\"], \"~\"],\n\
+FontColor->RGBColor[1, 0, 0]]\)", 
+        StyleBox[
+         GridBox[{{" "}, {"i"}}, RowSpacings -> 0, ColumnSpacings -> 0.05, 
+          GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`fjb[-$CellContext`i], Editable -> False],"\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      TagBox[
+       GridBox[{{
+          RowBox[{
+            RowBox[{"-", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                 RowBox[{"6", " ", 
+                   StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "-", 
+                 RowBox[{"4", " ", 
+                   StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]]}], " ", 
+            StyleBox["A", 
+             RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+            SuperscriptBox[
+             StyleBox["B", 
+              RGBColor[0, 0, 1], StripOnInput -> False], "2"], " ", 
+            StyleBox[
+             SubscriptBox["p", "1"], 
+             RGBColor[1, 0.5, 0], StripOnInput -> False], " ", 
+            SubscriptBox["\[Beta]", "1"]}]}, {"0"}, {"0"}}, RowSpacings -> 1, 
+        ColumnAlignments -> Center, ColumnAlignments -> Left], Column], 
+      "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330367344002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[OverscriptBox[SubscriptBox[\"J\", \"b\"], \"~\"],\n\
+FontColor->RGBColor[1, 0, 0]]\)", 
+        StyleBox[
+         GridBox[{{"i", " "}, {" ", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`fJb[$CellContext`i, -$CellContext`j], Editable -> False],
+   "\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         FractionBox[
+          RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{
+               RowBox[{"-", "6"}], " ", 
+               StyleBox["\[Psi]", 
+                RGBColor[1, 0, 0], StripOnInput -> False]}]], " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{
+                  RowBox[{"-", 
+                    SuperscriptBox["\[ExponentialE]", 
+                    RowBox[{
+                    RowBox[{"4", " ", 
+                    StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "+", 
+                    RowBox[{"2", " ", 
+                    StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]]}], " ", 
+                  SuperscriptBox[
+                   StyleBox["B", 
+                    RGBColor[0, 0, 1], StripOnInput -> False], "2"], " ", 
+                  StyleBox["\[Alpha]", 
+                   RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+                  SubscriptBox["\[Beta]", "1"]}], "+", 
+                RowBox[{
+                  StyleBox[
+                   OverscriptBox["\[Alpha]", "~"], 
+                   RGBColor[1, 0, 0], StripOnInput -> False], " ", 
+                  RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    SuperscriptBox["\[ExponentialE]", 
+                    RowBox[{"6", " ", 
+                    StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}]], " ", 
+                    StyleBox["A", 
+                    RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+                    SuperscriptBox[
+                    StyleBox["B", 
+                    RGBColor[0, 0, 1], StripOnInput -> False], "2"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", 
+                    SuperscriptBox[
+                    StyleBox["\[Lambda]", 
+                    RGBColor[1, 0.5, 0], StripOnInput -> False], "2"]}], 
+                    ")"}], " ", 
+                    SubscriptBox["\[Beta]", "1"]}], "-", 
+                    RowBox[{
+                    SuperscriptBox["\[ExponentialE]", 
+                    RowBox[{"6", " ", 
+                    StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]], " ", 
+                    StyleBox["\[Lambda]", 
+                    RGBColor[1, 0.5, 0], StripOnInput -> False], " ", 
+                    SubscriptBox["\[Beta]", "4"]}]}], ")"}]}]}], ")"}]}], 
+          RowBox[{
+            StyleBox["\[Lambda]", 
+             RGBColor[1, 0.5, 0], StripOnInput -> False], " ", 
+            StyleBox[
+             OverscriptBox["\[Alpha]", "~"], 
+             RGBColor[1, 0, 0], StripOnInput -> False]}]], "0", "0"}, {"0", 
+         RowBox[{
+           RowBox[{"-", 
+             FractionBox[
+              RowBox[{
+                SuperscriptBox["\[ExponentialE]", 
+                 RowBox[{
+                   RowBox[{"4", " ", 
+                    StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "-", 
+                   RowBox[{"4", " ", 
+                    StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+                StyleBox["A", 
+                 RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+                StyleBox["B", 
+                 RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+                StyleBox["\[Alpha]", 
+                 RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+                SubscriptBox["\[Beta]", "1"]}], 
+              StyleBox[
+               OverscriptBox["\[Alpha]", "~"], 
+               RGBColor[1, 0, 0], StripOnInput -> False]]}], "-", 
+           SubscriptBox["\[Beta]", "4"]}], "0"}, {"0", "0", 
+         RowBox[{
+           RowBox[{"-", 
+             FractionBox[
+              RowBox[{
+                SuperscriptBox["\[ExponentialE]", 
+                 RowBox[{
+                   RowBox[{"4", " ", 
+                    StyleBox["\[Phi]", 
+                    RGBColor[0, 0, 1], StripOnInput -> False]}], "-", 
+                   RowBox[{"4", " ", 
+                    StyleBox["\[Psi]", 
+                    RGBColor[1, 0, 0], StripOnInput -> False]}]}]], " ", 
+                StyleBox["A", 
+                 RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+                StyleBox["B", 
+                 RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+                StyleBox["\[Alpha]", 
+                 RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+                SubscriptBox["\[Beta]", "1"]}], 
+              StyleBox[
+               OverscriptBox["\[Alpha]", "~"], 
+               RGBColor[1, 0, 0], StripOnInput -> False]]}], "-", 
+           SubscriptBox["\[Beta]", "4"]}]}}, RowSpacings -> 1, ColumnSpacings -> 
+       1, RowAlignments -> Baseline, ColumnAlignments -> Center], 
+      "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330367374002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{StyleBox["\"The Lorentz frame \"", {Bold, Larger, 
+     RGBColor[
+      Rational[2, 3], 0.33333333333333337`, 0], FontFamily -> "LM Roman 10"}, 
+    StripOnInput -> False],StyleBox[
+   "\"and the geometric mean.\"", {Bold, Larger, 
+     RGBColor[0, 
+      Rational[2, 3], 0], FontFamily -> "LM Roman 10"}, StripOnInput -> 
+    False]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330367414002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{"\!\(\*\nStyleBox[\"R\",\nFontColor->RGBColor[1, 0.5, 0]]\)", 
+        StyleBox[
+         GridBox[{{"i", " "}, {" ", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`R[$CellContext`i, -$CellContext`j], Editable -> False],
+   "\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{"1", "0", "0"}, {"0", "1", "0"}, {"0", "0", "1"}}, 
+       RowSpacings -> 1, ColumnSpacings -> 1, RowAlignments -> Baseline, 
+       ColumnAlignments -> Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330367434002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[\"\[DoubleStruckCapitalL]\",\nFontColor->RGBColor[1, \
+0.5, 0]]\)", 
+        StyleBox[
+         GridBox[{{"i", " "}, {" ", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`\[CapitalLambda][$CellContext`i, -$CellContext`j], Editable -> 
+    False],"\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         StyleBox["\[Lambda]", 
+          RGBColor[1, 0.5, 0], StripOnInput -> False], "0", "0"}, {
+        "0", "1", "0"}, {"0", "0", "1"}}, RowSpacings -> 1, ColumnSpacings -> 
+       1, RowAlignments -> Baseline, ColumnAlignments -> Center], 
+      "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.7603303674640017`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[OverscriptBox[\nStyleBox[\"\[Chi]\",\n\
+FontColor->RGBColor[0., 0.5019607843137255, 0.]], \"^\"],\n\
+FontColor->RGBColor[0., 0.5019607843137255, 0.]]\)", 
+        StyleBox[
+         GridBox[{{" ", " "}, {"i", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`\[Chi]c[-$CellContext`i, -$CellContext`j], Editable -> 
+    False],"\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         RowBox[{
+           StyleBox["A", 
+            RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+           StyleBox["\[Lambda]", 
+            RGBColor[1, 0.5, 0], StripOnInput -> False]}], "0", "0"}, {"0", 
+         StyleBox["B", 
+          RGBColor[0, 0, 1], StripOnInput -> False], "0"}, {"0", "0", 
+         StyleBox["B", 
+          RGBColor[0, 0, 1], StripOnInput -> False]}}, RowSpacings -> 1, 
+       ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330367484002*^9}],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    StyleBox[
+     GridBox[{{
+       "\!\(\*\nStyleBox[\"\[Chi]\",\nFontColor->RGBColor[0., \
+0.5019607843137255, 0.]]\)", 
+        StyleBox[
+         GridBox[{{" ", " "}, {"i", "j"}}, RowSpacings -> 0, ColumnSpacings -> 
+          0.05, GridFrameMargins -> {{0, 0}, {0, 0}}], FontSize -> 
+         Rational[39, 4]]}}, ColumnSpacings -> 0.05, RowAlignments -> Center],
+      AutoSpacing -> False, ShowAutoStyles -> False], 
+    $CellContext`\[Chi][-$CellContext`i, -$CellContext`j], Editable -> False],
+   "\" = \"",TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", 
+              RowBox[{"(", 
+                RowBox[{
+                  StyleBox["\[Phi]", 
+                   RGBColor[0, 0, 1], StripOnInput -> False], "+", 
+                  StyleBox["\[Psi]", 
+                   RGBColor[1, 0, 0], StripOnInput -> False]}], ")"}]}]], " ", 
+           StyleBox["A", 
+            RGBColor[0, 0, 1], StripOnInput -> False], " ", 
+           StyleBox["\[Lambda]", 
+            RGBColor[1, 0.5, 0], StripOnInput -> False]}], "0", "0"}, {"0", 
+         RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", 
+              RowBox[{"(", 
+                RowBox[{
+                  StyleBox["\[Phi]", 
+                   RGBColor[0, 0, 1], StripOnInput -> False], "+", 
+                  StyleBox["\[Psi]", 
+                   RGBColor[1, 0, 0], StripOnInput -> False]}], ")"}]}]], " ", 
+           StyleBox["B", 
+            RGBColor[0, 0, 1], StripOnInput -> False]}], "0"}, {"0", "0", 
+         RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", 
+              RowBox[{"(", 
+                RowBox[{
+                  StyleBox["\[Phi]", 
+                   RGBColor[0, 0, 1], StripOnInput -> False], "+", 
+                  StyleBox["\[Psi]", 
+                   RGBColor[1, 0, 0], StripOnInput -> False]}], ")"}]}]], " ", 
+           StyleBox["B", 
+            RGBColor[0, 0, 1], StripOnInput -> False]}]}}, RowSpacings -> 1, 
+       ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Echo",
+ CellChangeTimes->{3.760330367514002*^9}],
+
+Cell[BoxData["1.0608068`"], "Print",
+ CellChangeTimes->{3.760069525903577*^9, 3.7600713571193886`*^9, 
+  3.760330328750202*^9, 3.7603303675340023`*^9}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -4640,134 +6234,191 @@ Cell[558, 20, 419, 8, 65, "Text"],
 Cell[CellGroupData[{
 Cell[1002, 32, 307, 7, 50, "Input"],
 Cell[CellGroupData[{
-Cell[1334, 43, 284, 4, 22, "Print"],
-Cell[1621, 49, 553, 11, 22, "Print"],
-Cell[2177, 62, 303, 4, 22, "Print"],
-Cell[2483, 68, 264, 3, 22, "Print"],
-Cell[2750, 73, 245, 3, 22, "Print"],
-Cell[2998, 78, 284, 4, 22, "Print"],
-Cell[3285, 84, 560, 12, 22, "Print"],
-Cell[3848, 98, 305, 4, 22, "Print"],
-Cell[4156, 104, 284, 4, 22, "Print"],
-Cell[4443, 110, 439, 6, 41, "Print"],
-Cell[4885, 118, 284, 4, 22, "Print"],
-Cell[5172, 124, 284, 4, 22, "Print"],
-Cell[5459, 130, 553, 11, 22, "Print"],
-Cell[6015, 143, 323, 4, 22, "Print"],
-Cell[6341, 149, 284, 4, 22, "Print"],
-Cell[6628, 155, 439, 6, 41, "Print"],
-Cell[7070, 163, 284, 4, 22, "Print"],
-Cell[7357, 169, 284, 4, 22, "Print"],
-Cell[7644, 175, 555, 11, 22, "Print"],
-Cell[8202, 188, 354, 5, 22, "Print"],
-Cell[8559, 195, 284, 4, 22, "Print"],
-Cell[8846, 201, 439, 6, 41, "Print"],
-Cell[9288, 209, 284, 4, 22, "Print"],
-Cell[9575, 215, 1566, 22, 329, "Print"]
+Cell[1334, 43, 306, 4, 22, "Print"],
+Cell[1643, 49, 575, 11, 22, "Print"],
+Cell[2221, 62, 329, 4, 22, "Print"],
+Cell[2553, 68, 288, 3, 22, "Print"],
+Cell[2844, 73, 267, 3, 22, "Print"],
+Cell[3114, 78, 306, 4, 22, "Print"],
+Cell[3423, 84, 582, 12, 22, "Print"],
+Cell[4008, 98, 327, 4, 22, "Print"],
+Cell[4338, 104, 308, 4, 22, "Print"],
+Cell[4649, 110, 463, 6, 41, "Print"],
+Cell[5115, 118, 306, 4, 22, "Print"],
+Cell[5424, 124, 306, 4, 22, "Print"],
+Cell[5733, 130, 575, 11, 22, "Print"],
+Cell[6311, 143, 345, 4, 22, "Print"],
+Cell[6659, 149, 306, 4, 22, "Print"],
+Cell[6968, 155, 461, 6, 41, "Print"],
+Cell[7432, 163, 306, 4, 22, "Print"]
+}, Open  ]],
+Cell[7753, 170, 588, 11, 21, "Message"],
+Cell[8344, 183, 586, 11, 21, "Message"],
+Cell[8933, 196, 588, 11, 21, "Message"],
+Cell[9524, 209, 342, 7, 21, "Message"],
+Cell[9869, 218, 305, 6, 21, "Message"],
+Cell[CellGroupData[{
+Cell[10199, 228, 306, 4, 22, "Print"],
+Cell[10508, 234, 577, 11, 22, "Print"],
+Cell[11088, 247, 376, 5, 22, "Print"],
+Cell[11467, 254, 306, 4, 22, "Print"],
+Cell[11776, 260, 461, 6, 41, "Print"],
+Cell[12240, 268, 306, 4, 22, "Print"],
+Cell[12549, 274, 306, 4, 22, "Print"],
+Cell[12858, 280, 347, 4, 41, "Print"],
+Cell[13208, 286, 308, 4, 22, "Print"],
+Cell[13519, 292, 551, 7, 77, "Print"],
+Cell[14073, 301, 306, 4, 22, "Print"],
+Cell[14382, 307, 480, 6, 59, "Print"],
+Cell[14865, 315, 306, 4, 22, "Print"],
+Cell[15174, 321, 506, 6, 77, "Print"],
+Cell[15683, 329, 306, 4, 22, "Print"]
 }, Open  ]]
 }, Open  ]],
-Cell[11168, 241, 140, 2, 30, "Input"],
+Cell[16016, 337, 140, 2, 30, "Input"],
 Cell[CellGroupData[{
-Cell[11333, 247, 176, 2, 43, "Subsection"],
+Cell[16181, 343, 176, 2, 43, "Subsection"],
 Cell[CellGroupData[{
-Cell[11534, 253, 300, 7, 34, "Subsubsection"],
-Cell[11837, 262, 13369, 296, 1122, "Input"]
+Cell[16382, 349, 300, 7, 34, "Subsubsection"],
+Cell[16685, 358, 13369, 296, 1122, "Input"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[25243, 563, 409, 8, 28, "Subsubsection"],
-Cell[25655, 573, 1253, 29, 70, "Input"]
+Cell[30091, 659, 409, 8, 28, "Subsubsection"],
+Cell[30503, 669, 1253, 29, 70, "Input"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[26945, 607, 170, 5, 28, "Subsubsection"],
-Cell[27118, 614, 2524, 66, 70, "Input"]
+Cell[31793, 703, 170, 5, 28, "Subsubsection"],
+Cell[31966, 710, 2524, 66, 70, "Input"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[29679, 685, 384, 8, 28, "Subsubsection"],
-Cell[30066, 695, 975, 18, 34, "Input"],
-Cell[31044, 715, 2268, 57, 165, "Input"]
+Cell[34527, 781, 384, 8, 28, "Subsubsection"],
+Cell[34914, 791, 975, 18, 34, "Input"],
+Cell[35892, 811, 2268, 57, 165, "Input"]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[33361, 778, 115, 1, 43, "Subsection"],
-Cell[33479, 781, 526, 9, 46, "Text"],
+Cell[38209, 874, 115, 1, 43, "Subsection"],
+Cell[38327, 877, 526, 9, 46, "Text"],
 Cell[CellGroupData[{
-Cell[34030, 794, 3712, 73, 444, "Input"],
-Cell[37745, 869, 16091, 431, 56, "Output"]
+Cell[38878, 890, 3712, 73, 444, "Input"],
+Cell[42593, 965, 16117, 432, 56, "Output"]
 }, Open  ]],
-Cell[53851, 1303, 741, 17, 46, "Text"],
+Cell[58725, 1400, 741, 17, 46, "Text"],
 Cell[CellGroupData[{
-Cell[54617, 1324, 517, 13, 30, "Input"],
-Cell[55137, 1339, 14402, 409, 92, "Echo"]
+Cell[59491, 1421, 517, 13, 30, "Input"],
+Cell[60011, 1436, 14400, 409, 92, "Echo"]
 }, Open  ]],
-Cell[69554, 1751, 1249, 20, 217, "Text"],
+Cell[74426, 1848, 1249, 20, 217, "Text"],
 Cell[CellGroupData[{
-Cell[70828, 1775, 466, 12, 30, "Input"],
-Cell[71297, 1789, 11063, 321, 48, "Echo"]
+Cell[75700, 1872, 466, 12, 30, "Input"],
+Cell[76169, 1886, 7315, 224, 56, "Echo"]
 }, Open  ]],
-Cell[82375, 2113, 644, 11, 46, "Text"],
+Cell[83499, 2113, 644, 11, 46, "Text"],
 Cell[CellGroupData[{
-Cell[83044, 2128, 542, 16, 50, "Input"],
+Cell[84168, 2128, 542, 16, 50, "Input"],
 Cell[CellGroupData[{
-Cell[83611, 2148, 1070, 31, 29, "Echo"],
-Cell[84684, 2181, 4901, 134, 89, "Echo"]
+Cell[84735, 2148, 1070, 31, 29, "Echo"],
+Cell[85808, 2181, 4899, 134, 89, "Echo"]
 }, Open  ]]
 }, Open  ]],
-Cell[89612, 2319, 650, 14, 49, "Text"],
+Cell[90734, 2319, 650, 14, 49, "Text"],
 Cell[CellGroupData[{
-Cell[90287, 2337, 514, 16, 50, "Input"],
+Cell[91409, 2337, 514, 16, 50, "Input"],
 Cell[CellGroupData[{
-Cell[90826, 2357, 1099, 32, 29, "Echo"],
-Cell[91928, 2391, 2630, 75, 86, "Echo"]
+Cell[91948, 2357, 1097, 32, 29, "Echo"],
+Cell[93048, 2391, 2632, 75, 86, "Echo"]
 }, Open  ]]
 }, Open  ]],
-Cell[94585, 2470, 613, 11, 46, "Text"],
+Cell[95707, 2470, 613, 11, 46, "Text"],
 Cell[CellGroupData[{
-Cell[95223, 2485, 806, 21, 50, "Input"],
+Cell[96345, 2485, 806, 21, 50, "Input"],
 Cell[CellGroupData[{
-Cell[96054, 2510, 4899, 134, 89, "Echo"],
-Cell[100956, 2646, 2632, 75, 86, "Echo"]
+Cell[97176, 2510, 4899, 134, 89, "Echo"],
+Cell[102078, 2646, 2632, 75, 86, "Echo"]
 }, Open  ]]
 }, Open  ]],
-Cell[103615, 2725, 700, 11, 46, "Text"],
+Cell[104737, 2725, 700, 11, 46, "Text"],
 Cell[CellGroupData[{
-Cell[104340, 2740, 978, 21, 30, "Input"],
+Cell[105462, 2740, 978, 21, 30, "Input"],
 Cell[CellGroupData[{
-Cell[105343, 2765, 372, 11, 28, "Echo"],
-Cell[105718, 2778, 1775, 42, 59, "Echo"],
-Cell[107496, 2822, 2352, 57, 59, "Echo"],
-Cell[109851, 2881, 1729, 40, 66, "Echo"],
-Cell[111583, 2923, 1424, 33, 66, "Echo"],
-Cell[113010, 2958, 2880, 70, 89, "Echo"],
-Cell[115893, 3030, 2804, 68, 90, "Echo"],
-Cell[118700, 3100, 1041, 24, 53, "Echo"],
-Cell[119744, 3126, 1463, 35, 83, "Echo"],
-Cell[121210, 3163, 1725, 45, 42, "Echo"],
-Cell[122938, 3210, 3833, 91, 95, "Echo"],
-Cell[126774, 3303, 1669, 43, 42, "Echo"],
-Cell[128446, 3348, 1353, 32, 53, "Echo"],
-Cell[129802, 3382, 8220, 192, 104, "Echo"],
-Cell[138025, 3576, 100, 1, 22, "Print"],
-Cell[138128, 3579, 374, 11, 28, "Echo"],
-Cell[138505, 3592, 1877, 45, 62, "Echo"],
-Cell[140385, 3639, 2486, 61, 62, "Echo"],
-Cell[142874, 3702, 2282, 54, 59, "Echo"],
-Cell[145159, 3758, 1866, 43, 66, "Echo"],
-Cell[147028, 3803, 1491, 36, 66, "Echo"],
-Cell[148522, 3841, 2799, 67, 89, "Echo"],
-Cell[151324, 3910, 2929, 71, 90, "Echo"],
-Cell[154256, 3983, 1063, 24, 53, "Echo"],
-Cell[155322, 4009, 3265, 78, 96, "Echo"],
-Cell[158590, 4089, 1369, 38, 41, "Echo"],
-Cell[159962, 4129, 2092, 50, 72, "Echo"],
-Cell[162057, 4181, 1384, 36, 41, "Echo"],
-Cell[163444, 4219, 1902, 44, 66, "Echo"],
-Cell[165349, 4265, 7075, 159, 102, "Echo"],
-Cell[172427, 4426, 433, 10, 23, "Echo"],
-Cell[172863, 4438, 892, 18, 50, "Echo"],
-Cell[173758, 4458, 1029, 23, 50, "Echo"],
-Cell[174790, 4483, 2258, 53, 59, "Echo"],
-Cell[177051, 4538, 3232, 76, 59, "Echo"],
-Cell[180286, 4616, 102, 1, 22, "Print"]
+Cell[106465, 2765, 372, 11, 28, "Echo"],
+Cell[106840, 2778, 1773, 42, 59, "Echo"],
+Cell[108616, 2822, 2354, 57, 59, "Echo"],
+Cell[110973, 2881, 1727, 40, 66, "Echo"],
+Cell[112703, 2923, 1422, 33, 66, "Echo"],
+Cell[114128, 2958, 2882, 70, 89, "Echo"],
+Cell[117013, 3030, 2802, 68, 90, "Echo"],
+Cell[119818, 3100, 1039, 24, 53, "Echo"],
+Cell[120860, 3126, 1461, 35, 83, "Echo"],
+Cell[122324, 3163, 1723, 45, 42, "Echo"],
+Cell[124050, 3210, 3831, 91, 95, "Echo"],
+Cell[127884, 3303, 1667, 43, 42, "Echo"],
+Cell[129554, 3348, 1351, 32, 53, "Echo"],
+Cell[130908, 3382, 8220, 192, 104, "Echo"],
+Cell[139131, 3576, 125, 2, 22, "Print"],
+Cell[139259, 3580, 372, 11, 28, "Echo"],
+Cell[139634, 3593, 1877, 45, 62, "Echo"],
+Cell[141514, 3640, 2484, 61, 62, "Echo"],
+Cell[144001, 3703, 2282, 54, 59, "Echo"],
+Cell[146286, 3759, 1866, 43, 66, "Echo"],
+Cell[148155, 3804, 1491, 36, 66, "Echo"],
+Cell[149649, 3842, 2797, 67, 89, "Echo"],
+Cell[152449, 3911, 2927, 71, 90, "Echo"],
+Cell[155379, 3984, 1061, 24, 53, "Echo"],
+Cell[156443, 4010, 3263, 78, 96, "Echo"],
+Cell[159709, 4090, 1367, 38, 41, "Echo"],
+Cell[161079, 4130, 2092, 50, 72, "Echo"],
+Cell[163174, 4182, 1382, 36, 41, "Echo"],
+Cell[164559, 4220, 1902, 44, 66, "Echo"],
+Cell[166464, 4266, 7075, 159, 102, "Echo"],
+Cell[173542, 4427, 431, 10, 23, "Echo"],
+Cell[173976, 4439, 892, 18, 50, "Echo"],
+Cell[174871, 4459, 1029, 23, 50, "Echo"],
+Cell[175903, 4484, 2256, 53, 59, "Echo"],
+Cell[178162, 4539, 3230, 76, 59, "Echo"],
+Cell[181395, 4617, 127, 2, 22, "Print"]
+}, Open  ]]
+}, Open  ]],
+Cell[181549, 4623, 738, 11, 46, "Text"],
+Cell[CellGroupData[{
+Cell[182312, 4638, 1085, 21, 30, "Input"],
+Cell[CellGroupData[{
+Cell[183422, 4663, 374, 11, 28, "Echo"],
+Cell[183799, 4676, 1257, 29, 59, "Echo"],
+Cell[185059, 4707, 1862, 45, 59, "Echo"],
+Cell[186924, 4754, 1727, 40, 66, "Echo"],
+Cell[188654, 4796, 1422, 33, 66, "Echo"],
+Cell[190079, 4831, 2433, 59, 89, "Echo"],
+Cell[192515, 4892, 2364, 56, 69, "Echo"],
+Cell[194882, 4950, 1039, 24, 53, "Echo"],
+Cell[195924, 4976, 1461, 35, 83, "Echo"],
+Cell[197388, 5013, 1433, 38, 40, "Echo"],
+Cell[198824, 5053, 3446, 82, 95, "Echo"],
+Cell[202273, 5137, 1403, 37, 40, "Echo"],
+Cell[203679, 5176, 1228, 29, 53, "Echo"],
+Cell[204910, 5207, 7093, 171, 98, "Echo"],
+Cell[212006, 5380, 149, 2, 22, "Print"],
+Cell[212158, 5384, 374, 11, 28, "Echo"],
+Cell[212535, 5397, 943, 20, 50, "Echo"],
+Cell[213481, 5419, 1422, 32, 59, "Echo"],
+Cell[214906, 5453, 1402, 32, 59, "Echo"],
+Cell[216311, 5487, 1698, 39, 65, "Echo"],
+Cell[218012, 5528, 1337, 32, 65, "Echo"],
+Cell[219352, 5562, 2357, 55, 59, "Echo"],
+Cell[221712, 5619, 2441, 59, 90, "Echo"],
+Cell[224156, 5680, 1063, 24, 53, "Echo"],
+Cell[225222, 5706, 2878, 69, 96, "Echo"],
+Cell[228103, 5777, 1105, 31, 40, "Echo"],
+Cell[229211, 5810, 2090, 50, 72, "Echo"],
+Cell[231304, 5862, 1070, 27, 25, "Echo"],
+Cell[232377, 5891, 1678, 39, 53, "Echo"],
+Cell[234058, 5932, 5725, 129, 99, "Echo"],
+Cell[239786, 6063, 431, 10, 23, "Echo"],
+Cell[240220, 6075, 890, 18, 50, "Echo"],
+Cell[241113, 6095, 1031, 23, 50, "Echo"],
+Cell[242147, 6120, 1356, 30, 50, "Echo"],
+Cell[243506, 6152, 2378, 55, 59, "Echo"],
+Cell[245887, 6209, 151, 2, 22, "Print"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

@@ -188,6 +188,7 @@ IndVariables::usage =
 ComputeBSSNDecomposition::usage =
 "ComputeBSSNDecomposition[ e, m0, p, q, gA, fA, g\[CapitalLambda], f\[CapitalLambda], gback, fback, hback ] takes as arguments the following quantities (in order),
 
+- The conformal factors \[Phi], \[Psi]
 - The triangular vielbein of \[Gamma], e
 - The triangular vielbein of \[CurlyPhi], m0
 - The vector p
@@ -310,16 +311,14 @@ SetDirectory[NotebookDirectory[]];
 
 (* ::Input::Initialization:: *)
 Print[xAct`xCore`Private`bars];
-Print["
-Package bimEX, bimetric exact computations in 3+1 formalism
-Copyright (C) 2019 Francesco Torsello
---------------------------------------------------------------------------------
-This program is free software; you can redistribute it and/or modify\[IndentingNewLine] it under the terms of the GNU General Public License as published\[IndentingNewLine] by the Free Software Foundation; either version 3 of the License,\[IndentingNewLine]  or (at your option) any later version.
---------------------------------------------------------------------------------
-This program is distributed WITHOUT ANY WARRANTY; without even the implied warranty of\[IndentingNewLine] MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU\[IndentingNewLine] General Public License for more details.
---------------------------------------------------------------------------------
-You should have received a copy of the GNU General Public License\[IndentingNewLine] along with this program; if not, write to the Free Software\[IndentingNewLine] Foundation, Inc., 59 Temple Place-Suite 330, Boston, MA 02111-1307,\[IndentingNewLine]  USA.
-"];
+Print["Package bimEX, bimetric exact computations in 3+1 formalism
+Copyright (C) 2019 Francesco Torsello"];
+Print[xAct`xCore`Private`bars];
+Print["This program is free software; you can redistribute it and/or modify\[IndentingNewLine] it under the terms of the GNU General Public License as published\[IndentingNewLine] by the Free Software Foundation; either version 3 of the License,\[IndentingNewLine]  or (at your option) any later version."]
+Print[xAct`xCore`Private`bars];
+Print["This program is distributed WITHOUT ANY WARRANTY; without even the implied warranty of\[IndentingNewLine] MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU\[IndentingNewLine] General Public License for more details."]
+Print[xAct`xCore`Private`bars];
+Print["You should have received a copy of the GNU General Public License\[IndentingNewLine] along with this program; if not, write to the Free Software\[IndentingNewLine] Foundation, Inc., 59 Temple Place-Suite 330, Boston, MA 02111-1307,\[IndentingNewLine]  USA."];
 Print[xAct`xCore`Private`bars];
 
 
@@ -1185,7 +1184,7 @@ UpperTriangularQ[m_?SquareMatrixQ]:=VectorQ[Range[Length@m-1],m[[#+1, ;;#]]==Con
 Clear[DefChartScalars]
 DefChartScalars[ChartName_,{x1_,x2_,x3_},DefChartOptions:OptionsPattern[{{ChartAssumptions->Nothing},DefChart}]]:=Module[{},
 $Assumptions=Union@Flatten@Append[$Assumptions,OptionValue[ChartAssumptions]];
-If[ValueQ@DefaultChart,Null,DefaultChart=ChartName];
+DefaultChart=ChartName;
 If[ChartsOfManifold[\[CapitalSigma]t]=={},FirstChart=ChartName;Protect[FirstChart];,Null];
 DefChart[ChartName,\[CapitalSigma]t,{1,2,3},{x1,x2,x3},Evaluate@FilterRules[{DefChartOptions},Options[DefChart]]];
 PDOfBasis[ChartName][i_][t]:=0;
@@ -1639,7 +1638,7 @@ RealMatrixSqrt[Matrix_?MatrixQ]:=Assuming[Flatten[Flatten[Simplify@Matrix]]\[Ele
 
 (* ::Input::Initialization:: *)
 Clear[ComputeBSSNDecomposition]
-ComputeBSSNDecomposition[ec\[FilledRectangle]_?MatrixQ,mTrc\[FilledRectangle]_?MatrixQ,p\[FilledRectangle]_?MatrixQ,q\[FilledRectangle]_?MatrixQ,gA\[FilledUpTriangle]\[FilledDownTriangle]_?MatrixQ,fA\[FilledUpTriangle]\[FilledDownTriangle]_?MatrixQ,g\[CapitalLambda]\[FilledRectangle]_?MatrixQ,f\[CapitalLambda]\[FilledRectangle]_?MatrixQ,gback\[FilledSquare]_?MatrixQ,fback\[FilledSquare]_?MatrixQ,hback\[FilledSquare]_?MatrixQ,OptionsPattern[{ChartName:>DefaultChart,ComputeGeometryOf->{\[Gamma],\[CurlyPhi]},ApplyFunction->Identity,SqrtAlgorithm->"MatSqrt",IndVariables->"AutoDetect"}]]:=
+ComputeBSSNDecomposition[gconf_,fconf_,ec\[FilledRectangle]_?MatrixQ,mTrc\[FilledRectangle]_?MatrixQ,p\[FilledRectangle]_?MatrixQ,q\[FilledRectangle]_?MatrixQ,gA\[FilledUpTriangle]\[FilledDownTriangle]_?MatrixQ,fA\[FilledUpTriangle]\[FilledDownTriangle]_?MatrixQ,g\[CapitalLambda]\[FilledRectangle]_?MatrixQ,f\[CapitalLambda]\[FilledRectangle]_?MatrixQ,gback\[FilledSquare]_?MatrixQ,fback\[FilledSquare]_?MatrixQ,hback\[FilledSquare]_?MatrixQ,OptionsPattern[{ChartName:>DefaultChart,ComputeGeometryOf->{\[Gamma],\[CurlyPhi]},ApplyFunction->Identity,SqrtAlgorithm->"MatSqrt",IndVariables->"AutoDetect"}]]:=
 Module[{myAssumptions,ListOfFields$temp,ListOfContexts,n,temp$\[CurlyPhi]c,temp$gB,temp$fB,temp$gD,temp$fD,\[Eta]\[FilledSquare]},
 
 If[ChartQ[OptionValue[ChartName]],
@@ -1648,12 +1647,8 @@ Print[ToString[OptionValue[ChartName]]<>" is not a defined chart."];Abort[];
 ];
 
 (* Detecting the fields and the indipendent variables in the ansatz *)
-ListOfFields$temp=Union[Flatten[Flatten[ec\[FilledRectangle]]]~Join~Flatten[Flatten[mTrc\[FilledRectangle]]]~Join~Flatten[Flatten[p\[FilledRectangle]]]]~Join~{
-\!\(\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)]\),
-\!\(\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)]\),
-\!\(\*UnderscriptBox[\(gLap\[FilledSmallCircle]\), \(_\)]\),
-\!\(\*UnderscriptBox[\(fLap\[FilledSmallCircle]\), \(_\)]\),
-\!\(\*UnderscriptBox[\(\[Lambda]\[FilledSmallCircle]\), \(_\)]\)}//Variables;
+
+ListOfFields$temp=Union[Flatten[Flatten[ec\[FilledRectangle]]]~Join~Flatten[Flatten[mTrc\[FilledRectangle]]]~Join~Flatten[Flatten[p\[FilledRectangle]]]]~Join~{gconf,fconf}//Variables;
 For[n=0,n<Length[ListOfFields$temp]+1,n++,
 If[MemberQ[ScalarsOfChart[OptionValue[ChartName]],ListOfFields$temp[[n]]],ListOfFields$temp=Delete[ListOfFields$temp,n]]
 ];
@@ -2160,11 +2155,9 @@ StyleBox[\".\",\nFontColor->RGBColor[1, 0, 0]]\)"];Abort[];
 (* Assigning the components given by the user *)
 
 AllComponentValues[ec[{i,OptionValue[ChartName]},-{j,OptionValue[ChartName]}],ec\[FilledRectangle]];
-e\[FilledRectangle][OptionValue[ChartName]]=E^(2
-\!\(\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)]\)) ec\[FilledRectangle];
+e\[FilledRectangle][OptionValue[ChartName]]=E^(2gconf) ec\[FilledRectangle];
 
-\!\(\*OverscriptBox[\(e\[FilledRectangle]\), \(-1\)]\)[OptionValue[ChartName]]=E^(-2
-\!\(\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)]\)) 
+\!\(\*OverscriptBox[\(e\[FilledRectangle]\), \(-1\)]\)[OptionValue[ChartName]]=E^(-2gconf) 
 \!\(\*OverscriptBox[\(ec\[FilledRectangle]\), \(-1\)]\);
 
 \!\(\*OverscriptBox[\(e\[FilledRectangle]\), \(T\)]\)[OptionValue[ChartName]]=Transpose[e\[FilledRectangle][OptionValue[ChartName]]];
@@ -2229,11 +2222,9 @@ AllComponentValues[InvmTrc[{i,OptionValue[ChartName]},-{j,OptionValue[ChartName]
 AllComponentValues[InvmTrc[-{i,OptionValue[ChartName]},{j,OptionValue[ChartName]}],
 \!\(\*OverscriptBox[\(mTrc\[FilledRectangle]\), \(-T\)]\)];
 
-mTr\[FilledRectangle][OptionValue[ChartName]]=E^(2
-\!\(\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)]\)) mTrc\[FilledRectangle];
+mTr\[FilledRectangle][OptionValue[ChartName]]=E^(2fconf) mTrc\[FilledRectangle];
 
-\!\(\*OverscriptBox[\(mTr\[FilledRectangle]\), \(-1\)]\)[OptionValue[ChartName]]=E^(-2
-\!\(\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)]\)) 
+\!\(\*OverscriptBox[\(mTr\[FilledRectangle]\), \(-1\)]\)[OptionValue[ChartName]]=E^(-2fconf) 
 \!\(\*OverscriptBox[\(mTrc\[FilledRectangle]\), \(-1\)]\);
 
 \!\(\*OverscriptBox[\(mTr\[FilledRectangle]\), \(T\)]\)[OptionValue[ChartName]]=Transpose[mTr\[FilledRectangle][OptionValue[ChartName]]];
@@ -2314,9 +2305,7 @@ Rbar\[FilledRectangle][OptionValue[ChartName]]=Inverse[\[Eta]\[FilledSquare]].Tr
 Rbarc\[FilledRectangle][OptionValue[ChartName]]=Inverse[\[Eta]\[FilledSquare]].Transpose[
 \!\(\*OverscriptBox[\(mTrc\[FilledRectangle]\), \(-1\)]\)].
 \!\(\*OverscriptBox[\(ec\[FilledRectangle]\), \(T\)]\).\[Eta]\[FilledSquare].\[CapitalLambda]\[FilledRectangle][OptionValue[ChartName]]//Simplify;
-If[Rbar\[FilledRectangle][OptionValue[ChartName]]==E^(2(
-\!\(\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)]\)-
-\!\(\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)]\))) Rbarc\[FilledRectangle][OptionValue[ChartName]]//Simplify//OptionValue[ApplyFunction],
+If[Rbar\[FilledRectangle][OptionValue[ChartName]]==E^(2(gconf-fconf)) Rbarc\[FilledRectangle][OptionValue[ChartName]]//Simplify//OptionValue[ApplyFunction],
 Null,
 Print["\!\(\*
 StyleBox[\"Error\",\nFontColor->RGBColor[1, 0, 0]]\)\!\(\*
@@ -2630,8 +2619,7 @@ StyleBox[\"\[Gamma]\",\nFontColor->RGBColor[1, 0, 0]], \"_\"],\nFontColor->RGBCo
 StyleBox[\".\",\nFontColor->RGBColor[1, 0, 0]]\)"];Abort[];
 ];
 
-\[Gamma]\[FilledSquare][OptionValue[ChartName]]=E^(4
-\!\(\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)]\)) \[Gamma]c\[FilledSquare][OptionValue[ChartName]];
+\[Gamma]\[FilledSquare][OptionValue[ChartName]]=E^(4gconf) \[Gamma]c\[FilledSquare][OptionValue[ChartName]];
 
 \!\(\*OverscriptBox[\(\[Gamma]\[FilledSquare]\), \(-1\)]\)[OptionValue[ChartName]]=Inverse[\[Gamma]\[FilledSquare][OptionValue[ChartName]]];
 MetricInBasis[\[Gamma],-OptionValue[ChartName],\[Gamma]\[FilledSquare][OptionValue[ChartName]]];
@@ -2735,8 +2723,7 @@ StyleBox[\"\[CurlyPhi]\",\nFontColor->RGBColor[1, 0, 0]], \"^\"],\nFontColor->RG
 StyleBox[\".\",\nFontColor->RGBColor[1, 0, 0]]\)"];Abort[];
 ];
 
-\[CurlyPhi]\[FilledSquare][OptionValue[ChartName]]=E^(4
-\!\(\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)]\)) \[CurlyPhi]c\[FilledSquare][OptionValue[ChartName]];
+\[CurlyPhi]\[FilledSquare][OptionValue[ChartName]]=E^(4fconf) \[CurlyPhi]c\[FilledSquare][OptionValue[ChartName]];
 
 \!\(\*OverscriptBox[\(\[CurlyPhi]\[FilledSquare]\), \(-1\)]\)[OptionValue[ChartName]]=Inverse[\[CurlyPhi]\[FilledSquare][OptionValue[ChartName]]];
 \[CurlyPhi]\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]=
@@ -2849,9 +2836,7 @@ StyleBox[\"\[Chi]\",\nFontColor->RGBColor[1, 0, 0]], \"^\"],\nFontColor->RGBColo
 StyleBox[\".\",\nFontColor->RGBColor[1, 0, 0]]\)"];Abort[];
 ];
 
-\[Chi]\[FilledSquare][OptionValue[ChartName]]=E^(2(
-\!\(\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)]\)+
-\!\(\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)]\))) \[Chi]c\[FilledSquare][OptionValue[ChartName]]//Simplify;
+\[Chi]\[FilledSquare][OptionValue[ChartName]]=E^(2(gconf+fconf)) \[Chi]c\[FilledSquare][OptionValue[ChartName]]//Simplify;
 
 \!\(\*OverscriptBox[\(\[Chi]\[FilledSquare]\), \(-1\)]\)[OptionValue[ChartName]]=Inverse[\[Chi]\[FilledSquare][OptionValue[ChartName]]];
 \[Chi]\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]=
@@ -3377,9 +3362,7 @@ gBc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]=
 temp$gB=
 \!\(\*OverscriptBox[\(e\[FilledRectangle]\), \(-1\)]\)[OptionValue[ChartName]].\[CapitalLambda]\[FilledRectangle][OptionValue[ChartName]].m\[FilledRectangle][OptionValue[ChartName]]//Simplify;
 gB\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]=temp$gB//OptionValue[ApplyFunction];
-If[gB\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]==E^(2(
-\!\(\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)]\)-
-\!\(\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)]\))) gBc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]//Simplify,
+If[gB\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]==E^(2(fconf-gconf)) gBc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]//Simplify,
 Null,
 Print["\!\(\*
 StyleBox[\"\[ScriptCapitalB]\",\nFontColor->RGBColor[1, 0, 0]]\)\!\(\*
@@ -3439,9 +3422,7 @@ temp$gD=
 \!\(\*OverscriptBox[\(m\[FilledRectangle]\), \(-1\)]\)[OptionValue[ChartName]].
 \!\(\*OverscriptBox[\(\[CapitalLambda]\[FilledRectangle]\), \(-1\)]\)[OptionValue[ChartName]].e\[FilledRectangle][OptionValue[ChartName]]//Simplify;
 gD\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]=temp$gD//OptionValue[ApplyFunction];
-If[gD\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]==E^(2(
-\!\(\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)]\)-
-\!\(\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)]\))) gDc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]//Simplify,
+If[gD\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]==E^(2(gconf-fconf)) gDc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]//Simplify,
 Null,
 Print["\!\(\*
 StyleBox[\"\[ScriptCapitalD]\",\nFontColor->RGBColor[1, 0, 0]]\)\!\(\*
@@ -3493,9 +3474,7 @@ AllComponentValues[gD[{i,OptionValue[ChartName]},-{j,OptionValue[ChartName]}],gD
 gUc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]=$Vsign 
 \!\(\*UnderscriptBox[\(\[Lambda]\[FilledSmallCircle]\), \(_\)]\)^-1 \!\(
 \*UnderoverscriptBox[\(\[Sum]\), \(n = 0\), \(4\)]\(\[Beta][n] 
-\*SuperscriptBox[\(E\), \(2 \((n - 1)\) \((
-\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)] - 
-\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)])\)\)] 
+\*SuperscriptBox[\(E\), \(2 \((n - 1)\) \((fconf - gconf)\)\)] 
 \(\*SubscriptBox[\(Y\), \(n - 1\)]\)[gBc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]]\)\)//Simplify//OptionValue[ApplyFunction];
 gU\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]= $Vsign 
 \!\(\*UnderscriptBox[\(\[Lambda]\[FilledSmallCircle]\), \(_\)]\)^-1 \!\(
@@ -3678,9 +3657,7 @@ fBc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]=
 temp$fB=
 \!\(\*OverscriptBox[\(m\[FilledRectangle]\), \(-1\)]\)[OptionValue[ChartName]].\[CapitalLambda]\[FilledRectangle][OptionValue[ChartName]].e\[FilledRectangle][OptionValue[ChartName]]//Simplify;
 fB\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]=temp$fB//OptionValue[ApplyFunction];
-If[fB\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]==E^(2(
-\!\(\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)]\)-
-\!\(\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)]\))) fBc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]//Simplify,
+If[fB\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]==E^(2(gconf-fconf)) fBc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]//Simplify,
 Null,
 Print["\!\(\*
 StyleBox[OverscriptBox[
@@ -3744,9 +3721,7 @@ temp$fD=
 \!\(\*OverscriptBox[\(e\[FilledRectangle]\), \(-1\)]\)[OptionValue[ChartName]].
 \!\(\*OverscriptBox[\(\[CapitalLambda]\[FilledRectangle]\), \(-1\)]\)[OptionValue[ChartName]].m\[FilledRectangle][OptionValue[ChartName]]//Simplify;
 fD\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]=temp$fD//OptionValue[ApplyFunction];
-If[fD\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]==E^(-2(
-\!\(\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)]\)-
-\!\(\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)]\))) fDc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]//Simplify,
+If[fD\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]==E^(-2(gconf-fconf)) fDc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]//Simplify,
 Null,
 Print["\!\(\*
 StyleBox[OverscriptBox[
@@ -3801,9 +3776,7 @@ AllComponentValues[fD[{i,OptionValue[ChartName]},-{j,OptionValue[ChartName]}],fD
 
 fUc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]=$Vsign fDc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]].\!\(
 \*UnderoverscriptBox[\(\[Sum]\), \(n = 0\), \(4\)]\(\[Beta][n] 
-\*SuperscriptBox[\(E\), \(2  n \((
-\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)] - 
-\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)])\)\)] 
+\*SuperscriptBox[\(E\), \(2  n \((fconf - gconf)\)\)] 
 \(\*SubscriptBox[\(Y\), \(n - 1\)]\)[fDc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]]\)\)//Simplify//OptionValue[ApplyFunction];
 fU\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]=$Vsign fD\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]].\!\(
 \*UnderoverscriptBox[\(\[Sum]\), \(n = 0\), \(4\)]\(\[Beta][n] 
@@ -3884,9 +3857,7 @@ Print["\[Dash] Computed the bimetric interactions in the f-sector."];
 
 gVc\[FilledSmallCircle][OptionValue[ChartName]]=$Vsign \!\(
 \*UnderoverscriptBox[\(\[Sum]\), \(n = 0\), \(4\)]\(\[Beta][n] 
-\*SuperscriptBox[\(E\), \(2  n \((
-\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)] - 
-\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)])\)\)] 
+\*SuperscriptBox[\(E\), \(2  n \((fconf - gconf)\)\)] 
 \(\*SubscriptBox[\(\[ScriptCapitalE]\), \(n\)]\)[fDc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]]\)\)//Simplify//OptionValue[ApplyFunction];
 gV\[FilledSmallCircle][OptionValue[ChartName]]=$Vsign \!\(
 \*UnderoverscriptBox[\(\[Sum]\), \(n = 0\), \(4\)]\(\[Beta][n] 
@@ -3931,9 +3902,7 @@ StyleBox[\".\",\nFontColor->RGBColor[1, 0, 0]]\)"];Abort[];
 
 grhobc\[FilledSmallCircle][OptionValue[ChartName]]=-$Vsign\!\(
 \*UnderoverscriptBox[\(\[Sum]\), \(n = 0\), \(4\)]\(\[Beta][n] 
-\*SuperscriptBox[\(E\), \(2  n \((
-\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)] - 
-\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)])\)\)] 
+\*SuperscriptBox[\(E\), \(2  n \((fconf - gconf)\)\)] 
 \(\*SubscriptBox[\(\[ScriptCapitalE]\), \(n\)]\)[gBc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]]\)\)//Simplify//OptionValue[ApplyFunction];
 grhob\[FilledSmallCircle][OptionValue[ChartName]]=-$Vsign\!\(
 \*UnderoverscriptBox[\(\[Sum]\), \(n = 0\), \(4\)]\(\[Beta][n] 
@@ -3980,9 +3949,7 @@ StyleBox[\".\",\nFontColor->RGBColor[1, 0, 0]]\)"];Abort[];
 
 gjbc\[FilledDownTriangle][OptionValue[ChartName]]=-\[Gamma]c\[FilledSquare][OptionValue[ChartName]].gBc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]].(\!\(
 \*UnderoverscriptBox[\(\[Sum]\), \(n = 0\), \(4\)]\($Vsign\ \[Beta][n] 
-\*SuperscriptBox[\(E\), \(2  n 
-\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)] - 2 \((n - 1)\) 
-\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)]\)] 
+\*SuperscriptBox[\(E\), \(2  n\ fconf - 2 \((n - 1)\) gconf\)] 
 \(\*SubscriptBox[\(Y\), \(n - 1\)]\)[fDc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]]\)\)).gnc\[FilledUpTriangle][OptionValue[ChartName]]//Simplify//OptionValue[ApplyFunction];
 gjb\[FilledDownTriangle][OptionValue[ChartName]]=-\[Gamma]\[FilledSquare][OptionValue[ChartName]].gQ\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]].fU\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]].gn\[FilledUpTriangle][OptionValue[ChartName]]//Simplify//OptionValue[ApplyFunction];
 If[gjbc\[FilledDownTriangle][OptionValue[ChartName]]==gjb\[FilledDownTriangle][OptionValue[ChartName]]//Simplify,
@@ -4086,9 +4053,7 @@ Print["\[Dash] Computed the bimetric sources in the g-sector."];
 fVc\[FilledSmallCircle][OptionValue[ChartName]]=$Vsign 
 \!\(\*UnderscriptBox[\(\[Lambda]\[FilledSmallCircle]\), \(_\)]\)^-1 \!\(
 \*UnderoverscriptBox[\(\[Sum]\), \(n = 0\), \(4\)]\(\[Beta][n] 
-\*SuperscriptBox[\(E\), \(2 \((n - 1)\) \((
-\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)] - 
-\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)])\)\)] 
+\*SuperscriptBox[\(E\), \(2 \((n - 1)\) \((fconf - gconf)\)\)] 
 \(\*SubscriptBox[\(\[ScriptCapitalE]\), \(n - 1\)]\)[gBc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]]\)\)//Simplify//OptionValue[ApplyFunction];
 fV\[FilledSmallCircle][OptionValue[ChartName]]=$Vsign 
 \!\(\*UnderscriptBox[\(\[Lambda]\[FilledSmallCircle]\), \(_\)]\)^-1 \!\(
@@ -4137,9 +4102,7 @@ StyleBox[\".\",\nFontColor->RGBColor[1, 0, 0]]\)"];Abort[];
 frhobc\[FilledSmallCircle][OptionValue[ChartName]]=-$Vsign 
 \!\(\*UnderscriptBox[\(\[Lambda]\[FilledSmallCircle]\), \(_\)]\)\!\(
 \*UnderoverscriptBox[\(\[Sum]\), \(n = 0\), \(4\)]\(\[Beta][n] 
-\*SuperscriptBox[\(E\), \(2 \((n - 4)\) \((
-\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)] - 
-\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)])\)\)] 
+\*SuperscriptBox[\(E\), \(2 \((n - 4)\) \((fconf - gconf)\)\)] 
 \(\*SubscriptBox[\(\[ScriptCapitalE]\), \(n - 1\)]\)[fDc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]] Det[ec\[FilledRectangle] . 
 \(\*OverscriptBox[\(mc\[FilledRectangle]\), \(-1\)]\)[OptionValue[ChartName]]]\)\)//Simplify//OptionValue[ApplyFunction];
 frhob\[FilledSmallCircle][OptionValue[ChartName]]=-$Vsign 
@@ -4187,9 +4150,7 @@ StyleBox[\"\[Rho]\",\nFontColor->RGBColor[1, 0, 0]], \"~\"], \"b\"],\nFontColor-
 StyleBox[\".\",\nFontColor->RGBColor[1, 0, 0]]\)"];Abort[];
 ];
 
-fjbc\[FilledDownTriangle][OptionValue[ChartName]]=-gjbc\[FilledDownTriangle][OptionValue[ChartName]] E^(6(
-\!\(\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)]\)-
-\!\(\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)]\))) Det[ec\[FilledRectangle].
+fjbc\[FilledDownTriangle][OptionValue[ChartName]]=-gjbc\[FilledDownTriangle][OptionValue[ChartName]] E^(6(gconf-fconf)) Det[ec\[FilledRectangle].
 \!\(\*OverscriptBox[\(mc\[FilledRectangle]\), \(-1\)]\)[OptionValue[ChartName]]]//Simplify//OptionValue[ApplyFunction];
 fjb\[FilledDownTriangle][OptionValue[ChartName]]=-gjb\[FilledDownTriangle][OptionValue[ChartName]] Det[e\[FilledRectangle][OptionValue[ChartName]].
 \!\(\*OverscriptBox[\(m\[FilledRectangle]\), \(-1\)]\)[OptionValue[ChartName]]]//Simplify//OptionValue[ApplyFunction];
@@ -4237,9 +4198,7 @@ AllComponentValues[fjb[{i,OptionValue[ChartName]}],fjb\[FilledUpTriangle][Option
 
 fJbc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]=(fVc\[FilledSmallCircle][OptionValue[ChartName]] \[Delta]\[FilledRectangle]-fQc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]].gUc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]+
 \!\(\*UnderscriptBox[\(fLap\[FilledSmallCircle]\), \(_\)]\)^-1 
-\!\(\*UnderscriptBox[\(gLap\[FilledSmallCircle]\), \(_\)]\)fUc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]) E^(6(
-\!\(\*UnderscriptBox[\(gconf\[FilledSmallCircle]\), \(_\)]\)-
-\!\(\*UnderscriptBox[\(fconf\[FilledSmallCircle]\), \(_\)]\))) Det[ec\[FilledRectangle].
+\!\(\*UnderscriptBox[\(gLap\[FilledSmallCircle]\), \(_\)]\)fUc\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]) E^(6(gconf-fconf)) Det[ec\[FilledRectangle].
 \!\(\*OverscriptBox[\(mc\[FilledRectangle]\), \(-1\)]\)[OptionValue[ChartName]]]//Simplify//OptionValue[ApplyFunction];
 fJb\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]=(fV\[FilledSmallCircle][OptionValue[ChartName]] \[Delta]\[FilledRectangle]-fQ\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]].gU\[FilledUpTriangle]\[FilledDownTriangle][OptionValue[ChartName]]+
 \!\(\*UnderscriptBox[\(fLap\[FilledSmallCircle]\), \(_\)]\)^-1 
