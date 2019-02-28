@@ -23,7 +23,7 @@ The notebook bimEX_Decomposition_Lists_Loader.nb loads the file Decomposition_Li
 
 ### Prerequisites
 
-To run bimEX, you need to install Mathematica and the xAct bundle.
+To run bimEX, you need to install Mathematica 11.0 (or later) and the xAct bundle.
 
 ### Documentation
 
