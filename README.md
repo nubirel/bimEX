@@ -2,7 +2,7 @@
 ## *bim*etric 3+1 *E*xact *C*omputation*s*
 ### Citation to paper
 
-bimEX is a [Mathematica](https://www.wolfram.com/mathematica/) package making use of [xAct](http://www.xact.es/). It provides a ready-to-use working framework in which one can manipulate the abstract bimetric equations in the 3+1 formalism, and compute them fpr arbitrary metric ansätze.
+bimEX is a [Mathematica](https://www.wolfram.com/mathematica/) package making use of [xAct](http://www.xact.es/). It provides a ready-to-use working framework in which one can manipulate the abstract bimetric equations in the 3+1 formalism, and compute them for arbitrary metric ansätze.
 
 ### Getting started
 
@@ -31,11 +31,11 @@ The documentation is provided in the form of **Usage messages** in Mathematica. 
 
 `?<name_of_function_or_option>`
 
-in the Mathematica notebook. We refer to the associated paper.
+in the Mathematica notebook. We also refer to the associated paper for additional information.
 
 ### Testing the package
 
-To test the package, follows the following instructions,
+To test the package, do the following:
 
 - Put the files bimEX.m and the notebooks bimEX_Working_Example.nb, bimEX_Decomposition_Lists_Loader.nb and bimEX_Decomposition_xAct_Loader in the same folder
 - Open bimEX_Working_Example.nb and evaluate the notebook. This generates the two .m files Decomposition_Lists.m and Decomposition_xAct.m
