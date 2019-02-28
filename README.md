@@ -1,6 +1,6 @@
 # bimEX
 ## *bim*etric 3+1 *E*xact *C*omputation*s*
-### citation to paper
+### Citation to paper
 
 bimEX is a [Mathematica](https://www.wolfram.com/mathematica/) package making use of [xAct](http://www.xact.es/). Its goal is to provide a ready-to-use working framework in which one can manipulate the abstract bimetric equations in the 3+1 formalism, and compute them in any desired ansatz.
 
