@@ -5001,18 +5001,18 @@ PullBackVBundle[Tangent\[CapitalSigma]t, i\[ScriptCapitalC]]};",
       "SymmetryGroupOfTensor[di\[ScriptCapitalC]] ^= StrongGenSet[{}, \
 GenSet[]];", "TensorID[di\[ScriptCapitalC]] ^= {};", 
       "xTensorQ[di\[ScriptCapitalC]] ^= True;", "di\[ScriptCapitalC] /: \
-di\[ScriptCapitalC][-(xAct`xTensor`Private`index5$30928_), \
-xAct`xTensor`Private`index6$30928_]*Precompose[d\[ScriptCapitalC], \
-i\[ScriptCapitalC]][-(xAct`xTensor`Private`index8$30928_), \
-xAct`xTensor`Private`index5$30928_] := \
-delta[-xAct`xTensor`Private`index8$30928, \
-xAct`xTensor`Private`index6$30928];", "di\[ScriptCapitalC] /: \
-di\[ScriptCapitalC][-(xAct`xTensor`Private`index5$30928_), \
-xAct`xTensor`Private`index6$30928_]*Precompose[d\[ScriptCapitalC], \
-i\[ScriptCapitalC]][-(xAct`xTensor`Private`index6$30928_), \
-xAct`xTensor`Private`index7$30928_] := \
-delta[-xAct`xTensor`Private`index5$30928, \
-xAct`xTensor`Private`index7$30928];"}, 
+di\[ScriptCapitalC][-(xAct`xTensor`Private`index5$28430_), \
+xAct`xTensor`Private`index6$28430_]*Precompose[d\[ScriptCapitalC], \
+i\[ScriptCapitalC]][-(xAct`xTensor`Private`index8$28430_), \
+xAct`xTensor`Private`index5$28430_] := \
+delta[-xAct`xTensor`Private`index8$28430, \
+xAct`xTensor`Private`index6$28430];", "di\[ScriptCapitalC] /: \
+di\[ScriptCapitalC][-(xAct`xTensor`Private`index5$28430_), \
+xAct`xTensor`Private`index6$28430_]*Precompose[d\[ScriptCapitalC], \
+i\[ScriptCapitalC]][-(xAct`xTensor`Private`index6$28430_), \
+xAct`xTensor`Private`index7$28430_] := \
+delta[-xAct`xTensor`Private`index5$28430, \
+xAct`xTensor`Private`index7$28430];"}, 
      {"Dagger[di\[ScriptCapitalS]] ^= di\[ScriptCapitalS];", "DefInfo[di\
 \[ScriptCapitalS]] ^= {\"mapping differential tensor\", \"\"};", 
       "DependenciesOfTensor[di\[ScriptCapitalS]] ^= {Reals[3]};", "HostsOf[di\
@@ -5028,17 +5028,17 @@ PullBackVBundle[Tangent\[CapitalSigma]t, i\[ScriptCapitalS]]};",
       "SymmetryGroupOfTensor[di\[ScriptCapitalS]] ^= StrongGenSet[{}, \
 GenSet[]];", "TensorID[di\[ScriptCapitalS]] ^= {};", 
       "xTensorQ[di\[ScriptCapitalS]] ^= True;", "di\[ScriptCapitalS] /: \
-di\[ScriptCapitalS][-(xAct`xTensor`Private`index5$8744_), \
-xAct`xTensor`Private`index6$8744_]*Precompose[d\[ScriptCapitalS], \
-i\[ScriptCapitalS]][-(xAct`xTensor`Private`index8$8744_), \
-xAct`xTensor`Private`index5$8744_] := \
-delta[-xAct`xTensor`Private`index8$8744, xAct`xTensor`Private`index6$8744];", 
+di\[ScriptCapitalS][-(xAct`xTensor`Private`index5$8798_), \
+xAct`xTensor`Private`index6$8798_]*Precompose[d\[ScriptCapitalS], \
+i\[ScriptCapitalS]][-(xAct`xTensor`Private`index8$8798_), \
+xAct`xTensor`Private`index5$8798_] := \
+delta[-xAct`xTensor`Private`index8$8798, xAct`xTensor`Private`index6$8798];", 
       "di\[ScriptCapitalS] /: \
-di\[ScriptCapitalS][-(xAct`xTensor`Private`index5$8744_), \
-xAct`xTensor`Private`index6$8744_]*Precompose[d\[ScriptCapitalS], \
-i\[ScriptCapitalS]][-(xAct`xTensor`Private`index6$8744_), \
-xAct`xTensor`Private`index7$8744_] := \
-delta[-xAct`xTensor`Private`index5$8744, xAct`xTensor`Private`index7$8744];"}\
+di\[ScriptCapitalS][-(xAct`xTensor`Private`index5$8798_), \
+xAct`xTensor`Private`index6$8798_]*Precompose[d\[ScriptCapitalS], \
+i\[ScriptCapitalS]][-(xAct`xTensor`Private`index6$8798_), \
+xAct`xTensor`Private`index7$8798_] := \
+delta[-xAct`xTensor`Private`index5$8798, xAct`xTensor`Private`index7$8798];"}\
 , {"Dagger[d\[ScriptCapitalC]] ^= d\[ScriptCapitalC];", 
       "DefInfo[d\[ScriptCapitalC]] ^= {\"mapping differential tensor\", \
 \"\"};", "DependenciesOfTensor[d\[ScriptCapitalC]] ^= {\[CapitalSigma]t};", "\
@@ -5054,18 +5054,18 @@ PullBackVBundle[TangentReals[3], \[ScriptCapitalC]]};",
       "SymmetryGroupOfTensor[d\[ScriptCapitalC]] ^= StrongGenSet[{}, \
 GenSet[]];", "TensorID[d\[ScriptCapitalC]] ^= {};", 
       "xTensorQ[d\[ScriptCapitalC]] ^= True;", "d\[ScriptCapitalC] /: \
-d\[ScriptCapitalC][-(xAct`xTensor`Private`index1$30928_), \
-xAct`xTensor`Private`index2$30928_]*Precompose[di\[ScriptCapitalC], \
-\[ScriptCapitalC]][-(xAct`xTensor`Private`index2$30928_), \
-xAct`xTensor`Private`index3$30928_] := \
-delta[-xAct`xTensor`Private`index1$30928, \
-xAct`xTensor`Private`index3$30928];", "d\[ScriptCapitalC] /: \
-d\[ScriptCapitalC][-(xAct`xTensor`Private`index1$30928_), \
-xAct`xTensor`Private`index2$30928_]*Precompose[di\[ScriptCapitalC], \
-\[ScriptCapitalC]][-(xAct`xTensor`Private`index4$30928_), \
-xAct`xTensor`Private`index1$30928_] := \
-delta[-xAct`xTensor`Private`index4$30928, \
-xAct`xTensor`Private`index2$30928];"}, 
+d\[ScriptCapitalC][-(xAct`xTensor`Private`index1$28430_), \
+xAct`xTensor`Private`index2$28430_]*Precompose[di\[ScriptCapitalC], \
+\[ScriptCapitalC]][-(xAct`xTensor`Private`index2$28430_), \
+xAct`xTensor`Private`index3$28430_] := \
+delta[-xAct`xTensor`Private`index1$28430, \
+xAct`xTensor`Private`index3$28430];", "d\[ScriptCapitalC] /: \
+d\[ScriptCapitalC][-(xAct`xTensor`Private`index1$28430_), \
+xAct`xTensor`Private`index2$28430_]*Precompose[di\[ScriptCapitalC], \
+\[ScriptCapitalC]][-(xAct`xTensor`Private`index4$28430_), \
+xAct`xTensor`Private`index1$28430_] := \
+delta[-xAct`xTensor`Private`index4$28430, \
+xAct`xTensor`Private`index2$28430];"}, 
      {"Dagger[d\[ScriptCapitalS]] ^= d\[ScriptCapitalS];", "DefInfo[d\
 \[ScriptCapitalS]] ^= {\"mapping differential tensor\", \"\"};", 
       "DependenciesOfTensor[d\[ScriptCapitalS]] ^= {\[CapitalSigma]t};", "Hos\
@@ -5081,17 +5081,17 @@ PullBackVBundle[TangentReals[3], \[ScriptCapitalS]]};",
       "SymmetryGroupOfTensor[d\[ScriptCapitalS]] ^= StrongGenSet[{}, \
 GenSet[]];", "TensorID[d\[ScriptCapitalS]] ^= {};", 
       "xTensorQ[d\[ScriptCapitalS]] ^= True;", "d\[ScriptCapitalS] /: \
-d\[ScriptCapitalS][-(xAct`xTensor`Private`index1$8744_), \
-xAct`xTensor`Private`index2$8744_]*Precompose[di\[ScriptCapitalS], \
-\[ScriptCapitalS]][-(xAct`xTensor`Private`index2$8744_), \
-xAct`xTensor`Private`index3$8744_] := \
-delta[-xAct`xTensor`Private`index1$8744, xAct`xTensor`Private`index3$8744];", 
+d\[ScriptCapitalS][-(xAct`xTensor`Private`index1$8798_), \
+xAct`xTensor`Private`index2$8798_]*Precompose[di\[ScriptCapitalS], \
+\[ScriptCapitalS]][-(xAct`xTensor`Private`index2$8798_), \
+xAct`xTensor`Private`index3$8798_] := \
+delta[-xAct`xTensor`Private`index1$8798, xAct`xTensor`Private`index3$8798];", 
       "d\[ScriptCapitalS] /: \
-d\[ScriptCapitalS][-(xAct`xTensor`Private`index1$8744_), \
-xAct`xTensor`Private`index2$8744_]*Precompose[di\[ScriptCapitalS], \
-\[ScriptCapitalS]][-(xAct`xTensor`Private`index4$8744_), \
-xAct`xTensor`Private`index1$8744_] := \
-delta[-xAct`xTensor`Private`index4$8744, xAct`xTensor`Private`index2$8744];"}\
+d\[ScriptCapitalS][-(xAct`xTensor`Private`index1$8798_), \
+xAct`xTensor`Private`index2$8798_]*Precompose[di\[ScriptCapitalS], \
+\[ScriptCapitalS]][-(xAct`xTensor`Private`index4$8798_), \
+xAct`xTensor`Private`index1$8798_] := \
+delta[-xAct`xTensor`Private`index4$8798, xAct`xTensor`Private`index2$8798];"}\
 , {"Dagger[e] ^= e;", "DefInfo[e] ^= {\"tensor\", \"\"};", "DependenciesOfTen\
 sor[e] ^= {f\[Digamma], g\[Digamma], h\[Digamma], t, \[CapitalSigma]t};", "Ho\
 stsOf[e] ^= {f\[Digamma], g\[Digamma], h\[Digamma], t, \
@@ -5426,33 +5426,33 @@ g$A[t, \[ScriptR][]]*(2*Derivative[0, 1][gconf\[FilledSmallCircle]][t, \
 2][g$B][t, \[ScriptR][]])))/g$A[t, \[ScriptR][]]^3}];", 
       "xTensorQ[EinsteingCD] ^:= True;", "gCD[-(j_Symbol)?Tangent\
 \[CapitalSigma]t`Q][EinsteingCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] ^:= Module[{s$1082, s$1083, s$1084, \
-s$1085, s$1093}, ($TorsionSign*\[Gamma][s$1082, s$1083]*RiccigCD[-s$1084, \
--s$1082]*TorsiongCD[s$1084, -s$1093, -s$1083] - \
-($TorsionSign*$RicciSign*\[Gamma][s$1082, s$1083]*RiemanngCD[-s$1093, \
--s$1084, -s$1082, s$1085]*TorsiongCD[s$1084, -s$1083, \
--s$1085])/2)*\[Gamma][i, s$1093]];", "gCD[(j_Symbol)?Tangent\[CapitalSigma]t`\
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] ^:= Module[{s$1135, s$1136, s$1137, \
+s$1138, s$1146}, ($TorsionSign*\[Gamma][s$1135, s$1136]*RiccigCD[-s$1137, \
+-s$1135]*TorsiongCD[s$1137, -s$1146, -s$1136] - \
+($TorsionSign*$RicciSign*\[Gamma][s$1135, s$1136]*RiemanngCD[-s$1146, \
+-s$1137, -s$1135, s$1138]*TorsiongCD[s$1137, -s$1136, \
+-s$1138])/2)*\[Gamma][i, s$1146]];", "gCD[(j_Symbol)?Tangent\[CapitalSigma]t`\
 Q][EinsteingCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] ^:= Module[{s$1082, s$1083, s$1084, \
-s$1085, s$1093}, ($TorsionSign*\[Gamma][s$1082, s$1083]*RiccigCD[-s$1084, \
--s$1082]*TorsiongCD[s$1084, -s$1093, -s$1083] - \
-($TorsionSign*$RicciSign*\[Gamma][s$1082, s$1083]*RiemanngCD[-s$1093, \
--s$1084, -s$1082, s$1085]*TorsiongCD[s$1084, -s$1083, \
--s$1085])/2)*\[Gamma][i, s$1093]];", "gCD[-(j_Symbol)?Tangent\[CapitalSigma]t\
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] ^:= Module[{s$1135, s$1136, s$1137, \
+s$1138, s$1146}, ($TorsionSign*\[Gamma][s$1135, s$1136]*RiccigCD[-s$1137, \
+-s$1135]*TorsiongCD[s$1137, -s$1146, -s$1136] - \
+($TorsionSign*$RicciSign*\[Gamma][s$1135, s$1136]*RiemanngCD[-s$1146, \
+-s$1137, -s$1135, s$1138]*TorsiongCD[s$1137, -s$1136, \
+-s$1138])/2)*\[Gamma][i, s$1146]];", "gCD[-(j_Symbol)?Tangent\[CapitalSigma]t\
 `Q][EinsteingCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(i_)?Tangent\[CapitalSigma]t`pmQ]] ^:= Module[{s$1082, s$1083, s$1084, \
-s$1085, s$1094}, ($TorsionSign*\[Gamma][s$1082, s$1083]*RiccigCD[-s$1084, \
--s$1082]*TorsiongCD[s$1084, -s$1094, -s$1083] - \
-($TorsionSign*$RicciSign*\[Gamma][s$1082, s$1083]*RiemanngCD[-s$1094, \
--s$1084, -s$1082, s$1085]*TorsiongCD[s$1084, -s$1083, \
--s$1085])/2)*\[Gamma][i, s$1094]];", "gCD[(j_Symbol)?Tangent\[CapitalSigma]t`\
+(i_)?Tangent\[CapitalSigma]t`pmQ]] ^:= Module[{s$1135, s$1136, s$1137, \
+s$1138, s$1147}, ($TorsionSign*\[Gamma][s$1135, s$1136]*RiccigCD[-s$1137, \
+-s$1135]*TorsiongCD[s$1137, -s$1147, -s$1136] - \
+($TorsionSign*$RicciSign*\[Gamma][s$1135, s$1136]*RiemanngCD[-s$1147, \
+-s$1137, -s$1135, s$1138]*TorsiongCD[s$1137, -s$1136, \
+-s$1138])/2)*\[Gamma][i, s$1147]];", "gCD[(j_Symbol)?Tangent\[CapitalSigma]t`\
 Q][EinsteingCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(i_)?Tangent\[CapitalSigma]t`pmQ]] ^:= Module[{s$1082, s$1083, s$1084, \
-s$1085, s$1094}, ($TorsionSign*\[Gamma][s$1082, s$1083]*RiccigCD[-s$1084, \
--s$1082]*TorsiongCD[s$1084, -s$1094, -s$1083] - \
-($TorsionSign*$RicciSign*\[Gamma][s$1082, s$1083]*RiemanngCD[-s$1094, \
--s$1084, -s$1082, s$1085]*TorsiongCD[s$1084, -s$1083, \
--s$1085])/2)*\[Gamma][i, s$1094]];"}, 
+(i_)?Tangent\[CapitalSigma]t`pmQ]] ^:= Module[{s$1135, s$1136, s$1137, \
+s$1138, s$1147}, ($TorsionSign*\[Gamma][s$1135, s$1136]*RiccigCD[-s$1137, \
+-s$1135]*TorsiongCD[s$1137, -s$1147, -s$1136] - \
+($TorsionSign*$RicciSign*\[Gamma][s$1135, s$1136]*RiemanngCD[-s$1147, \
+-s$1137, -s$1135, s$1138]*TorsiongCD[s$1137, -s$1136, \
+-s$1138])/2)*\[Gamma][i, s$1147]];"}, 
      {"Dagger[EinsteingCDback] ^= EinsteingCDback;", 
       "DefInfo[EinsteingCDback] ^= False;", "DependenciesOfTensor[EinsteingCD\
 back] ^= {f\[Digamma], g\[Digamma], h\[Digamma], t, \[CapitalSigma]t};", "Hos\
@@ -6259,21 +6259,21 @@ HoldPattern[Inv\[CurlyPhi][-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 RicciScalarfCD[]]};", "fCD /: CurvatureRelations[fCD, Riemann] = \
 {HoldPattern[RiemannfCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 -(j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1949, s$1951}, \
-(($RicciSign*RiccifCD[-s$1949, -s$1951])*\[Gamma][i, s$1949])*\[Gamma][k, \
-s$1951]], HoldPattern[RiemannfCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2002, s$2004}, \
+(($RicciSign*RiccifCD[-s$2002, -s$2004])*\[Gamma][i, s$2002])*\[Gamma][k, \
+s$2004]], HoldPattern[RiemannfCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1949, s$1951}, \
-(($RicciSign*RiccifCD[-s$1949, -s$1951])*\[Gamma][i, s$1949])*\[Gamma][k, \
-s$1951]], HoldPattern[RiemannfCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2002, s$2004}, \
+(($RicciSign*RiccifCD[-s$2002, -s$2004])*\[Gamma][i, s$2002])*\[Gamma][k, \
+s$2004]], HoldPattern[RiemannfCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1950, s$1952}, \
-((-($RicciSign*RiccifCD[-s$1950, -s$1952]))*\[Gamma][i, s$1950])*\[Gamma][k, \
-s$1952]], HoldPattern[RiemannfCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2003, s$2005}, \
+((-($RicciSign*RiccifCD[-s$2003, -s$2005]))*\[Gamma][i, s$2003])*\[Gamma][k, \
+s$2005]], HoldPattern[RiemannfCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1950, s$1952}, \
-((-($RicciSign*RiccifCD[-s$1950, -s$1952]))*\[Gamma][i, s$1950])*\[Gamma][k, \
-s$1952]]};", "DefInfo[fCD] ^= {\"covariant derivative\", \"\"};", 
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2003, s$2005}, \
+((-($RicciSign*RiccifCD[-s$2003, -s$2005]))*\[Gamma][i, s$2003])*\[Gamma][k, \
+s$2005]]};", "DefInfo[fCD] ^= {\"covariant derivative\", \"\"};", 
       "DependenciesOfCovD[fCD] ^= {f\[Digamma], t, \[CapitalSigma]t};", 
       "HostsOf[fCD] ^= {\[CapitalSigma]t};", 
       "ManifoldOfCovD[fCD] ^= \[CapitalSigma]t;", 
@@ -6402,22 +6402,22 @@ HoldPattern[Invfback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 RicciScalarfCDback[]]};", "fCDback /: CurvatureRelations[fCDback, Riemann] = \
 {HoldPattern[RiemannfCDback[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 -(j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2519, s$2521}, \
-(($RicciSign*RiccifCDback[-s$2519, -s$2521])*\[Gamma][i, s$2519])*\[Gamma][k, \
-s$2521]], HoldPattern[RiemannfCDback[(i_)?Tangent\[CapitalSigma]t`pmQ, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2572, s$2574}, \
+(($RicciSign*RiccifCDback[-s$2572, -s$2574])*\[Gamma][i, s$2572])*\[Gamma][k, \
+s$2574]], HoldPattern[RiemannfCDback[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2519, s$2521}, \
-(($RicciSign*RiccifCDback[-s$2519, -s$2521])*\[Gamma][i, s$2519])*\[Gamma][k, \
-s$2521]], HoldPattern[RiemannfCDback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2572, s$2574}, \
+(($RicciSign*RiccifCDback[-s$2572, -s$2574])*\[Gamma][i, s$2572])*\[Gamma][k, \
+s$2574]], HoldPattern[RiemannfCDback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2520, s$2522}, \
-((-($RicciSign*RiccifCDback[-s$2520, -s$2522]))*\[Gamma][i, \
-s$2520])*\[Gamma][k, s$2522]], \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2573, s$2575}, \
+((-($RicciSign*RiccifCDback[-s$2573, -s$2575]))*\[Gamma][i, \
+s$2573])*\[Gamma][k, s$2575]], \
 HoldPattern[RiemannfCDback[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2520, s$2522}, \
-((-($RicciSign*RiccifCDback[-s$2520, -s$2522]))*\[Gamma][i, \
-s$2520])*\[Gamma][k, s$2522]]};", 
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2573, s$2575}, \
+((-($RicciSign*RiccifCDback[-s$2573, -s$2575]))*\[Gamma][i, \
+s$2573])*\[Gamma][k, s$2575]]};", 
       "DefInfo[fCDback] ^= {\"covariant derivative\", \"\"};", 
       "DependenciesOfCovD[fCDback] ^= {f\[Digamma], t, \[CapitalSigma]t};", 
       "HostsOf[fCDback] ^= {\[CapitalSigma]t};", 
@@ -7923,21 +7923,21 @@ HoldPattern[Inv\[CurlyPhi]c[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 RicciScalarfCDc[]]};", "fCDc /: CurvatureRelations[fCDc, Riemann] = \
 {HoldPattern[RiemannfCDc[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 -(j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2208, s$2210}, \
-(($RicciSign*RiccifCDc[-s$2208, -s$2210])*\[Gamma][i, s$2208])*\[Gamma][k, \
-s$2210]], HoldPattern[RiemannfCDc[(i_)?Tangent\[CapitalSigma]t`pmQ, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2261, s$2263}, \
+(($RicciSign*RiccifCDc[-s$2261, -s$2263])*\[Gamma][i, s$2261])*\[Gamma][k, \
+s$2263]], HoldPattern[RiemannfCDc[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2208, s$2210}, \
-(($RicciSign*RiccifCDc[-s$2208, -s$2210])*\[Gamma][i, s$2208])*\[Gamma][k, \
-s$2210]], HoldPattern[RiemannfCDc[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2261, s$2263}, \
+(($RicciSign*RiccifCDc[-s$2261, -s$2263])*\[Gamma][i, s$2261])*\[Gamma][k, \
+s$2263]], HoldPattern[RiemannfCDc[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2209, s$2211}, \
-((-($RicciSign*RiccifCDc[-s$2209, -s$2211]))*\[Gamma][i, s$2209])*\[Gamma][k, \
-s$2211]], HoldPattern[RiemannfCDc[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2262, s$2264}, \
+((-($RicciSign*RiccifCDc[-s$2262, -s$2264]))*\[Gamma][i, s$2262])*\[Gamma][k, \
+s$2264]], HoldPattern[RiemannfCDc[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2209, s$2211}, \
-((-($RicciSign*RiccifCDc[-s$2209, -s$2211]))*\[Gamma][i, s$2209])*\[Gamma][k, \
-s$2211]]};", "DefInfo[fCDc] ^= {\"covariant derivative\", \"\"};", 
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2262, s$2264}, \
+((-($RicciSign*RiccifCDc[-s$2262, -s$2264]))*\[Gamma][i, s$2262])*\[Gamma][k, \
+s$2264]]};", "DefInfo[fCDc] ^= {\"covariant derivative\", \"\"};", 
       "DependenciesOfCovD[fCDc] ^= {f\[Digamma], t, \[CapitalSigma]t};", 
       "HostsOf[fCDc] ^= {\[CapitalSigma]t};", 
       "ManifoldOfCovD[fCDc] ^= \[CapitalSigma]t;", 
@@ -11917,6 +11917,13 @@ g\[Digamma], h\[Digamma], t, \[CapitalSigma]t};", "PrintAs[frhobc] ^= \
       "SlotsOfTensor[frhobc] ^= {};", 
       "SymmetryGroupOfTensor[frhobc] ^= StrongGenSet[{}, GenSet[]];", 
       "TensorID[frhobc] ^= {};", "xTensorQ[frhobc] ^= True;"}, 
+     {"Dagger[frhob\[FilledCircle]] ^= frhob\[FilledCircle];", 
+      "DefInfo[frhob\[FilledCircle]] ^= {\"scalar function\", \"\"};", "Print\
+As[frhob\[FilledCircle]] ^= \
+\"\\!\\(\\*\\nStyleBox[SubscriptBox[\\nStyleBox[OverscriptBox[\\\"\[Rho]\\\", \
+\\\"~\\\"],\\nFontColor->RGBColor[1, 0, 0]], \
+\\\"b\\\"],\\nFontColor->RGBColor[1, 0, 0]]\\)\";", 
+      "ScalarFunctionQ[frhob\[FilledCircle]] ^= True;"}, 
      {"Dagger[frhob\[FilledSmallCircle]] ^= frhob\[FilledSmallCircle];", 
       "DefInfo[frhob\[FilledSmallCircle]] ^= {\"scalar function\", \"\"};", 
       "PrintAs[frhob\[FilledSmallCircle]] ^= \"frhob\[FilledSmallCircle]\";", 
@@ -12620,61 +12627,61 @@ HoldPattern[RiccigCD[(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
 gCD /: CurvatureRelations[gCD, Riemann] = \
 {HoldPattern[RiemanngCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 -(j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1022, s$1029}, \
-(($RicciSign*RiccigCD[-s$1022, -s$1029])*\[Gamma][i, s$1022])*\[Gamma][k, \
-s$1029]], HoldPattern[RiemanngCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1075, s$1082}, \
+(($RicciSign*RiccigCD[-s$1075, -s$1082])*\[Gamma][i, s$1075])*\[Gamma][k, \
+s$1082]], HoldPattern[RiemanngCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1022, s$1029}, \
-(($RicciSign*RiccigCD[-s$1022, -s$1029])*\[Gamma][i, s$1022])*\[Gamma][k, \
-s$1029]], HoldPattern[RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1075, s$1082}, \
+(($RicciSign*RiccigCD[-s$1075, -s$1082])*\[Gamma][i, s$1075])*\[Gamma][k, \
+s$1082]], HoldPattern[RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1023, s$1030}, \
-((-($RicciSign*RiccigCD[-s$1023, -s$1030]))*\[Gamma][i, s$1023])*\[Gamma][k, \
-s$1030]], HoldPattern[RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1076, s$1083}, \
+((-($RicciSign*RiccigCD[-s$1076, -s$1083]))*\[Gamma][i, s$1076])*\[Gamma][k, \
+s$1083]], HoldPattern[RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1023, s$1030}, \
-((-($RicciSign*RiccigCD[-s$1023, -s$1030]))*\[Gamma][i, s$1023])*\[Gamma][k, \
-s$1030]], HoldPattern[RiemanngCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1076, s$1083}, \
+((-($RicciSign*RiccigCD[-s$1076, -s$1083]))*\[Gamma][i, s$1076])*\[Gamma][k, \
+s$1083]], HoldPattern[RiemanngCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 -(j_Symbol)?Tangent\[CapitalSigma]t`Q, (j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(k_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1024, s$1031}, \
-((-($RicciSign*RiccigCD[-s$1024, -s$1031]))*\[Gamma][i, s$1024])*\[Gamma][k, \
-s$1031]], HoldPattern[RiemanngCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
+(k_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1077, s$1084}, \
+((-($RicciSign*RiccigCD[-s$1077, -s$1084]))*\[Gamma][i, s$1077])*\[Gamma][k, \
+s$1084]], HoldPattern[RiemanngCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(k_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1024, s$1031}, \
-((-($RicciSign*RiccigCD[-s$1024, -s$1031]))*\[Gamma][i, s$1024])*\[Gamma][k, \
-s$1031]], HoldPattern[RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(k_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1077, s$1084}, \
+((-($RicciSign*RiccigCD[-s$1077, -s$1084]))*\[Gamma][i, s$1077])*\[Gamma][k, \
+s$1084]], HoldPattern[RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(k_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1025, s$1032}, \
-(($RicciSign*RiccigCD[-s$1025, -s$1032])*\[Gamma][i, s$1025])*\[Gamma][k, \
-s$1032]], HoldPattern[RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(k_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1078, s$1085}, \
+(($RicciSign*RiccigCD[-s$1078, -s$1085])*\[Gamma][i, s$1078])*\[Gamma][k, \
+s$1085]], HoldPattern[RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(k_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1025, s$1032}, \
-(($RicciSign*RiccigCD[-s$1025, -s$1032])*\[Gamma][i, s$1025])*\[Gamma][k, \
-s$1032]], HoldPattern[RiemanngCD[(k_)?Tangent\[CapitalSigma]t`pmQ, \
+(k_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1078, s$1085}, \
+(($RicciSign*RiccigCD[-s$1078, -s$1085])*\[Gamma][i, s$1078])*\[Gamma][k, \
+s$1085]], HoldPattern[RiemanngCD[(k_)?Tangent\[CapitalSigma]t`pmQ, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(i_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1026, s$1033}, \
-((-($RicciSign*RiccigCD[-s$1026, -s$1033]))*\[Gamma][i, s$1026])*\[Gamma][k, \
-s$1033]], HoldPattern[RiemanngCD[(k_)?Tangent\[CapitalSigma]t`pmQ, \
+(i_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1079, s$1086}, \
+((-($RicciSign*RiccigCD[-s$1079, -s$1086]))*\[Gamma][i, s$1079])*\[Gamma][k, \
+s$1086]], HoldPattern[RiemanngCD[(k_)?Tangent\[CapitalSigma]t`pmQ, \
 -(j_Symbol)?Tangent\[CapitalSigma]t`Q, (j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(i_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1026, s$1033}, \
-((-($RicciSign*RiccigCD[-s$1026, -s$1033]))*\[Gamma][i, s$1026])*\[Gamma][k, \
-s$1033]], HoldPattern[RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(i_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1079, s$1086}, \
+((-($RicciSign*RiccigCD[-s$1079, -s$1086]))*\[Gamma][i, s$1079])*\[Gamma][k, \
+s$1086]], HoldPattern[RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (i_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1027, s$1034}, \
-((-($RicciSign*RiccigCD[-s$1027, -s$1034]))*\[Gamma][i, s$1027])*\[Gamma][k, \
-s$1034]], HoldPattern[RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1080, s$1087}, \
+((-($RicciSign*RiccigCD[-s$1080, -s$1087]))*\[Gamma][i, s$1080])*\[Gamma][k, \
+s$1087]], HoldPattern[RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (i_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1027, s$1034}, \
-((-($RicciSign*RiccigCD[-s$1027, -s$1034]))*\[Gamma][i, s$1027])*\[Gamma][k, \
-s$1034]], HoldPattern[RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1080, s$1087}, \
+((-($RicciSign*RiccigCD[-s$1080, -s$1087]))*\[Gamma][i, s$1080])*\[Gamma][k, \
+s$1087]], HoldPattern[RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(i_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1028, s$1035}, \
-(($RicciSign*RiccigCD[-s$1028, -s$1035])*\[Gamma][i, s$1028])*\[Gamma][k, \
-s$1035]], HoldPattern[RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(i_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1081, s$1088}, \
+(($RicciSign*RiccigCD[-s$1081, -s$1088])*\[Gamma][i, s$1081])*\[Gamma][k, \
+s$1088]], HoldPattern[RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(i_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1028, s$1035}, \
-(($RicciSign*RiccigCD[-s$1028, -s$1035])*\[Gamma][i, s$1028])*\[Gamma][k, \
-s$1035]]};", "DefInfo[gCD] ^= {\"covariant derivative\", \"\"};", "Dependenci\
+(i_)?Tangent\[CapitalSigma]t`pmQ]] :> Module[{s$1081, s$1088}, \
+(($RicciSign*RiccigCD[-s$1081, -s$1088])*\[Gamma][i, s$1081])*\[Gamma][k, \
+s$1088]]};", "DefInfo[gCD] ^= {\"covariant derivative\", \"\"};", "Dependenci\
 esOfCovD[gCD] ^= {f\[Digamma], g\[Digamma], h\[Digamma], t, \
 \[CapitalSigma]t};", "HostsOf[gCD] ^= {\[CapitalSigma]t};", 
       "ManifoldOfCovD[gCD] ^= \[CapitalSigma]t;", 
@@ -12800,22 +12807,22 @@ HoldPattern[Invgback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 RicciScalargCDback[]]};", "gCDback /: CurvatureRelations[gCDback, Riemann] = \
 {HoldPattern[RiemanngCDback[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 -(j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1598, s$1600}, \
-(($RicciSign*RiccigCDback[-s$1598, -s$1600])*\[Gamma][i, s$1598])*\[Gamma][k, \
-s$1600]], HoldPattern[RiemanngCDback[(i_)?Tangent\[CapitalSigma]t`pmQ, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1651, s$1653}, \
+(($RicciSign*RiccigCDback[-s$1651, -s$1653])*\[Gamma][i, s$1651])*\[Gamma][k, \
+s$1653]], HoldPattern[RiemanngCDback[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1598, s$1600}, \
-(($RicciSign*RiccigCDback[-s$1598, -s$1600])*\[Gamma][i, s$1598])*\[Gamma][k, \
-s$1600]], HoldPattern[RiemanngCDback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1651, s$1653}, \
+(($RicciSign*RiccigCDback[-s$1651, -s$1653])*\[Gamma][i, s$1651])*\[Gamma][k, \
+s$1653]], HoldPattern[RiemanngCDback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1599, s$1601}, \
-((-($RicciSign*RiccigCDback[-s$1599, -s$1601]))*\[Gamma][i, \
-s$1599])*\[Gamma][k, s$1601]], \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1652, s$1654}, \
+((-($RicciSign*RiccigCDback[-s$1652, -s$1654]))*\[Gamma][i, \
+s$1652])*\[Gamma][k, s$1654]], \
 HoldPattern[RiemanngCDback[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1599, s$1601}, \
-((-($RicciSign*RiccigCDback[-s$1599, -s$1601]))*\[Gamma][i, \
-s$1599])*\[Gamma][k, s$1601]]};", 
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1652, s$1654}, \
+((-($RicciSign*RiccigCDback[-s$1652, -s$1654]))*\[Gamma][i, \
+s$1652])*\[Gamma][k, s$1654]]};", 
       "DefInfo[gCDback] ^= {\"covariant derivative\", \"\"};", "DependenciesO\
 fCovD[gCDback] ^= {f\[Digamma], g\[Digamma], h\[Digamma], t, \
 \[CapitalSigma]t};", "HostsOf[gCDback] ^= {\[CapitalSigma]t};", 
@@ -14322,21 +14329,21 @@ HoldPattern[Inv\[Gamma]c[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 RicciScalargCDc[]]};", "gCDc /: CurvatureRelations[gCDc, Riemann] = \
 {HoldPattern[RiemanngCDc[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 -(j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1287, s$1289}, \
-(($RicciSign*RiccigCDc[-s$1287, -s$1289])*\[Gamma][i, s$1287])*\[Gamma][k, \
-s$1289]], HoldPattern[RiemanngCDc[(i_)?Tangent\[CapitalSigma]t`pmQ, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1340, s$1342}, \
+(($RicciSign*RiccigCDc[-s$1340, -s$1342])*\[Gamma][i, s$1340])*\[Gamma][k, \
+s$1342]], HoldPattern[RiemanngCDc[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1287, s$1289}, \
-(($RicciSign*RiccigCDc[-s$1287, -s$1289])*\[Gamma][i, s$1287])*\[Gamma][k, \
-s$1289]], HoldPattern[RiemanngCDc[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1340, s$1342}, \
+(($RicciSign*RiccigCDc[-s$1340, -s$1342])*\[Gamma][i, s$1340])*\[Gamma][k, \
+s$1342]], HoldPattern[RiemanngCDc[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1288, s$1290}, \
-((-($RicciSign*RiccigCDc[-s$1288, -s$1290]))*\[Gamma][i, s$1288])*\[Gamma][k, \
-s$1290]], HoldPattern[RiemanngCDc[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1341, s$1343}, \
+((-($RicciSign*RiccigCDc[-s$1341, -s$1343]))*\[Gamma][i, s$1341])*\[Gamma][k, \
+s$1343]], HoldPattern[RiemanngCDc[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1288, s$1290}, \
-((-($RicciSign*RiccigCDc[-s$1288, -s$1290]))*\[Gamma][i, s$1288])*\[Gamma][k, \
-s$1290]]};", "DefInfo[gCDc] ^= {\"covariant derivative\", \"\"};", "Dependenc\
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$1341, s$1343}, \
+((-($RicciSign*RiccigCDc[-s$1341, -s$1343]))*\[Gamma][i, s$1341])*\[Gamma][k, \
+s$1343]]};", "DefInfo[gCDc] ^= {\"covariant derivative\", \"\"};", "Dependenc\
 iesOfCovD[gCDc] ^= {f\[Digamma], g\[Digamma], h\[Digamma], t, \
 \[CapitalSigma]t};", "HostsOf[gCDc] ^= {\[CapitalSigma]t};", 
       "ManifoldOfCovD[gCDc] ^= \[CapitalSigma]t;", 
@@ -18451,6 +18458,12 @@ g\[Digamma], h\[Digamma], t, \[CapitalSigma]t};", "PrintAs[grhobc] ^= \
       "SlotsOfTensor[grhobc] ^= {};", 
       "SymmetryGroupOfTensor[grhobc] ^= StrongGenSet[{}, GenSet[]];", 
       "TensorID[grhobc] ^= {};", "xTensorQ[grhobc] ^= True;"}, 
+     {"Dagger[grhob\[FilledCircle]] ^= grhob\[FilledCircle];", 
+      "DefInfo[grhob\[FilledCircle]] ^= {\"scalar function\", \"\"};", "Print\
+As[grhob\[FilledCircle]] ^= \
+\"\\!\\(\\*\\nStyleBox[SubscriptBox[\\nStyleBox[\\\"\[Rho]\\\",\\nFontColor->\
+RGBColor[0, 0, 1]], \\\"b\\\"],\\nFontColor->RGBColor[0, 0, 1]]\\)\";", 
+      "ScalarFunctionQ[grhob\[FilledCircle]] ^= True;"}, 
      {"Dagger[grhob\[FilledSmallCircle]] ^= grhob\[FilledSmallCircle];", 
       "DefInfo[grhob\[FilledSmallCircle]] ^= {\"scalar function\", \"\"};", 
       "PrintAs[grhob\[FilledSmallCircle]] ^= \"grhob\[FilledSmallCircle]\";", 
@@ -18807,22 +18820,22 @@ HoldPattern[Invhback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 RicciScalarhCDback[]]};", "hCDback /: CurvatureRelations[hCDback, Riemann] = \
 {HoldPattern[RiemannhCDback[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 -(j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3432, s$3434}, \
-(($RicciSign*RiccihCDback[-s$3432, -s$3434])*\[Gamma][i, s$3432])*\[Gamma][k, \
-s$3434]], HoldPattern[RiemannhCDback[(i_)?Tangent\[CapitalSigma]t`pmQ, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3485, s$3487}, \
+(($RicciSign*RiccihCDback[-s$3485, -s$3487])*\[Gamma][i, s$3485])*\[Gamma][k, \
+s$3487]], HoldPattern[RiemannhCDback[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3432, s$3434}, \
-(($RicciSign*RiccihCDback[-s$3432, -s$3434])*\[Gamma][i, s$3432])*\[Gamma][k, \
-s$3434]], HoldPattern[RiemannhCDback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3485, s$3487}, \
+(($RicciSign*RiccihCDback[-s$3485, -s$3487])*\[Gamma][i, s$3485])*\[Gamma][k, \
+s$3487]], HoldPattern[RiemannhCDback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3433, s$3435}, \
-((-($RicciSign*RiccihCDback[-s$3433, -s$3435]))*\[Gamma][i, \
-s$3433])*\[Gamma][k, s$3435]], \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3486, s$3488}, \
+((-($RicciSign*RiccihCDback[-s$3486, -s$3488]))*\[Gamma][i, \
+s$3486])*\[Gamma][k, s$3488]], \
 HoldPattern[RiemannhCDback[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3433, s$3435}, \
-((-($RicciSign*RiccihCDback[-s$3433, -s$3435]))*\[Gamma][i, \
-s$3433])*\[Gamma][k, s$3435]]};", 
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3486, s$3488}, \
+((-($RicciSign*RiccihCDback[-s$3486, -s$3488]))*\[Gamma][i, \
+s$3486])*\[Gamma][k, s$3488]]};", 
       "DefInfo[hCDback] ^= {\"covariant derivative\", \"\"};", "DependenciesO\
 fCovD[hCDback] ^= {f\[Digamma], g\[Digamma], h\[Digamma], t, \
 \[CapitalSigma]t};", "HostsOf[hCDback] ^= {\[CapitalSigma]t};", 
@@ -20552,35 +20565,35 @@ xAct`xTensor`Private`c];", "Invfback /: \
 Invfback[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*fCDback[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][EinsteinfCDback[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2547, s$2548, s$2549, \
-s$2550}, $TorsionSign*Invfback[s$2547, s$2548]*RiccifCDback[-s$2549, \
--s$2547]*TorsionfCDback[s$2549, -i, -s$2548] - \
-($TorsionSign*$RicciSign*Invfback[s$2547, s$2548]*RiemannfCDback[-i, -s$2549, \
--s$2547, s$2550]*TorsionfCDback[s$2549, -s$2548, -s$2550])/2];", "Invfback /: \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2600, s$2601, s$2602, \
+s$2603}, $TorsionSign*Invfback[s$2600, s$2601]*RiccifCDback[-s$2602, \
+-s$2600]*TorsionfCDback[s$2602, -i, -s$2601] - \
+($TorsionSign*$RicciSign*Invfback[s$2600, s$2601]*RiemannfCDback[-i, -s$2602, \
+-s$2600, s$2603]*TorsionfCDback[s$2602, -s$2601, -s$2603])/2];", "Invfback /: \
 Invfback[(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*fCDback[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][EinsteinfCDback[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2547, s$2548, s$2549, \
-s$2550}, $TorsionSign*Invfback[s$2547, s$2548]*RiccifCDback[-s$2549, \
--s$2547]*TorsionfCDback[s$2549, -i, -s$2548] - \
-($TorsionSign*$RicciSign*Invfback[s$2547, s$2548]*RiemannfCDback[-i, -s$2549, \
--s$2547, s$2550]*TorsionfCDback[s$2549, -s$2548, -s$2550])/2];", "Invfback /: \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2600, s$2601, s$2602, \
+s$2603}, $TorsionSign*Invfback[s$2600, s$2601]*RiccifCDback[-s$2602, \
+-s$2600]*TorsionfCDback[s$2602, -i, -s$2601] - \
+($TorsionSign*$RicciSign*Invfback[s$2600, s$2601]*RiemannfCDback[-i, -s$2602, \
+-s$2600, s$2603]*TorsionfCDback[s$2602, -s$2601, -s$2603])/2];", "Invfback /: \
 Invfback[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*fCDback[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][EinsteinfCDback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2547, s$2548, s$2549, \
-s$2550}, $TorsionSign*Invfback[s$2547, s$2548]*RiccifCDback[-s$2549, \
--s$2547]*TorsionfCDback[s$2549, -i, -s$2548] - \
-($TorsionSign*$RicciSign*Invfback[s$2547, s$2548]*RiemannfCDback[-i, -s$2549, \
--s$2547, s$2550]*TorsionfCDback[s$2549, -s$2548, -s$2550])/2];", "Invfback /: \
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2600, s$2601, s$2602, \
+s$2603}, $TorsionSign*Invfback[s$2600, s$2601]*RiccifCDback[-s$2602, \
+-s$2600]*TorsionfCDback[s$2602, -i, -s$2601] - \
+($TorsionSign*$RicciSign*Invfback[s$2600, s$2601]*RiemannfCDback[-i, -s$2602, \
+-s$2600, s$2603]*TorsionfCDback[s$2602, -s$2601, -s$2603])/2];", "Invfback /: \
 Invfback[(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*fCDback[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][EinsteinfCDback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2547, s$2548, s$2549, \
-s$2550}, $TorsionSign*Invfback[s$2547, s$2548]*RiccifCDback[-s$2549, \
--s$2547]*TorsionfCDback[s$2549, -i, -s$2548] - \
-($TorsionSign*$RicciSign*Invfback[s$2547, s$2548]*RiemannfCDback[-i, -s$2549, \
--s$2547, s$2550]*TorsionfCDback[s$2549, -s$2548, -s$2550])/2];", "HoldPattern\
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2600, s$2601, s$2602, \
+s$2603}, $TorsionSign*Invfback[s$2600, s$2601]*RiccifCDback[-s$2602, \
+-s$2600]*TorsionfCDback[s$2602, -i, -s$2601] - \
+($TorsionSign*$RicciSign*Invfback[s$2600, s$2601]*RiemannfCDback[-i, -s$2602, \
+-s$2600, s$2603]*TorsionfCDback[s$2602, -s$2601, -s$2603])/2];", "HoldPattern\
 [(xAct`xTensor`Private`der$_)?FirstDerQ[Invfback[(xAct`xTensor`Private`b$_)?T\
 angent\[CapitalSigma]t`Q, \
 (xAct`xTensor`Private`c$_)?Tangent\[CapitalSigma]t`Q]]] ^:= \
@@ -20620,35 +20633,35 @@ xAct`xTensor`Private`c];", "Invgback /: \
 Invgback[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*gCDback[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][EinsteingCDback[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1626, s$1627, s$1628, \
-s$1629}, $TorsionSign*Invgback[s$1626, s$1627]*RiccigCDback[-s$1628, \
--s$1626]*TorsiongCDback[s$1628, -i, -s$1627] - \
-($TorsionSign*$RicciSign*Invgback[s$1626, s$1627]*RiemanngCDback[-i, -s$1628, \
--s$1626, s$1629]*TorsiongCDback[s$1628, -s$1627, -s$1629])/2];", "Invgback /: \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1679, s$1680, s$1681, \
+s$1682}, $TorsionSign*Invgback[s$1679, s$1680]*RiccigCDback[-s$1681, \
+-s$1679]*TorsiongCDback[s$1681, -i, -s$1680] - \
+($TorsionSign*$RicciSign*Invgback[s$1679, s$1680]*RiemanngCDback[-i, -s$1681, \
+-s$1679, s$1682]*TorsiongCDback[s$1681, -s$1680, -s$1682])/2];", "Invgback /: \
 Invgback[(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*gCDback[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][EinsteingCDback[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1626, s$1627, s$1628, \
-s$1629}, $TorsionSign*Invgback[s$1626, s$1627]*RiccigCDback[-s$1628, \
--s$1626]*TorsiongCDback[s$1628, -i, -s$1627] - \
-($TorsionSign*$RicciSign*Invgback[s$1626, s$1627]*RiemanngCDback[-i, -s$1628, \
--s$1626, s$1629]*TorsiongCDback[s$1628, -s$1627, -s$1629])/2];", "Invgback /: \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1679, s$1680, s$1681, \
+s$1682}, $TorsionSign*Invgback[s$1679, s$1680]*RiccigCDback[-s$1681, \
+-s$1679]*TorsiongCDback[s$1681, -i, -s$1680] - \
+($TorsionSign*$RicciSign*Invgback[s$1679, s$1680]*RiemanngCDback[-i, -s$1681, \
+-s$1679, s$1682]*TorsiongCDback[s$1681, -s$1680, -s$1682])/2];", "Invgback /: \
 Invgback[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*gCDback[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][EinsteingCDback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1626, s$1627, s$1628, \
-s$1629}, $TorsionSign*Invgback[s$1626, s$1627]*RiccigCDback[-s$1628, \
--s$1626]*TorsiongCDback[s$1628, -i, -s$1627] - \
-($TorsionSign*$RicciSign*Invgback[s$1626, s$1627]*RiemanngCDback[-i, -s$1628, \
--s$1626, s$1629]*TorsiongCDback[s$1628, -s$1627, -s$1629])/2];", "Invgback /: \
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1679, s$1680, s$1681, \
+s$1682}, $TorsionSign*Invgback[s$1679, s$1680]*RiccigCDback[-s$1681, \
+-s$1679]*TorsiongCDback[s$1681, -i, -s$1680] - \
+($TorsionSign*$RicciSign*Invgback[s$1679, s$1680]*RiemanngCDback[-i, -s$1681, \
+-s$1679, s$1682]*TorsiongCDback[s$1681, -s$1680, -s$1682])/2];", "Invgback /: \
 Invgback[(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*gCDback[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][EinsteingCDback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1626, s$1627, s$1628, \
-s$1629}, $TorsionSign*Invgback[s$1626, s$1627]*RiccigCDback[-s$1628, \
--s$1626]*TorsiongCDback[s$1628, -i, -s$1627] - \
-($TorsionSign*$RicciSign*Invgback[s$1626, s$1627]*RiemanngCDback[-i, -s$1628, \
--s$1626, s$1629]*TorsiongCDback[s$1628, -s$1627, -s$1629])/2];", "HoldPattern\
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1679, s$1680, s$1681, \
+s$1682}, $TorsionSign*Invgback[s$1679, s$1680]*RiccigCDback[-s$1681, \
+-s$1679]*TorsiongCDback[s$1681, -i, -s$1680] - \
+($TorsionSign*$RicciSign*Invgback[s$1679, s$1680]*RiemanngCDback[-i, -s$1681, \
+-s$1679, s$1682]*TorsiongCDback[s$1681, -s$1680, -s$1682])/2];", "HoldPattern\
 [(xAct`xTensor`Private`der$_)?FirstDerQ[Invgback[(xAct`xTensor`Private`b$_)?T\
 angent\[CapitalSigma]t`Q, \
 (xAct`xTensor`Private`c$_)?Tangent\[CapitalSigma]t`Q]]] ^:= \
@@ -20688,35 +20701,35 @@ xAct`xTensor`Private`c];", "Invhback /: \
 Invhback[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*hCDback[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][EinsteinhCDback[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3460, s$3461, s$3462, \
-s$3463}, $TorsionSign*Invhback[s$3460, s$3461]*RiccihCDback[-s$3462, \
--s$3460]*TorsionhCDback[s$3462, -i, -s$3461] - \
-($TorsionSign*$RicciSign*Invhback[s$3460, s$3461]*RiemannhCDback[-i, -s$3462, \
--s$3460, s$3463]*TorsionhCDback[s$3462, -s$3461, -s$3463])/2];", "Invhback /: \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3513, s$3514, s$3515, \
+s$3516}, $TorsionSign*Invhback[s$3513, s$3514]*RiccihCDback[-s$3515, \
+-s$3513]*TorsionhCDback[s$3515, -i, -s$3514] - \
+($TorsionSign*$RicciSign*Invhback[s$3513, s$3514]*RiemannhCDback[-i, -s$3515, \
+-s$3513, s$3516]*TorsionhCDback[s$3515, -s$3514, -s$3516])/2];", "Invhback /: \
 Invhback[(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*hCDback[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][EinsteinhCDback[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3460, s$3461, s$3462, \
-s$3463}, $TorsionSign*Invhback[s$3460, s$3461]*RiccihCDback[-s$3462, \
--s$3460]*TorsionhCDback[s$3462, -i, -s$3461] - \
-($TorsionSign*$RicciSign*Invhback[s$3460, s$3461]*RiemannhCDback[-i, -s$3462, \
--s$3460, s$3463]*TorsionhCDback[s$3462, -s$3461, -s$3463])/2];", "Invhback /: \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3513, s$3514, s$3515, \
+s$3516}, $TorsionSign*Invhback[s$3513, s$3514]*RiccihCDback[-s$3515, \
+-s$3513]*TorsionhCDback[s$3515, -i, -s$3514] - \
+($TorsionSign*$RicciSign*Invhback[s$3513, s$3514]*RiemannhCDback[-i, -s$3515, \
+-s$3513, s$3516]*TorsionhCDback[s$3515, -s$3514, -s$3516])/2];", "Invhback /: \
 Invhback[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*hCDback[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][EinsteinhCDback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3460, s$3461, s$3462, \
-s$3463}, $TorsionSign*Invhback[s$3460, s$3461]*RiccihCDback[-s$3462, \
--s$3460]*TorsionhCDback[s$3462, -i, -s$3461] - \
-($TorsionSign*$RicciSign*Invhback[s$3460, s$3461]*RiemannhCDback[-i, -s$3462, \
--s$3460, s$3463]*TorsionhCDback[s$3462, -s$3461, -s$3463])/2];", "Invhback /: \
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3513, s$3514, s$3515, \
+s$3516}, $TorsionSign*Invhback[s$3513, s$3514]*RiccihCDback[-s$3515, \
+-s$3513]*TorsionhCDback[s$3515, -i, -s$3514] - \
+($TorsionSign*$RicciSign*Invhback[s$3513, s$3514]*RiemannhCDback[-i, -s$3515, \
+-s$3513, s$3516]*TorsionhCDback[s$3515, -s$3514, -s$3516])/2];", "Invhback /: \
 Invhback[(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*hCDback[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][EinsteinhCDback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3460, s$3461, s$3462, \
-s$3463}, $TorsionSign*Invhback[s$3460, s$3461]*RiccihCDback[-s$3462, \
--s$3460]*TorsionhCDback[s$3462, -i, -s$3461] - \
-($TorsionSign*$RicciSign*Invhback[s$3460, s$3461]*RiemannhCDback[-i, -s$3462, \
--s$3460, s$3463]*TorsionhCDback[s$3462, -s$3461, -s$3463])/2];", "HoldPattern\
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3513, s$3514, s$3515, \
+s$3516}, $TorsionSign*Invhback[s$3513, s$3514]*RiccihCDback[-s$3515, \
+-s$3513]*TorsionhCDback[s$3515, -i, -s$3514] - \
+($TorsionSign*$RicciSign*Invhback[s$3513, s$3514]*RiemannhCDback[-i, -s$3515, \
+-s$3513, s$3516]*TorsionhCDback[s$3515, -s$3514, -s$3516])/2];", "HoldPattern\
 [(xAct`xTensor`Private`der$_)?FirstDerQ[Invhback[(xAct`xTensor`Private`b$_)?T\
 angent\[CapitalSigma]t`Q, \
 (xAct`xTensor`Private`c$_)?Tangent\[CapitalSigma]t`Q]]] ^:= \
@@ -21131,35 +21144,35 @@ delta[-xAct`xTensor`Private`a, xAct`xTensor`Private`c];", "Inv\[Gamma]c /: \
 Inv\[Gamma]c[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*gCDc[-(k_Symbol)?Tangent\[CapitalSigma]\
 t`Q][EinsteingCDc[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1315, s$1316, s$1317, \
-s$1318}, $TorsionSign*Inv\[Gamma]c[s$1315, s$1316]*RiccigCDc[-s$1317, \
--s$1315]*TorsiongCDc[s$1317, -i, -s$1316] - \
-($TorsionSign*$RicciSign*Inv\[Gamma]c[s$1315, s$1316]*RiemanngCDc[-i, \
--s$1317, -s$1315, s$1318]*TorsiongCDc[s$1317, -s$1316, -s$1318])/2];", "Inv\
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1368, s$1369, s$1370, \
+s$1371}, $TorsionSign*Inv\[Gamma]c[s$1368, s$1369]*RiccigCDc[-s$1370, \
+-s$1368]*TorsiongCDc[s$1370, -i, -s$1369] - \
+($TorsionSign*$RicciSign*Inv\[Gamma]c[s$1368, s$1369]*RiemanngCDc[-i, \
+-s$1370, -s$1368, s$1371]*TorsiongCDc[s$1370, -s$1369, -s$1371])/2];", "Inv\
 \[Gamma]c /: Inv\[Gamma]c[(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*gCDc[-(k_Symbol)?Tangent\[CapitalSigma]\
 t`Q][EinsteingCDc[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1315, s$1316, s$1317, \
-s$1318}, $TorsionSign*Inv\[Gamma]c[s$1315, s$1316]*RiccigCDc[-s$1317, \
--s$1315]*TorsiongCDc[s$1317, -i, -s$1316] - \
-($TorsionSign*$RicciSign*Inv\[Gamma]c[s$1315, s$1316]*RiemanngCDc[-i, \
--s$1317, -s$1315, s$1318]*TorsiongCDc[s$1317, -s$1316, -s$1318])/2];", "Inv\
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1368, s$1369, s$1370, \
+s$1371}, $TorsionSign*Inv\[Gamma]c[s$1368, s$1369]*RiccigCDc[-s$1370, \
+-s$1368]*TorsiongCDc[s$1370, -i, -s$1369] - \
+($TorsionSign*$RicciSign*Inv\[Gamma]c[s$1368, s$1369]*RiemanngCDc[-i, \
+-s$1370, -s$1368, s$1371]*TorsiongCDc[s$1370, -s$1369, -s$1371])/2];", "Inv\
 \[Gamma]c /: Inv\[Gamma]c[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*gCDc[-(k_Symbol)?Tangent\[CapitalSigma]\
 t`Q][EinsteingCDc[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1315, s$1316, s$1317, \
-s$1318}, $TorsionSign*Inv\[Gamma]c[s$1315, s$1316]*RiccigCDc[-s$1317, \
--s$1315]*TorsiongCDc[s$1317, -i, -s$1316] - \
-($TorsionSign*$RicciSign*Inv\[Gamma]c[s$1315, s$1316]*RiemanngCDc[-i, \
--s$1317, -s$1315, s$1318]*TorsiongCDc[s$1317, -s$1316, -s$1318])/2];", "Inv\
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1368, s$1369, s$1370, \
+s$1371}, $TorsionSign*Inv\[Gamma]c[s$1368, s$1369]*RiccigCDc[-s$1370, \
+-s$1368]*TorsiongCDc[s$1370, -i, -s$1369] - \
+($TorsionSign*$RicciSign*Inv\[Gamma]c[s$1368, s$1369]*RiemanngCDc[-i, \
+-s$1370, -s$1368, s$1371]*TorsiongCDc[s$1370, -s$1369, -s$1371])/2];", "Inv\
 \[Gamma]c /: Inv\[Gamma]c[(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*gCDc[-(k_Symbol)?Tangent\[CapitalSigma]\
 t`Q][EinsteingCDc[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1315, s$1316, s$1317, \
-s$1318}, $TorsionSign*Inv\[Gamma]c[s$1315, s$1316]*RiccigCDc[-s$1317, \
--s$1315]*TorsiongCDc[s$1317, -i, -s$1316] - \
-($TorsionSign*$RicciSign*Inv\[Gamma]c[s$1315, s$1316]*RiemanngCDc[-i, \
--s$1317, -s$1315, s$1318]*TorsiongCDc[s$1317, -s$1316, -s$1318])/2];", "HoldP\
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1368, s$1369, s$1370, \
+s$1371}, $TorsionSign*Inv\[Gamma]c[s$1368, s$1369]*RiccigCDc[-s$1370, \
+-s$1368]*TorsiongCDc[s$1370, -i, -s$1369] - \
+($TorsionSign*$RicciSign*Inv\[Gamma]c[s$1368, s$1369]*RiemanngCDc[-i, \
+-s$1370, -s$1368, s$1371]*TorsiongCDc[s$1370, -s$1369, -s$1371])/2];", "HoldP\
 attern[(xAct`xTensor`Private`der$_)?FirstDerQ[Inv\[Gamma]c[(xAct`xTensor`Priv\
 ate`b$_)?Tangent\[CapitalSigma]t`Q, \
 (xAct`xTensor`Private`c$_)?Tangent\[CapitalSigma]t`Q]]] ^:= \
@@ -21484,35 +21497,35 @@ delta[-xAct`xTensor`Private`a, xAct`xTensor`Private`c];", "Inv\[CurlyPhi] /: \
 Inv\[CurlyPhi][(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*fCD[-(k_Symbol)?Tangent\[CapitalSigma]t\
 `Q][EinsteinfCD[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1977, s$1978, s$1979, \
-s$1980}, $TorsionSign*Inv\[CurlyPhi][s$1977, s$1978]*RiccifCD[-s$1979, \
--s$1977]*TorsionfCD[s$1979, -i, -s$1978] - \
-($TorsionSign*$RicciSign*Inv\[CurlyPhi][s$1977, s$1978]*RiemannfCD[-i, \
--s$1979, -s$1977, s$1980]*TorsionfCD[s$1979, -s$1978, -s$1980])/2];", "Inv\
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2030, s$2031, s$2032, \
+s$2033}, $TorsionSign*Inv\[CurlyPhi][s$2030, s$2031]*RiccifCD[-s$2032, \
+-s$2030]*TorsionfCD[s$2032, -i, -s$2031] - \
+($TorsionSign*$RicciSign*Inv\[CurlyPhi][s$2030, s$2031]*RiemannfCD[-i, \
+-s$2032, -s$2030, s$2033]*TorsionfCD[s$2032, -s$2031, -s$2033])/2];", "Inv\
 \[CurlyPhi] /: Inv\[CurlyPhi][(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*fCD[-(k_Symbol)?Tangent\[CapitalSigma]t\
 `Q][EinsteinfCD[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1977, s$1978, s$1979, \
-s$1980}, $TorsionSign*Inv\[CurlyPhi][s$1977, s$1978]*RiccifCD[-s$1979, \
--s$1977]*TorsionfCD[s$1979, -i, -s$1978] - \
-($TorsionSign*$RicciSign*Inv\[CurlyPhi][s$1977, s$1978]*RiemannfCD[-i, \
--s$1979, -s$1977, s$1980]*TorsionfCD[s$1979, -s$1978, -s$1980])/2];", "Inv\
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2030, s$2031, s$2032, \
+s$2033}, $TorsionSign*Inv\[CurlyPhi][s$2030, s$2031]*RiccifCD[-s$2032, \
+-s$2030]*TorsionfCD[s$2032, -i, -s$2031] - \
+($TorsionSign*$RicciSign*Inv\[CurlyPhi][s$2030, s$2031]*RiemannfCD[-i, \
+-s$2032, -s$2030, s$2033]*TorsionfCD[s$2032, -s$2031, -s$2033])/2];", "Inv\
 \[CurlyPhi] /: Inv\[CurlyPhi][(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*fCD[-(k_Symbol)?Tangent\[CapitalSigma]t\
 `Q][EinsteinfCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1977, s$1978, s$1979, \
-s$1980}, $TorsionSign*Inv\[CurlyPhi][s$1977, s$1978]*RiccifCD[-s$1979, \
--s$1977]*TorsionfCD[s$1979, -i, -s$1978] - \
-($TorsionSign*$RicciSign*Inv\[CurlyPhi][s$1977, s$1978]*RiemannfCD[-i, \
--s$1979, -s$1977, s$1980]*TorsionfCD[s$1979, -s$1978, -s$1980])/2];", "Inv\
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2030, s$2031, s$2032, \
+s$2033}, $TorsionSign*Inv\[CurlyPhi][s$2030, s$2031]*RiccifCD[-s$2032, \
+-s$2030]*TorsionfCD[s$2032, -i, -s$2031] - \
+($TorsionSign*$RicciSign*Inv\[CurlyPhi][s$2030, s$2031]*RiemannfCD[-i, \
+-s$2032, -s$2030, s$2033]*TorsionfCD[s$2032, -s$2031, -s$2033])/2];", "Inv\
 \[CurlyPhi] /: Inv\[CurlyPhi][(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*fCD[-(k_Symbol)?Tangent\[CapitalSigma]t\
 `Q][EinsteinfCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1977, s$1978, s$1979, \
-s$1980}, $TorsionSign*Inv\[CurlyPhi][s$1977, s$1978]*RiccifCD[-s$1979, \
--s$1977]*TorsionfCD[s$1979, -i, -s$1978] - \
-($TorsionSign*$RicciSign*Inv\[CurlyPhi][s$1977, s$1978]*RiemannfCD[-i, \
--s$1979, -s$1977, s$1980]*TorsionfCD[s$1979, -s$1978, -s$1980])/2];", "HoldPa\
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2030, s$2031, s$2032, \
+s$2033}, $TorsionSign*Inv\[CurlyPhi][s$2030, s$2031]*RiccifCD[-s$2032, \
+-s$2030]*TorsionfCD[s$2032, -i, -s$2031] - \
+($TorsionSign*$RicciSign*Inv\[CurlyPhi][s$2030, s$2031]*RiemannfCD[-i, \
+-s$2032, -s$2030, s$2033]*TorsionfCD[s$2032, -s$2031, -s$2033])/2];", "HoldPa\
 ttern[(xAct`xTensor`Private`der$_)?FirstDerQ[Inv\[CurlyPhi][(xAct`xTensor`Pri\
 vate`b$_)?Tangent\[CapitalSigma]t`Q, \
 (xAct`xTensor`Private`c$_)?Tangent\[CapitalSigma]t`Q]]] ^:= \
@@ -21676,35 +21689,35 @@ delta[-xAct`xTensor`Private`a, xAct`xTensor`Private`c];", "Inv\[CurlyPhi]c /: \
 Inv\[CurlyPhi]c[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*fCDc[-(k_Symbol)?Tangent\[CapitalSigma]\
 t`Q][EinsteinfCDc[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2236, s$2237, s$2238, \
-s$2239}, $TorsionSign*Inv\[CurlyPhi]c[s$2236, s$2237]*RiccifCDc[-s$2238, \
--s$2236]*TorsionfCDc[s$2238, -i, -s$2237] - \
-($TorsionSign*$RicciSign*Inv\[CurlyPhi]c[s$2236, s$2237]*RiemannfCDc[-i, \
--s$2238, -s$2236, s$2239]*TorsionfCDc[s$2238, -s$2237, -s$2239])/2];", "Inv\
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2289, s$2290, s$2291, \
+s$2292}, $TorsionSign*Inv\[CurlyPhi]c[s$2289, s$2290]*RiccifCDc[-s$2291, \
+-s$2289]*TorsionfCDc[s$2291, -i, -s$2290] - \
+($TorsionSign*$RicciSign*Inv\[CurlyPhi]c[s$2289, s$2290]*RiemannfCDc[-i, \
+-s$2291, -s$2289, s$2292]*TorsionfCDc[s$2291, -s$2290, -s$2292])/2];", "Inv\
 \[CurlyPhi]c /: Inv\[CurlyPhi]c[(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*fCDc[-(k_Symbol)?Tangent\[CapitalSigma]\
 t`Q][EinsteinfCDc[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2236, s$2237, s$2238, \
-s$2239}, $TorsionSign*Inv\[CurlyPhi]c[s$2236, s$2237]*RiccifCDc[-s$2238, \
--s$2236]*TorsionfCDc[s$2238, -i, -s$2237] - \
-($TorsionSign*$RicciSign*Inv\[CurlyPhi]c[s$2236, s$2237]*RiemannfCDc[-i, \
--s$2238, -s$2236, s$2239]*TorsionfCDc[s$2238, -s$2237, -s$2239])/2];", "Inv\
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2289, s$2290, s$2291, \
+s$2292}, $TorsionSign*Inv\[CurlyPhi]c[s$2289, s$2290]*RiccifCDc[-s$2291, \
+-s$2289]*TorsionfCDc[s$2291, -i, -s$2290] - \
+($TorsionSign*$RicciSign*Inv\[CurlyPhi]c[s$2289, s$2290]*RiemannfCDc[-i, \
+-s$2291, -s$2289, s$2292]*TorsionfCDc[s$2291, -s$2290, -s$2292])/2];", "Inv\
 \[CurlyPhi]c /: Inv\[CurlyPhi]c[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*fCDc[-(k_Symbol)?Tangent\[CapitalSigma]\
 t`Q][EinsteinfCDc[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2236, s$2237, s$2238, \
-s$2239}, $TorsionSign*Inv\[CurlyPhi]c[s$2236, s$2237]*RiccifCDc[-s$2238, \
--s$2236]*TorsionfCDc[s$2238, -i, -s$2237] - \
-($TorsionSign*$RicciSign*Inv\[CurlyPhi]c[s$2236, s$2237]*RiemannfCDc[-i, \
--s$2238, -s$2236, s$2239]*TorsionfCDc[s$2238, -s$2237, -s$2239])/2];", "Inv\
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2289, s$2290, s$2291, \
+s$2292}, $TorsionSign*Inv\[CurlyPhi]c[s$2289, s$2290]*RiccifCDc[-s$2291, \
+-s$2289]*TorsionfCDc[s$2291, -i, -s$2290] - \
+($TorsionSign*$RicciSign*Inv\[CurlyPhi]c[s$2289, s$2290]*RiemannfCDc[-i, \
+-s$2291, -s$2289, s$2292]*TorsionfCDc[s$2291, -s$2290, -s$2292])/2];", "Inv\
 \[CurlyPhi]c /: Inv\[CurlyPhi]c[(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*fCDc[-(k_Symbol)?Tangent\[CapitalSigma]\
 t`Q][EinsteinfCDc[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2236, s$2237, s$2238, \
-s$2239}, $TorsionSign*Inv\[CurlyPhi]c[s$2236, s$2237]*RiccifCDc[-s$2238, \
--s$2236]*TorsionfCDc[s$2238, -i, -s$2237] - \
-($TorsionSign*$RicciSign*Inv\[CurlyPhi]c[s$2236, s$2237]*RiemannfCDc[-i, \
--s$2238, -s$2236, s$2239]*TorsionfCDc[s$2238, -s$2237, -s$2239])/2];", "HoldP\
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2289, s$2290, s$2291, \
+s$2292}, $TorsionSign*Inv\[CurlyPhi]c[s$2289, s$2290]*RiccifCDc[-s$2291, \
+-s$2289]*TorsionfCDc[s$2291, -i, -s$2290] - \
+($TorsionSign*$RicciSign*Inv\[CurlyPhi]c[s$2289, s$2290]*RiemannfCDc[-i, \
+-s$2291, -s$2289, s$2292]*TorsionfCDc[s$2291, -s$2290, -s$2292])/2];", "HoldP\
 attern[(xAct`xTensor`Private`der$_)?FirstDerQ[Inv\[CurlyPhi]c[(xAct`xTensor`P\
 rivate`b$_)?Tangent\[CapitalSigma]t`Q, \
 (xAct`xTensor`Private`c$_)?Tangent\[CapitalSigma]t`Q]]] ^:= \
@@ -21888,35 +21901,35 @@ delta[-xAct`xTensor`Private`a, xAct`xTensor`Private`c];", "Inv\[Chi] /: \
 Inv\[Chi][(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*\[Chi]CD[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][Einstein\[Chi]CD[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2914, s$2915, s$2916, \
-s$2917}, $TorsionSign*Inv\[Chi][s$2914, s$2915]*Ricci\[Chi]CD[-s$2916, \
--s$2914]*Torsion\[Chi]CD[s$2916, -i, -s$2915] - \
-($TorsionSign*$RicciSign*Inv\[Chi][s$2914, s$2915]*Riemann\[Chi]CD[-i, \
--s$2916, -s$2914, s$2917]*Torsion\[Chi]CD[s$2916, -s$2915, -s$2917])/2];", "I\
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2967, s$2968, s$2969, \
+s$2970}, $TorsionSign*Inv\[Chi][s$2967, s$2968]*Ricci\[Chi]CD[-s$2969, \
+-s$2967]*Torsion\[Chi]CD[s$2969, -i, -s$2968] - \
+($TorsionSign*$RicciSign*Inv\[Chi][s$2967, s$2968]*Riemann\[Chi]CD[-i, \
+-s$2969, -s$2967, s$2970]*Torsion\[Chi]CD[s$2969, -s$2968, -s$2970])/2];", "I\
 nv\[Chi] /: Inv\[Chi][(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*\[Chi]CD[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][Einstein\[Chi]CD[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2914, s$2915, s$2916, \
-s$2917}, $TorsionSign*Inv\[Chi][s$2914, s$2915]*Ricci\[Chi]CD[-s$2916, \
--s$2914]*Torsion\[Chi]CD[s$2916, -i, -s$2915] - \
-($TorsionSign*$RicciSign*Inv\[Chi][s$2914, s$2915]*Riemann\[Chi]CD[-i, \
--s$2916, -s$2914, s$2917]*Torsion\[Chi]CD[s$2916, -s$2915, -s$2917])/2];", "I\
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2967, s$2968, s$2969, \
+s$2970}, $TorsionSign*Inv\[Chi][s$2967, s$2968]*Ricci\[Chi]CD[-s$2969, \
+-s$2967]*Torsion\[Chi]CD[s$2969, -i, -s$2968] - \
+($TorsionSign*$RicciSign*Inv\[Chi][s$2967, s$2968]*Riemann\[Chi]CD[-i, \
+-s$2969, -s$2967, s$2970]*Torsion\[Chi]CD[s$2969, -s$2968, -s$2970])/2];", "I\
 nv\[Chi] /: Inv\[Chi][(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*\[Chi]CD[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][Einstein\[Chi]CD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2914, s$2915, s$2916, \
-s$2917}, $TorsionSign*Inv\[Chi][s$2914, s$2915]*Ricci\[Chi]CD[-s$2916, \
--s$2914]*Torsion\[Chi]CD[s$2916, -i, -s$2915] - \
-($TorsionSign*$RicciSign*Inv\[Chi][s$2914, s$2915]*Riemann\[Chi]CD[-i, \
--s$2916, -s$2914, s$2917]*Torsion\[Chi]CD[s$2916, -s$2915, -s$2917])/2];", "I\
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2967, s$2968, s$2969, \
+s$2970}, $TorsionSign*Inv\[Chi][s$2967, s$2968]*Ricci\[Chi]CD[-s$2969, \
+-s$2967]*Torsion\[Chi]CD[s$2969, -i, -s$2968] - \
+($TorsionSign*$RicciSign*Inv\[Chi][s$2967, s$2968]*Riemann\[Chi]CD[-i, \
+-s$2969, -s$2967, s$2970]*Torsion\[Chi]CD[s$2969, -s$2968, -s$2970])/2];", "I\
 nv\[Chi] /: Inv\[Chi][(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*\[Chi]CD[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][Einstein\[Chi]CD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2914, s$2915, s$2916, \
-s$2917}, $TorsionSign*Inv\[Chi][s$2914, s$2915]*Ricci\[Chi]CD[-s$2916, \
--s$2914]*Torsion\[Chi]CD[s$2916, -i, -s$2915] - \
-($TorsionSign*$RicciSign*Inv\[Chi][s$2914, s$2915]*Riemann\[Chi]CD[-i, \
--s$2916, -s$2914, s$2917]*Torsion\[Chi]CD[s$2916, -s$2915, -s$2917])/2];", "H\
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$2967, s$2968, s$2969, \
+s$2970}, $TorsionSign*Inv\[Chi][s$2967, s$2968]*Ricci\[Chi]CD[-s$2969, \
+-s$2967]*Torsion\[Chi]CD[s$2969, -i, -s$2968] - \
+($TorsionSign*$RicciSign*Inv\[Chi][s$2967, s$2968]*Riemann\[Chi]CD[-i, \
+-s$2969, -s$2967, s$2970]*Torsion\[Chi]CD[s$2969, -s$2968, -s$2970])/2];", "H\
 oldPattern[(xAct`xTensor`Private`der$_)?FirstDerQ[Inv\[Chi][(xAct`xTensor`Pri\
 vate`b$_)?Tangent\[CapitalSigma]t`Q, \
 (xAct`xTensor`Private`c$_)?Tangent\[CapitalSigma]t`Q]]] ^:= \
@@ -22084,35 +22097,35 @@ delta[-xAct`xTensor`Private`a, xAct`xTensor`Private`c];", "Inv\[Chi]c /: \
 Inv\[Chi]c[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*\[Chi]CDc[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][Einstein\[Chi]CDc[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3173, s$3174, s$3175, \
-s$3176}, $TorsionSign*Inv\[Chi]c[s$3173, s$3174]*Ricci\[Chi]CDc[-s$3175, \
--s$3173]*Torsion\[Chi]CDc[s$3175, -i, -s$3174] - \
-($TorsionSign*$RicciSign*Inv\[Chi]c[s$3173, s$3174]*Riemann\[Chi]CDc[-i, \
--s$3175, -s$3173, s$3176]*Torsion\[Chi]CDc[s$3175, -s$3174, -s$3176])/2];", "\
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3226, s$3227, s$3228, \
+s$3229}, $TorsionSign*Inv\[Chi]c[s$3226, s$3227]*Ricci\[Chi]CDc[-s$3228, \
+-s$3226]*Torsion\[Chi]CDc[s$3228, -i, -s$3227] - \
+($TorsionSign*$RicciSign*Inv\[Chi]c[s$3226, s$3227]*Riemann\[Chi]CDc[-i, \
+-s$3228, -s$3226, s$3229]*Torsion\[Chi]CDc[s$3228, -s$3227, -s$3229])/2];", "\
 Inv\[Chi]c /: Inv\[Chi]c[(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*\[Chi]CDc[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][Einstein\[Chi]CDc[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3173, s$3174, s$3175, \
-s$3176}, $TorsionSign*Inv\[Chi]c[s$3173, s$3174]*Ricci\[Chi]CDc[-s$3175, \
--s$3173]*Torsion\[Chi]CDc[s$3175, -i, -s$3174] - \
-($TorsionSign*$RicciSign*Inv\[Chi]c[s$3173, s$3174]*Riemann\[Chi]CDc[-i, \
--s$3175, -s$3173, s$3176]*Torsion\[Chi]CDc[s$3175, -s$3174, -s$3176])/2];", "\
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3226, s$3227, s$3228, \
+s$3229}, $TorsionSign*Inv\[Chi]c[s$3226, s$3227]*Ricci\[Chi]CDc[-s$3228, \
+-s$3226]*Torsion\[Chi]CDc[s$3228, -i, -s$3227] - \
+($TorsionSign*$RicciSign*Inv\[Chi]c[s$3226, s$3227]*Riemann\[Chi]CDc[-i, \
+-s$3228, -s$3226, s$3229]*Torsion\[Chi]CDc[s$3228, -s$3227, -s$3229])/2];", "\
 Inv\[Chi]c /: Inv\[Chi]c[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*\[Chi]CDc[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][Einstein\[Chi]CDc[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3173, s$3174, s$3175, \
-s$3176}, $TorsionSign*Inv\[Chi]c[s$3173, s$3174]*Ricci\[Chi]CDc[-s$3175, \
--s$3173]*Torsion\[Chi]CDc[s$3175, -i, -s$3174] - \
-($TorsionSign*$RicciSign*Inv\[Chi]c[s$3173, s$3174]*Riemann\[Chi]CDc[-i, \
--s$3175, -s$3173, s$3176]*Torsion\[Chi]CDc[s$3175, -s$3174, -s$3176])/2];", "\
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3226, s$3227, s$3228, \
+s$3229}, $TorsionSign*Inv\[Chi]c[s$3226, s$3227]*Ricci\[Chi]CDc[-s$3228, \
+-s$3226]*Torsion\[Chi]CDc[s$3228, -i, -s$3227] - \
+($TorsionSign*$RicciSign*Inv\[Chi]c[s$3226, s$3227]*Riemann\[Chi]CDc[-i, \
+-s$3228, -s$3226, s$3229]*Torsion\[Chi]CDc[s$3228, -s$3227, -s$3229])/2];", "\
 Inv\[Chi]c /: Inv\[Chi]c[(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*\[Chi]CDc[-(k_Symbol)?Tangent\
 \[CapitalSigma]t`Q][Einstein\[Chi]CDc[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3173, s$3174, s$3175, \
-s$3176}, $TorsionSign*Inv\[Chi]c[s$3173, s$3174]*Ricci\[Chi]CDc[-s$3175, \
--s$3173]*Torsion\[Chi]CDc[s$3175, -i, -s$3174] - \
-($TorsionSign*$RicciSign*Inv\[Chi]c[s$3173, s$3174]*Riemann\[Chi]CDc[-i, \
--s$3175, -s$3173, s$3176]*Torsion\[Chi]CDc[s$3175, -s$3174, -s$3176])/2];", "\
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$3226, s$3227, s$3228, \
+s$3229}, $TorsionSign*Inv\[Chi]c[s$3226, s$3227]*Ricci\[Chi]CDc[-s$3228, \
+-s$3226]*Torsion\[Chi]CDc[s$3228, -i, -s$3227] - \
+($TorsionSign*$RicciSign*Inv\[Chi]c[s$3226, s$3227]*Riemann\[Chi]CDc[-i, \
+-s$3228, -s$3226, s$3229]*Torsion\[Chi]CDc[s$3228, -s$3227, -s$3229])/2];", "\
 HoldPattern[(xAct`xTensor`Private`der$_)?FirstDerQ[Inv\[Chi]c[(xAct`xTensor`P\
 rivate`b$_)?Tangent\[CapitalSigma]t`Q, \
 (xAct`xTensor`Private`c$_)?Tangent\[CapitalSigma]t`Q]]] ^:= \
@@ -30503,20 +30516,20 @@ Derivative[0, 1][f$B][t, \[ScriptR][]])^2)/(E^(4*fconf\[FilledSmallCircle][t, \
       "xTensorQ[RiemannfCD] ^= True;", "RiemannfCD[(i_)?Tangent\
 \[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$1949, s$1951}, (($RicciSign*RiccifCD[-s$1949, -s$1951])*\[Gamma][i, \
-s$1949])*\[Gamma][k, s$1951]];", "RiemannfCD[(i_)?Tangent\[CapitalSigma]t`pmQ\
+Module[{s$2002, s$2004}, (($RicciSign*RiccifCD[-s$2002, -s$2004])*\[Gamma][i, \
+s$2002])*\[Gamma][k, s$2004]];", "RiemannfCD[(i_)?Tangent\[CapitalSigma]t`pmQ\
 , (j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$1949, s$1951}, \
-(($RicciSign*RiccifCD[-s$1949, -s$1951])*\[Gamma][i, s$1949])*\[Gamma][k, \
-s$1951]];", "RiemannfCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$2002, s$2004}, \
+(($RicciSign*RiccifCD[-s$2002, -s$2004])*\[Gamma][i, s$2002])*\[Gamma][k, \
+s$2004]];", "RiemannfCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$1950, s$1952}, \
-((-($RicciSign*RiccifCD[-s$1950, -s$1952]))*\[Gamma][i, s$1950])*\[Gamma][k, \
-s$1952]];", "RiemannfCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$2003, s$2005}, \
+((-($RicciSign*RiccifCD[-s$2003, -s$2005]))*\[Gamma][i, s$2003])*\[Gamma][k, \
+s$2005]];", "RiemannfCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$1950, s$1952}, \
-((-($RicciSign*RiccifCD[-s$1950, -s$1952]))*\[Gamma][i, s$1950])*\[Gamma][k, \
-s$1952]];"}, {"Dagger[RiemannfCDback] ^= RiemannfCDback;", 
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$2003, s$2005}, \
+((-($RicciSign*RiccifCD[-s$2003, -s$2005]))*\[Gamma][i, s$2003])*\[Gamma][k, \
+s$2005]];"}, {"Dagger[RiemannfCDback] ^= RiemannfCDback;", 
       "DefInfo[RiemannfCDback] ^= False;", "DependenciesOfTensor[RiemannfCDba\
 ck] ^= {f\[Digamma], t, \[CapitalSigma]t};", "HostsOf[RiemannfCDback] ^= \
 {f\[Digamma], t, Tangent\[CapitalSigma]t, \[CapitalSigma]t};", 
@@ -32469,21 +32482,21 @@ RiemannfCDback[{3, \[ScriptCapitalS]}, {3, -\[ScriptCapitalS]}, {3, \
 -\[ScriptCapitalS]}] -> 0}];", "xTensorQ[RiemannfCDback] ^= True;", "Riemannf\
 CDback[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 -(j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$2519, s$2521}, \
-(($RicciSign*RiccifCDback[-s$2519, -s$2521])*\[Gamma][i, s$2519])*\[Gamma][k, \
-s$2521]];", "RiemannfCDback[(i_)?Tangent\[CapitalSigma]t`pmQ, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$2572, s$2574}, \
+(($RicciSign*RiccifCDback[-s$2572, -s$2574])*\[Gamma][i, s$2572])*\[Gamma][k, \
+s$2574]];", "RiemannfCDback[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$2519, s$2521}, \
-(($RicciSign*RiccifCDback[-s$2519, -s$2521])*\[Gamma][i, s$2519])*\[Gamma][k, \
-s$2521]];", "RiemannfCDback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$2572, s$2574}, \
+(($RicciSign*RiccifCDback[-s$2572, -s$2574])*\[Gamma][i, s$2572])*\[Gamma][k, \
+s$2574]];", "RiemannfCDback[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$2520, s$2522}, \
-((-($RicciSign*RiccifCDback[-s$2520, -s$2522]))*\[Gamma][i, \
-s$2520])*\[Gamma][k, s$2522]];", "RiemannfCDback[(j_Symbol)?Tangent\
+(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$2573, s$2575}, \
+((-($RicciSign*RiccifCDback[-s$2573, -s$2575]))*\[Gamma][i, \
+s$2573])*\[Gamma][k, s$2575]];", "RiemannfCDback[(j_Symbol)?Tangent\
 \[CapitalSigma]t`Q, (i_)?Tangent\[CapitalSigma]t`pmQ, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$2520, s$2522}, ((-($RicciSign*RiccifCDback[-s$2520, \
--s$2522]))*\[Gamma][i, s$2520])*\[Gamma][k, s$2522]];"}, 
+Module[{s$2573, s$2575}, ((-($RicciSign*RiccifCDback[-s$2573, \
+-s$2575]))*\[Gamma][i, s$2573])*\[Gamma][k, s$2575]];"}, 
      {"Dagger[RiemannfCDc] ^= RiemannfCDc;", 
       "DefInfo[RiemannfCDc] ^= False;", "DependenciesOfTensor[RiemannfCDc] ^= \
 {f\[Digamma], t, \[CapitalSigma]t};", "HostsOf[RiemannfCDc] ^= {f\[Digamma], \
@@ -33638,20 +33651,20 @@ RiemannfCDc[{2, -\[ScriptCapitalS]}, {3, -\[ScriptCapitalS]}, {1, \
       "xTensorQ[RiemannfCDc] ^= True;", "RiemannfCDc[(i_)?Tangent\
 \[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$2208, s$2210}, (($RicciSign*RiccifCDc[-s$2208, \
--s$2210])*\[Gamma][i, s$2208])*\[Gamma][k, s$2210]];", "RiemannfCDc[(i_)?Tang\
+Module[{s$2261, s$2263}, (($RicciSign*RiccifCDc[-s$2261, \
+-s$2263])*\[Gamma][i, s$2261])*\[Gamma][k, s$2263]];", "RiemannfCDc[(i_)?Tang\
 ent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$2208, s$2210}, (($RicciSign*RiccifCDc[-s$2208, \
--s$2210])*\[Gamma][i, s$2208])*\[Gamma][k, s$2210]];", "RiemannfCDc[-(j_Symbo\
+Module[{s$2261, s$2263}, (($RicciSign*RiccifCDc[-s$2261, \
+-s$2263])*\[Gamma][i, s$2261])*\[Gamma][k, s$2263]];", "RiemannfCDc[-(j_Symbo\
 l)?Tangent\[CapitalSigma]t`Q, (i_)?Tangent\[CapitalSigma]t`pmQ, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$2209, s$2211}, ((-($RicciSign*RiccifCDc[-s$2209, \
--s$2211]))*\[Gamma][i, s$2209])*\[Gamma][k, s$2211]];", "RiemannfCDc[(j_Symbo\
+Module[{s$2262, s$2264}, ((-($RicciSign*RiccifCDc[-s$2262, \
+-s$2264]))*\[Gamma][i, s$2262])*\[Gamma][k, s$2264]];", "RiemannfCDc[(j_Symbo\
 l)?Tangent\[CapitalSigma]t`Q, (i_)?Tangent\[CapitalSigma]t`pmQ, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$2209, s$2211}, ((-($RicciSign*RiccifCDc[-s$2209, \
--s$2211]))*\[Gamma][i, s$2209])*\[Gamma][k, s$2211]];"}, 
+Module[{s$2262, s$2264}, ((-($RicciSign*RiccifCDc[-s$2262, \
+-s$2264]))*\[Gamma][i, s$2262])*\[Gamma][k, s$2264]];"}, 
      {"Dagger[RiemanngCD] ^= RiemanngCD;", "DefInfo[RiemanngCD] ^= False;", "\
 DependenciesOfTensor[RiemanngCD] ^= {f\[Digamma], g\[Digamma], h\[Digamma], \
 t, \[CapitalSigma]t};", "HostsOf[RiemanngCD] ^= {f\[Digamma], g\[Digamma], \
@@ -34912,60 +34925,60 @@ Derivative[0, 1][g$B][t, \[ScriptR][]])^2)/(E^(4*gconf\[FilledSmallCircle][t, \
       "xTensorQ[RiemanngCD] ^= True;", "RiemanngCD[(i_)?Tangent\
 \[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$1022, s$1029}, (($RicciSign*RiccigCD[-s$1022, -s$1029])*\[Gamma][i, \
-s$1022])*\[Gamma][k, s$1029]];", "RiemanngCD[(i_)?Tangent\[CapitalSigma]t`pmQ\
+Module[{s$1075, s$1082}, (($RicciSign*RiccigCD[-s$1075, -s$1082])*\[Gamma][i, \
+s$1075])*\[Gamma][k, s$1082]];", "RiemanngCD[(i_)?Tangent\[CapitalSigma]t`pmQ\
 , (j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$1022, s$1029}, \
-(($RicciSign*RiccigCD[-s$1022, -s$1029])*\[Gamma][i, s$1022])*\[Gamma][k, \
-s$1029]];", "RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$1075, s$1082}, \
+(($RicciSign*RiccigCD[-s$1075, -s$1082])*\[Gamma][i, s$1075])*\[Gamma][k, \
+s$1082]];", "RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$1023, s$1030}, \
-((-($RicciSign*RiccigCD[-s$1023, -s$1030]))*\[Gamma][i, s$1023])*\[Gamma][k, \
-s$1030]];", "RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$1076, s$1083}, \
+((-($RicciSign*RiccigCD[-s$1076, -s$1083]))*\[Gamma][i, s$1076])*\[Gamma][k, \
+s$1083]];", "RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$1023, s$1030}, \
-((-($RicciSign*RiccigCD[-s$1023, -s$1030]))*\[Gamma][i, s$1023])*\[Gamma][k, \
-s$1030]];", "RiemanngCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$1076, s$1083}, \
+((-($RicciSign*RiccigCD[-s$1076, -s$1083]))*\[Gamma][i, s$1076])*\[Gamma][k, \
+s$1083]];", "RiemanngCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 -(j_Symbol)?Tangent\[CapitalSigma]t`Q, (j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(k_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1024, s$1031}, \
-((-($RicciSign*RiccigCD[-s$1024, -s$1031]))*\[Gamma][i, s$1024])*\[Gamma][k, \
-s$1031]];", "RiemanngCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
+(k_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1077, s$1084}, \
+((-($RicciSign*RiccigCD[-s$1077, -s$1084]))*\[Gamma][i, s$1077])*\[Gamma][k, \
+s$1084]];", "RiemanngCD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(k_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1024, s$1031}, \
-((-($RicciSign*RiccigCD[-s$1024, -s$1031]))*\[Gamma][i, s$1024])*\[Gamma][k, \
-s$1031]];", "RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(k_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1077, s$1084}, \
+((-($RicciSign*RiccigCD[-s$1077, -s$1084]))*\[Gamma][i, s$1077])*\[Gamma][k, \
+s$1084]];", "RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(k_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1025, s$1032}, \
-(($RicciSign*RiccigCD[-s$1025, -s$1032])*\[Gamma][i, s$1025])*\[Gamma][k, \
-s$1032]];", "RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(k_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1078, s$1085}, \
+(($RicciSign*RiccigCD[-s$1078, -s$1085])*\[Gamma][i, s$1078])*\[Gamma][k, \
+s$1085]];", "RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(k_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1025, s$1032}, \
-(($RicciSign*RiccigCD[-s$1025, -s$1032])*\[Gamma][i, s$1025])*\[Gamma][k, \
-s$1032]];", "RiemanngCD[(k_)?Tangent\[CapitalSigma]t`pmQ, \
+(k_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1078, s$1085}, \
+(($RicciSign*RiccigCD[-s$1078, -s$1085])*\[Gamma][i, s$1078])*\[Gamma][k, \
+s$1085]];", "RiemanngCD[(k_)?Tangent\[CapitalSigma]t`pmQ, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(i_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1026, s$1033}, \
-((-($RicciSign*RiccigCD[-s$1026, -s$1033]))*\[Gamma][i, s$1026])*\[Gamma][k, \
-s$1033]];", "RiemanngCD[(k_)?Tangent\[CapitalSigma]t`pmQ, \
+(i_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1079, s$1086}, \
+((-($RicciSign*RiccigCD[-s$1079, -s$1086]))*\[Gamma][i, s$1079])*\[Gamma][k, \
+s$1086]];", "RiemanngCD[(k_)?Tangent\[CapitalSigma]t`pmQ, \
 -(j_Symbol)?Tangent\[CapitalSigma]t`Q, (j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(i_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1026, s$1033}, \
-((-($RicciSign*RiccigCD[-s$1026, -s$1033]))*\[Gamma][i, s$1026])*\[Gamma][k, \
-s$1033]];", "RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(i_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1079, s$1086}, \
+((-($RicciSign*RiccigCD[-s$1079, -s$1086]))*\[Gamma][i, s$1079])*\[Gamma][k, \
+s$1086]];", "RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (i_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$1027, s$1034}, \
-((-($RicciSign*RiccigCD[-s$1027, -s$1034]))*\[Gamma][i, s$1027])*\[Gamma][k, \
-s$1034]];", "RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$1080, s$1087}, \
+((-($RicciSign*RiccigCD[-s$1080, -s$1087]))*\[Gamma][i, s$1080])*\[Gamma][k, \
+s$1087]];", "RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (i_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$1027, s$1034}, \
-((-($RicciSign*RiccigCD[-s$1027, -s$1034]))*\[Gamma][i, s$1027])*\[Gamma][k, \
-s$1034]];", "RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q] := Module[{s$1080, s$1087}, \
+((-($RicciSign*RiccigCD[-s$1080, -s$1087]))*\[Gamma][i, s$1080])*\[Gamma][k, \
+s$1087]];", "RiemanngCD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(i_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1028, s$1035}, \
-(($RicciSign*RiccigCD[-s$1028, -s$1035])*\[Gamma][i, s$1028])*\[Gamma][k, \
-s$1035]];", "RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
+(i_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1081, s$1088}, \
+(($RicciSign*RiccigCD[-s$1081, -s$1088])*\[Gamma][i, s$1081])*\[Gamma][k, \
+s$1088]];", "RiemanngCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q, \
-(i_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1028, s$1035}, \
-(($RicciSign*RiccigCD[-s$1028, -s$1035])*\[Gamma][i, s$1028])*\[Gamma][k, \
-s$1035]];"}, {"Dagger[RiemanngCDback] ^= RiemanngCDback;", 
+(i_)?Tangent\[CapitalSigma]t`pmQ] := Module[{s$1081, s$1088}, \
+(($RicciSign*RiccigCD[-s$1081, -s$1088])*\[Gamma][i, s$1081])*\[Gamma][k, \
+s$1088]];"}, {"Dagger[RiemanngCDback] ^= RiemanngCDback;", 
       "DefInfo[RiemanngCDback] ^= False;", "DependenciesOfTensor[RiemanngCDba\
 ck] ^= {f\[Digamma], g\[Digamma], h\[Digamma], t, \[CapitalSigma]t};", "Hosts\
 Of[RiemanngCDback] ^= {f\[Digamma], g\[Digamma], h\[Digamma], t, \
@@ -36920,20 +36933,20 @@ RiemanngCDback[{3, \[ScriptCapitalS]}, {3, -\[ScriptCapitalS]}, {3, \
 0}];", "xTensorQ[RiemanngCDback] ^= True;", "RiemanngCDback[(i_)?Tangent\
 \[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$1598, s$1600}, (($RicciSign*RiccigCDback[-s$1598, \
--s$1600])*\[Gamma][i, s$1598])*\[Gamma][k, s$1600]];", "RiemanngCDback[(i_)?T\
+Module[{s$1651, s$1653}, (($RicciSign*RiccigCDback[-s$1651, \
+-s$1653])*\[Gamma][i, s$1651])*\[Gamma][k, s$1653]];", "RiemanngCDback[(i_)?T\
 angent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$1598, s$1600}, (($RicciSign*RiccigCDback[-s$1598, \
--s$1600])*\[Gamma][i, s$1598])*\[Gamma][k, s$1600]];", "RiemanngCDback[-(j_Sy\
+Module[{s$1651, s$1653}, (($RicciSign*RiccigCDback[-s$1651, \
+-s$1653])*\[Gamma][i, s$1651])*\[Gamma][k, s$1653]];", "RiemanngCDback[-(j_Sy\
 mbol)?Tangent\[CapitalSigma]t`Q, (i_)?Tangent\[CapitalSigma]t`pmQ, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$1599, s$1601}, ((-($RicciSign*RiccigCDback[-s$1599, \
--s$1601]))*\[Gamma][i, s$1599])*\[Gamma][k, s$1601]];", "RiemanngCDback[(j_Sy\
+Module[{s$1652, s$1654}, ((-($RicciSign*RiccigCDback[-s$1652, \
+-s$1654]))*\[Gamma][i, s$1652])*\[Gamma][k, s$1654]];", "RiemanngCDback[(j_Sy\
 mbol)?Tangent\[CapitalSigma]t`Q, (i_)?Tangent\[CapitalSigma]t`pmQ, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$1599, s$1601}, ((-($RicciSign*RiccigCDback[-s$1599, \
--s$1601]))*\[Gamma][i, s$1599])*\[Gamma][k, s$1601]];"}, 
+Module[{s$1652, s$1654}, ((-($RicciSign*RiccigCDback[-s$1652, \
+-s$1654]))*\[Gamma][i, s$1652])*\[Gamma][k, s$1654]];"}, 
      {"Dagger[RiemanngCDc] ^= RiemanngCDc;", 
       "DefInfo[RiemanngCDc] ^= False;", "DependenciesOfTensor[RiemanngCDc] ^= \
 {f\[Digamma], g\[Digamma], h\[Digamma], t, \[CapitalSigma]t};", "HostsOf[Riem\
@@ -38106,20 +38119,20 @@ RiemanngCDc[{2, -\[ScriptCapitalS]}, {3, -\[ScriptCapitalS]}, {1, \
       "xTensorQ[RiemanngCDc] ^= True;", "RiemanngCDc[(i_)?Tangent\
 \[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$1287, s$1289}, (($RicciSign*RiccigCDc[-s$1287, \
--s$1289])*\[Gamma][i, s$1287])*\[Gamma][k, s$1289]];", "RiemanngCDc[(i_)?Tang\
+Module[{s$1340, s$1342}, (($RicciSign*RiccigCDc[-s$1340, \
+-s$1342])*\[Gamma][i, s$1340])*\[Gamma][k, s$1342]];", "RiemanngCDc[(i_)?Tang\
 ent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$1287, s$1289}, (($RicciSign*RiccigCDc[-s$1287, \
--s$1289])*\[Gamma][i, s$1287])*\[Gamma][k, s$1289]];", "RiemanngCDc[-(j_Symbo\
+Module[{s$1340, s$1342}, (($RicciSign*RiccigCDc[-s$1340, \
+-s$1342])*\[Gamma][i, s$1340])*\[Gamma][k, s$1342]];", "RiemanngCDc[-(j_Symbo\
 l)?Tangent\[CapitalSigma]t`Q, (i_)?Tangent\[CapitalSigma]t`pmQ, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$1288, s$1290}, ((-($RicciSign*RiccigCDc[-s$1288, \
--s$1290]))*\[Gamma][i, s$1288])*\[Gamma][k, s$1290]];", "RiemanngCDc[(j_Symbo\
+Module[{s$1341, s$1343}, ((-($RicciSign*RiccigCDc[-s$1341, \
+-s$1343]))*\[Gamma][i, s$1341])*\[Gamma][k, s$1343]];", "RiemanngCDc[(j_Symbo\
 l)?Tangent\[CapitalSigma]t`Q, (i_)?Tangent\[CapitalSigma]t`pmQ, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$1288, s$1290}, ((-($RicciSign*RiccigCDc[-s$1288, \
--s$1290]))*\[Gamma][i, s$1288])*\[Gamma][k, s$1290]];"}, 
+Module[{s$1341, s$1343}, ((-($RicciSign*RiccigCDc[-s$1341, \
+-s$1343]))*\[Gamma][i, s$1341])*\[Gamma][k, s$1343]];"}, 
      {"Dagger[RiemannhCDback] ^= RiemannhCDback;", 
       "DefInfo[RiemannhCDback] ^= False;", "DependenciesOfTensor[RiemannhCDba\
 ck] ^= {f\[Digamma], g\[Digamma], h\[Digamma], t, \[CapitalSigma]t};", "Hosts\
@@ -40076,20 +40089,20 @@ RiemannhCDback[{3, \[ScriptCapitalS]}, {3, -\[ScriptCapitalS]}, {3, \
 0}];", "xTensorQ[RiemannhCDback] ^= True;", "RiemannhCDback[(i_)?Tangent\
 \[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$3432, s$3434}, (($RicciSign*RiccihCDback[-s$3432, \
--s$3434])*\[Gamma][i, s$3432])*\[Gamma][k, s$3434]];", "RiemannhCDback[(i_)?T\
+Module[{s$3485, s$3487}, (($RicciSign*RiccihCDback[-s$3485, \
+-s$3487])*\[Gamma][i, s$3485])*\[Gamma][k, s$3487]];", "RiemannhCDback[(i_)?T\
 angent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$3432, s$3434}, (($RicciSign*RiccihCDback[-s$3432, \
--s$3434])*\[Gamma][i, s$3432])*\[Gamma][k, s$3434]];", "RiemannhCDback[-(j_Sy\
+Module[{s$3485, s$3487}, (($RicciSign*RiccihCDback[-s$3485, \
+-s$3487])*\[Gamma][i, s$3485])*\[Gamma][k, s$3487]];", "RiemannhCDback[-(j_Sy\
 mbol)?Tangent\[CapitalSigma]t`Q, (i_)?Tangent\[CapitalSigma]t`pmQ, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$3433, s$3435}, ((-($RicciSign*RiccihCDback[-s$3433, \
--s$3435]))*\[Gamma][i, s$3433])*\[Gamma][k, s$3435]];", "RiemannhCDback[(j_Sy\
+Module[{s$3486, s$3488}, ((-($RicciSign*RiccihCDback[-s$3486, \
+-s$3488]))*\[Gamma][i, s$3486])*\[Gamma][k, s$3488]];", "RiemannhCDback[(j_Sy\
 mbol)?Tangent\[CapitalSigma]t`Q, (i_)?Tangent\[CapitalSigma]t`pmQ, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$3433, s$3435}, ((-($RicciSign*RiccihCDback[-s$3433, \
--s$3435]))*\[Gamma][i, s$3433])*\[Gamma][k, s$3435]];"}, 
+Module[{s$3486, s$3488}, ((-($RicciSign*RiccihCDback[-s$3486, \
+-s$3488]))*\[Gamma][i, s$3486])*\[Gamma][k, s$3488]];"}, 
      {"Dagger[RiemannPD\[ScriptCapitalC]] ^= RiemannPD\[ScriptCapitalC];", 
       "DefInfo[RiemannPD\[ScriptCapitalC]] ^= False;", "DependenciesOfTensor[\
 RiemannPD\[ScriptCapitalC]] ^= {\[CapitalSigma]t};", "HostsOf[RiemannPD\
@@ -40136,20 +40149,20 @@ StrongGenSet[{1, 2}, GenSet[-Cycles[{1, 2}]]];",
       "xTensorQ[Riemann\[Chi]CD] ^= True;", "Riemann\[Chi]CD[(i_)?Tangent\
 \[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$2886, s$2888}, (($RicciSign*Ricci\[Chi]CD[-s$2886, \
--s$2888])*\[Gamma][i, s$2886])*\[Gamma][k, s$2888]];", "Riemann\[Chi]CD[(i_)?\
+Module[{s$2939, s$2941}, (($RicciSign*Ricci\[Chi]CD[-s$2939, \
+-s$2941])*\[Gamma][i, s$2939])*\[Gamma][k, s$2941]];", "Riemann\[Chi]CD[(i_)?\
 Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$2886, s$2888}, (($RicciSign*Ricci\[Chi]CD[-s$2886, \
--s$2888])*\[Gamma][i, s$2886])*\[Gamma][k, s$2888]];", "Riemann\[Chi]CD[-(j_S\
+Module[{s$2939, s$2941}, (($RicciSign*Ricci\[Chi]CD[-s$2939, \
+-s$2941])*\[Gamma][i, s$2939])*\[Gamma][k, s$2941]];", "Riemann\[Chi]CD[-(j_S\
 ymbol)?Tangent\[CapitalSigma]t`Q, (i_)?Tangent\[CapitalSigma]t`pmQ, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$2887, s$2889}, ((-($RicciSign*Ricci\[Chi]CD[-s$2887, \
--s$2889]))*\[Gamma][i, s$2887])*\[Gamma][k, s$2889]];", "Riemann\[Chi]CD[(j_S\
+Module[{s$2940, s$2942}, ((-($RicciSign*Ricci\[Chi]CD[-s$2940, \
+-s$2942]))*\[Gamma][i, s$2940])*\[Gamma][k, s$2942]];", "Riemann\[Chi]CD[(j_S\
 ymbol)?Tangent\[CapitalSigma]t`Q, (i_)?Tangent\[CapitalSigma]t`pmQ, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$2887, s$2889}, ((-($RicciSign*Ricci\[Chi]CD[-s$2887, \
--s$2889]))*\[Gamma][i, s$2887])*\[Gamma][k, s$2889]];"}, 
+Module[{s$2940, s$2942}, ((-($RicciSign*Ricci\[Chi]CD[-s$2940, \
+-s$2942]))*\[Gamma][i, s$2940])*\[Gamma][k, s$2942]];"}, 
      {"Dagger[Riemann\[Chi]CDc] ^= Riemann\[Chi]CDc;", 
       "DefInfo[Riemann\[Chi]CDc] ^= False;", "DependenciesOfTensor[Riemann\
 \[Chi]CDc] ^= {f\[Digamma], g\[Digamma], h\[Digamma], t, \[CapitalSigma]t};", 
@@ -40166,20 +40179,20 @@ Riemann\[Chi]CDc] ^= StrongGenSet[{1, 2}, GenSet[-Cycles[{1, 2}]]];",
       "xTensorQ[Riemann\[Chi]CDc] ^= True;", "Riemann\[Chi]CDc[(i_)?Tangent\
 \[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$3145, s$3147}, (($RicciSign*Ricci\[Chi]CDc[-s$3145, \
--s$3147])*\[Gamma][i, s$3145])*\[Gamma][k, s$3147]];", "Riemann\[Chi]CDc[(i_)\
+Module[{s$3198, s$3200}, (($RicciSign*Ricci\[Chi]CDc[-s$3198, \
+-s$3200])*\[Gamma][i, s$3198])*\[Gamma][k, s$3200]];", "Riemann\[Chi]CDc[(i_)\
 ?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$3145, s$3147}, (($RicciSign*Ricci\[Chi]CDc[-s$3145, \
--s$3147])*\[Gamma][i, s$3145])*\[Gamma][k, s$3147]];", "Riemann\[Chi]CDc[-(j_\
+Module[{s$3198, s$3200}, (($RicciSign*Ricci\[Chi]CDc[-s$3198, \
+-s$3200])*\[Gamma][i, s$3198])*\[Gamma][k, s$3200]];", "Riemann\[Chi]CDc[-(j_\
 Symbol)?Tangent\[CapitalSigma]t`Q, (i_)?Tangent\[CapitalSigma]t`pmQ, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, (j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$3146, s$3148}, ((-($RicciSign*Ricci\[Chi]CDc[-s$3146, \
--s$3148]))*\[Gamma][i, s$3146])*\[Gamma][k, s$3148]];", "Riemann\[Chi]CDc[(j_\
+Module[{s$3199, s$3201}, ((-($RicciSign*Ricci\[Chi]CDc[-s$3199, \
+-s$3201]))*\[Gamma][i, s$3199])*\[Gamma][k, s$3201]];", "Riemann\[Chi]CDc[(j_\
 Symbol)?Tangent\[CapitalSigma]t`Q, (i_)?Tangent\[CapitalSigma]t`pmQ, \
 (k_)?Tangent\[CapitalSigma]t`pmQ, -(j_Symbol)?Tangent\[CapitalSigma]t`Q] := \
-Module[{s$3146, s$3148}, ((-($RicciSign*Ricci\[Chi]CDc[-s$3146, \
--s$3148]))*\[Gamma][i, s$3146])*\[Gamma][k, s$3148]];"}, 
+Module[{s$3199, s$3201}, ((-($RicciSign*Ricci\[Chi]CDc[-s$3199, \
+-s$3201]))*\[Gamma][i, s$3199])*\[Gamma][k, s$3201]];"}, 
      {"Dagger[TFRiccifCD] ^:= TFRiccifCD;", "DefInfo[TFRiccifCD] ^:= False;", 
       "DependenciesOfTensor[TFRiccifCD] ^:= {f\[Digamma], t, \
 \[CapitalSigma]t};", "HostsOf[TFRiccifCD] ^:= {f\[Digamma], t, \
@@ -41397,35 +41410,35 @@ xAct`xTensor`Private`c$];", "\[Gamma] /: \
 \[Gamma][(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*gCD[-(k_Symbol)?Tangent\[CapitalSigma]t\
 `Q][EinsteingCD[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1067, s$1068, s$1069, \
-s$1070}, $TorsionSign*\[Gamma][s$1067, s$1068]*RiccigCD[-s$1069, \
--s$1067]*TorsiongCD[s$1069, -i, -s$1068] - \
-($TorsionSign*$RicciSign*\[Gamma][s$1067, s$1068]*RiemanngCD[-i, -s$1069, \
--s$1067, s$1070]*TorsiongCD[s$1069, -s$1068, -s$1070])/2];", "\[Gamma] /: \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1120, s$1121, s$1122, \
+s$1123}, $TorsionSign*\[Gamma][s$1120, s$1121]*RiccigCD[-s$1122, \
+-s$1120]*TorsiongCD[s$1122, -i, -s$1121] - \
+($TorsionSign*$RicciSign*\[Gamma][s$1120, s$1121]*RiemanngCD[-i, -s$1122, \
+-s$1120, s$1123]*TorsiongCD[s$1122, -s$1121, -s$1123])/2];", "\[Gamma] /: \
 \[Gamma][(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*gCD[-(k_Symbol)?Tangent\[CapitalSigma]t\
 `Q][EinsteingCD[-(i_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1067, s$1068, s$1069, \
-s$1070}, $TorsionSign*\[Gamma][s$1067, s$1068]*RiccigCD[-s$1069, \
--s$1067]*TorsiongCD[s$1069, -i, -s$1068] - \
-($TorsionSign*$RicciSign*\[Gamma][s$1067, s$1068]*RiemanngCD[-i, -s$1069, \
--s$1067, s$1070]*TorsiongCD[s$1069, -s$1068, -s$1070])/2];", "\[Gamma] /: \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1120, s$1121, s$1122, \
+s$1123}, $TorsionSign*\[Gamma][s$1120, s$1121]*RiccigCD[-s$1122, \
+-s$1120]*TorsiongCD[s$1122, -i, -s$1121] - \
+($TorsionSign*$RicciSign*\[Gamma][s$1120, s$1121]*RiemanngCD[-i, -s$1122, \
+-s$1120, s$1123]*TorsiongCD[s$1122, -s$1121, -s$1123])/2];", "\[Gamma] /: \
 \[Gamma][(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (k_Symbol)?Tangent\[CapitalSigma]t`Q]*gCD[-(k_Symbol)?Tangent\[CapitalSigma]t\
 `Q][EinsteingCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1067, s$1068, s$1069, \
-s$1070}, $TorsionSign*\[Gamma][s$1067, s$1068]*RiccigCD[-s$1069, \
--s$1067]*TorsiongCD[s$1069, -i, -s$1068] - \
-($TorsionSign*$RicciSign*\[Gamma][s$1067, s$1068]*RiemanngCD[-i, -s$1069, \
--s$1067, s$1070]*TorsiongCD[s$1069, -s$1068, -s$1070])/2];", "\[Gamma] /: \
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1120, s$1121, s$1122, \
+s$1123}, $TorsionSign*\[Gamma][s$1120, s$1121]*RiccigCD[-s$1122, \
+-s$1120]*TorsiongCD[s$1122, -i, -s$1121] - \
+($TorsionSign*$RicciSign*\[Gamma][s$1120, s$1121]*RiemanngCD[-i, -s$1122, \
+-s$1120, s$1123]*TorsiongCD[s$1122, -s$1121, -s$1123])/2];", "\[Gamma] /: \
 \[Gamma][(k_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q]*gCD[-(k_Symbol)?Tangent\[CapitalSigma]t\
 `Q][EinsteingCD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
--(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1067, s$1068, s$1069, \
-s$1070}, $TorsionSign*\[Gamma][s$1067, s$1068]*RiccigCD[-s$1069, \
--s$1067]*TorsiongCD[s$1069, -i, -s$1068] - \
-($TorsionSign*$RicciSign*\[Gamma][s$1067, s$1068]*RiemanngCD[-i, -s$1069, \
--s$1067, s$1070]*TorsiongCD[s$1069, -s$1068, -s$1070])/2];", "HoldPattern[(xA\
+-(i_Symbol)?Tangent\[CapitalSigma]t`Q]] := Module[{s$1120, s$1121, s$1122, \
+s$1123}, $TorsionSign*\[Gamma][s$1120, s$1121]*RiccigCD[-s$1122, \
+-s$1120]*TorsiongCD[s$1122, -i, -s$1121] - \
+($TorsionSign*$RicciSign*\[Gamma][s$1120, s$1121]*RiemanngCD[-i, -s$1122, \
+-s$1120, s$1123]*TorsiongCD[s$1122, -s$1121, -s$1123])/2];", "HoldPattern[(xA\
 ct`xTensor`Private`der$_)?FirstDerQ[\[Gamma][(xAct`xTensor`Private`b$_)?Tange\
 nt\[CapitalSigma]t`Q, (xAct`xTensor`Private`c$_)?Tangent\[CapitalSigma]t`Q]]] \
 ^:= Module[{xAct`xTensor`Private`b1$ = DummyIn[Tangent\[CapitalSigma]t], \
@@ -41983,61 +41996,61 @@ ChristoffelgCDPD\[ScriptCapitalC], PD\[ScriptCapitalC]\[CurlyPhi]c, \
 PD\[ScriptCapitalC]PD\[ScriptCapitalC]\[CurlyPhi]c, \
 ChristoffelfCDcPD\[ScriptCapitalC], PD\[ScriptCapitalC]\[CurlyPhi], \
 PD\[ScriptCapitalC]PD\[ScriptCapitalC]\[CurlyPhi], \
-ChristoffelfCDPD\[ScriptCapitalC], temp$grhob$46725, temp$gjb$46725, \
-temp$gJb$46725, temp$frhob$46725, temp$fjb$46725, temp$fJb$46725, \
-temp$grhob$46800, temp$gjb$46800, temp$gJb$46800, temp$frhob$46800, \
-temp$fjb$46800, temp$fJb$46800, temp$grhob$46866, temp$gjb$46866, \
-temp$gJb$46866, temp$frhob$46866, temp$fjb$46866, temp$fJb$46866, \
-temp$grhob$46920, temp$gjb$46920, temp$gJb$46920, temp$frhob$46920, \
-temp$fjb$46920, temp$fJb$46920, temp$grhob$46979, temp$gjb$46979, \
-temp$gJb$46979, temp$frhob$46979, temp$fjb$46979, temp$fJb$46979, \
-temp$grhob$47107, temp$gjb$47107, temp$gJb$47107, temp$frhob$47107, \
-temp$fjb$47107, temp$fJb$47107, temp$grhob$47236, temp$gjb$47236, \
-temp$gJb$47236, temp$frhob$47236, temp$fjb$47236, temp$fJb$47236, \
-temp$grhob$47339, temp$gjb$47339, temp$gJb$47339, temp$frhob$47339, \
-temp$fjb$47339, temp$fJb$47339, temp$grhob$47370, temp$gjb$47370, \
-temp$gJb$47370, temp$frhob$47370, temp$fjb$47370, temp$fJb$47370, \
-temp$grhob$47405, temp$gjb$47405, temp$gJb$47405, temp$frhob$47405, \
-temp$fjb$47405, temp$fJb$47405, temp$grhob$47436, temp$gjb$47436, \
-temp$gJb$47436, temp$frhob$47436, temp$fjb$47436, temp$fJb$47436, \
-temp$grhob$47478, temp$gjb$47478, temp$gJb$47478, temp$frhob$47478, \
-temp$fjb$47478, temp$fJb$47478, temp$grhob$47545, temp$gjb$47545, \
-temp$gJb$47545, temp$frhob$47545, temp$fjb$47545, temp$fJb$47545, \
-temp$grhob$47595, temp$gjb$47595, temp$gJb$47595, temp$frhob$47595, \
-temp$fjb$47595, temp$fJb$47595, temp$grhob$47678, temp$gjb$47678, \
-temp$gJb$47678, temp$frhob$47678, temp$fjb$47678, temp$fJb$47678, \
-temp$grhob$47822, temp$gjb$47822, temp$gJb$47822, temp$frhob$47822, \
-temp$fjb$47822, temp$fJb$47822, temp$grhob$47984, temp$gjb$47984, \
-temp$gJb$47984, temp$frhob$47984, temp$fjb$47984, temp$fJb$47984, \
-temp$grhob$48207, temp$gjb$48207, temp$gJb$48207, temp$frhob$48207, \
-temp$fjb$48207, temp$fJb$48207, temp$grhob$48250, temp$gjb$48250, \
-temp$gJb$48250, temp$frhob$48250, temp$fjb$48250, temp$fJb$48250, \
-temp$grhob$48293, temp$gjb$48293, temp$gJb$48293, temp$frhob$48293, \
-temp$fjb$48293, temp$fJb$48293, temp$grhob$48330, temp$gjb$48330, \
-temp$gJb$48330, temp$frhob$48330, temp$fjb$48330, temp$fJb$48330, \
-temp$grhob$48367, temp$gjb$48367, temp$gJb$48367, temp$frhob$48367, \
-temp$fjb$48367, temp$fJb$48367, temp$grhob$48410, temp$gjb$48410, \
-temp$gJb$48410, temp$frhob$48410, temp$fjb$48410, temp$fJb$48410, \
-temp$grhob$48446, temp$gjb$48446, temp$gJb$48446, temp$frhob$48446, \
-temp$fjb$48446, temp$fJb$48446, temp$grhob$48485, temp$gjb$48485, \
-temp$gJb$48485, temp$frhob$48485, temp$fjb$48485, temp$fJb$48485, \
-temp$grhob$48702, temp$gjb$48702, temp$gJb$48702, temp$frhob$48702, \
-temp$fjb$48702, temp$fJb$48702, temp$grhob$48745, temp$gjb$48745, \
-temp$gJb$48745, temp$frhob$48745, temp$fjb$48745, temp$fJb$48745, \
-temp$grhob$48788, temp$gjb$48788, temp$gJb$48788, temp$frhob$48788, \
-temp$fjb$48788, temp$fJb$48788, temp$grhob$48825, temp$gjb$48825, \
-temp$gJb$48825, temp$frhob$48825, temp$fjb$48825, temp$fJb$48825, \
-temp$grhob$48862, temp$gjb$48862, temp$gJb$48862, temp$frhob$48862, \
-temp$fjb$48862, temp$fJb$48862, temp$grhob$48905, temp$gjb$48905, \
-temp$gJb$48905, temp$frhob$48905, temp$fjb$48905, temp$fJb$48905, \
-temp$grhob$48941, temp$gjb$48941, temp$gJb$48941, temp$frhob$48941, \
-temp$fjb$48941, temp$fJb$48941, temp$grhob$48990, temp$gjb$48990, \
-temp$gJb$48990, temp$frhob$48990, temp$fjb$48990, temp$fJb$48990, \
-temp$grhob$49483, temp$gjb$49483, temp$gJb$49483, temp$frhob$49483, \
-temp$fjb$49483, temp$fJb$49483, temp$grhob$49525, temp$gjb$49525, \
-temp$gJb$49525, temp$frhob$49525, temp$fjb$49525, temp$fJb$49525, \
-temp$grhob$49975, temp$gjb$49975, temp$gJb$49975, temp$frhob$49975, \
-temp$fjb$49975, temp$fJb$49975};"}, {"CovDOfMetric[\[CurlyPhi]] ^= fCD;", 
+ChristoffelfCDPD\[ScriptCapitalC], temp$grhob$41696, temp$gjb$41696, \
+temp$gJb$41696, temp$frhob$41696, temp$fjb$41696, temp$fJb$41696, \
+temp$grhob$41771, temp$gjb$41771, temp$gJb$41771, temp$frhob$41771, \
+temp$fjb$41771, temp$fJb$41771, temp$grhob$41837, temp$gjb$41837, \
+temp$gJb$41837, temp$frhob$41837, temp$fjb$41837, temp$fJb$41837, \
+temp$grhob$41891, temp$gjb$41891, temp$gJb$41891, temp$frhob$41891, \
+temp$fjb$41891, temp$fJb$41891, temp$grhob$41950, temp$gjb$41950, \
+temp$gJb$41950, temp$frhob$41950, temp$fjb$41950, temp$fJb$41950, \
+temp$grhob$42078, temp$gjb$42078, temp$gJb$42078, temp$frhob$42078, \
+temp$fjb$42078, temp$fJb$42078, temp$grhob$42207, temp$gjb$42207, \
+temp$gJb$42207, temp$frhob$42207, temp$fjb$42207, temp$fJb$42207, \
+temp$grhob$42310, temp$gjb$42310, temp$gJb$42310, temp$frhob$42310, \
+temp$fjb$42310, temp$fJb$42310, temp$grhob$42341, temp$gjb$42341, \
+temp$gJb$42341, temp$frhob$42341, temp$fjb$42341, temp$fJb$42341, \
+temp$grhob$42376, temp$gjb$42376, temp$gJb$42376, temp$frhob$42376, \
+temp$fjb$42376, temp$fJb$42376, temp$grhob$42407, temp$gjb$42407, \
+temp$gJb$42407, temp$frhob$42407, temp$fjb$42407, temp$fJb$42407, \
+temp$grhob$42449, temp$gjb$42449, temp$gJb$42449, temp$frhob$42449, \
+temp$fjb$42449, temp$fJb$42449, temp$grhob$42516, temp$gjb$42516, \
+temp$gJb$42516, temp$frhob$42516, temp$fjb$42516, temp$fJb$42516, \
+temp$grhob$42566, temp$gjb$42566, temp$gJb$42566, temp$frhob$42566, \
+temp$fjb$42566, temp$fJb$42566, temp$grhob$42649, temp$gjb$42649, \
+temp$gJb$42649, temp$frhob$42649, temp$fjb$42649, temp$fJb$42649, \
+temp$grhob$42793, temp$gjb$42793, temp$gJb$42793, temp$frhob$42793, \
+temp$fjb$42793, temp$fJb$42793, temp$grhob$42955, temp$gjb$42955, \
+temp$gJb$42955, temp$frhob$42955, temp$fjb$42955, temp$fJb$42955, \
+temp$grhob$43178, temp$gjb$43178, temp$gJb$43178, temp$frhob$43178, \
+temp$fjb$43178, temp$fJb$43178, temp$grhob$43221, temp$gjb$43221, \
+temp$gJb$43221, temp$frhob$43221, temp$fjb$43221, temp$fJb$43221, \
+temp$grhob$43264, temp$gjb$43264, temp$gJb$43264, temp$frhob$43264, \
+temp$fjb$43264, temp$fJb$43264, temp$grhob$43301, temp$gjb$43301, \
+temp$gJb$43301, temp$frhob$43301, temp$fjb$43301, temp$fJb$43301, \
+temp$grhob$43338, temp$gjb$43338, temp$gJb$43338, temp$frhob$43338, \
+temp$fjb$43338, temp$fJb$43338, temp$grhob$43381, temp$gjb$43381, \
+temp$gJb$43381, temp$frhob$43381, temp$fjb$43381, temp$fJb$43381, \
+temp$grhob$43417, temp$gjb$43417, temp$gJb$43417, temp$frhob$43417, \
+temp$fjb$43417, temp$fJb$43417, temp$grhob$43456, temp$gjb$43456, \
+temp$gJb$43456, temp$frhob$43456, temp$fjb$43456, temp$fJb$43456, \
+temp$grhob$43673, temp$gjb$43673, temp$gJb$43673, temp$frhob$43673, \
+temp$fjb$43673, temp$fJb$43673, temp$grhob$43716, temp$gjb$43716, \
+temp$gJb$43716, temp$frhob$43716, temp$fjb$43716, temp$fJb$43716, \
+temp$grhob$43759, temp$gjb$43759, temp$gJb$43759, temp$frhob$43759, \
+temp$fjb$43759, temp$fJb$43759, temp$grhob$43796, temp$gjb$43796, \
+temp$gJb$43796, temp$frhob$43796, temp$fjb$43796, temp$fJb$43796, \
+temp$grhob$43833, temp$gjb$43833, temp$gJb$43833, temp$frhob$43833, \
+temp$fjb$43833, temp$fJb$43833, temp$grhob$43876, temp$gjb$43876, \
+temp$gJb$43876, temp$frhob$43876, temp$fjb$43876, temp$fJb$43876, \
+temp$grhob$43912, temp$gjb$43912, temp$gJb$43912, temp$frhob$43912, \
+temp$fjb$43912, temp$fJb$43912, temp$grhob$43961, temp$gjb$43961, \
+temp$gJb$43961, temp$frhob$43961, temp$fjb$43961, temp$fJb$43961, \
+temp$grhob$44456, temp$gjb$44456, temp$gJb$44456, temp$frhob$44456, \
+temp$fjb$44456, temp$fJb$44456, temp$grhob$44499, temp$gjb$44499, \
+temp$gJb$44499, temp$frhob$44499, temp$fjb$44499, temp$fJb$44499, \
+temp$grhob$44957, temp$gjb$44957, temp$gJb$44957, temp$frhob$44957, \
+temp$fjb$44957, temp$fJb$44957};"}, {"CovDOfMetric[\[CurlyPhi]] ^= fCD;", 
       "\[CurlyPhi] /: CovDOfMetric[\[CurlyPhi], TorsionfCD] = fCD;", 
       "\[CurlyPhi] /: CovDOfMetric[\[CurlyPhi], Zero] = fCD;", 
       "Dagger[\[CurlyPhi]] ^= \[CurlyPhi];", 
@@ -42772,24 +42785,24 @@ HoldPattern[Inv\[Chi][-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 RicciScalar\[Chi]CD[]]};", "\[Chi]CD /: CurvatureRelations[\[Chi]CD, Riemann] \
 = {HoldPattern[Riemann\[Chi]CD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 -(j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2886, s$2888}, \
-(($RicciSign*Ricci\[Chi]CD[-s$2886, -s$2888])*\[Gamma][i, \
-s$2886])*\[Gamma][k, s$2888]], \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2939, s$2941}, \
+(($RicciSign*Ricci\[Chi]CD[-s$2939, -s$2941])*\[Gamma][i, \
+s$2939])*\[Gamma][k, s$2941]], \
 HoldPattern[Riemann\[Chi]CD[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2886, s$2888}, \
-(($RicciSign*Ricci\[Chi]CD[-s$2886, -s$2888])*\[Gamma][i, \
-s$2886])*\[Gamma][k, s$2888]], \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2939, s$2941}, \
+(($RicciSign*Ricci\[Chi]CD[-s$2939, -s$2941])*\[Gamma][i, \
+s$2939])*\[Gamma][k, s$2941]], \
 HoldPattern[Riemann\[Chi]CD[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2887, s$2889}, \
-((-($RicciSign*Ricci\[Chi]CD[-s$2887, -s$2889]))*\[Gamma][i, \
-s$2887])*\[Gamma][k, s$2889]], \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2940, s$2942}, \
+((-($RicciSign*Ricci\[Chi]CD[-s$2940, -s$2942]))*\[Gamma][i, \
+s$2940])*\[Gamma][k, s$2942]], \
 HoldPattern[Riemann\[Chi]CD[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2887, s$2889}, \
-((-($RicciSign*Ricci\[Chi]CD[-s$2887, -s$2889]))*\[Gamma][i, \
-s$2887])*\[Gamma][k, s$2889]]};", 
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$2940, s$2942}, \
+((-($RicciSign*Ricci\[Chi]CD[-s$2940, -s$2942]))*\[Gamma][i, \
+s$2940])*\[Gamma][k, s$2942]]};", 
       "DefInfo[\[Chi]CD] ^= {\"covariant derivative\", \"\"};", "Dependencies\
 OfCovD[\[Chi]CD] ^= {f\[Digamma], g\[Digamma], h\[Digamma], t, \
 \[CapitalSigma]t};", "HostsOf[\[Chi]CD] ^= {\[CapitalSigma]t};", 
@@ -42924,24 +42937,24 @@ HoldPattern[Inv\[Chi]c[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 RicciScalar\[Chi]CDc[]]};", "\[Chi]CDc /: CurvatureRelations[\[Chi]CDc, \
 Riemann] = {HoldPattern[Riemann\[Chi]CDc[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 -(j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3145, s$3147}, \
-(($RicciSign*Ricci\[Chi]CDc[-s$3145, -s$3147])*\[Gamma][i, \
-s$3145])*\[Gamma][k, s$3147]], \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3198, s$3200}, \
+(($RicciSign*Ricci\[Chi]CDc[-s$3198, -s$3200])*\[Gamma][i, \
+s$3198])*\[Gamma][k, s$3200]], \
 HoldPattern[Riemann\[Chi]CDc[(i_)?Tangent\[CapitalSigma]t`pmQ, \
 (j_Symbol)?Tangent\[CapitalSigma]t`Q, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3145, s$3147}, \
-(($RicciSign*Ricci\[Chi]CDc[-s$3145, -s$3147])*\[Gamma][i, \
-s$3145])*\[Gamma][k, s$3147]], \
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3198, s$3200}, \
+(($RicciSign*Ricci\[Chi]CDc[-s$3198, -s$3200])*\[Gamma][i, \
+s$3198])*\[Gamma][k, s$3200]], \
 HoldPattern[Riemann\[Chi]CDc[-(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3146, s$3148}, \
-((-($RicciSign*Ricci\[Chi]CDc[-s$3146, -s$3148]))*\[Gamma][i, \
-s$3146])*\[Gamma][k, s$3148]], \
+(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3199, s$3201}, \
+((-($RicciSign*Ricci\[Chi]CDc[-s$3199, -s$3201]))*\[Gamma][i, \
+s$3199])*\[Gamma][k, s$3201]], \
 HoldPattern[Riemann\[Chi]CDc[(j_Symbol)?Tangent\[CapitalSigma]t`Q, \
 (i_)?Tangent\[CapitalSigma]t`pmQ, (k_)?Tangent\[CapitalSigma]t`pmQ, \
--(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3146, s$3148}, \
-((-($RicciSign*Ricci\[Chi]CDc[-s$3146, -s$3148]))*\[Gamma][i, \
-s$3146])*\[Gamma][k, s$3148]]};", 
+-(j_Symbol)?Tangent\[CapitalSigma]t`Q]] :> Module[{s$3199, s$3201}, \
+((-($RicciSign*Ricci\[Chi]CDc[-s$3199, -s$3201]))*\[Gamma][i, \
+s$3199])*\[Gamma][k, s$3201]]};", 
       "DefInfo[\[Chi]CDc] ^= {\"covariant derivative\", \"\"};", "Dependencie\
 sOfCovD[\[Chi]CDc] ^= {f\[Digamma], g\[Digamma], h\[Digamma], t, \
 \[CapitalSigma]t};", "HostsOf[\[Chi]CDc] ^= {\[CapitalSigma]t};", 
@@ -45201,12 +45214,12 @@ xAct`xCoba`Private`chart1][]], Coordinate[xAct`xCoba`Private`j, \
 xAct`xCoba`Private`chart2][]], \
 xAct`xCoba`Private`chart2][xAct`xCoba`Private`args];", "InChart[cBSSN$gHamilt\
 onianConstraint[], \[ScriptCapitalS]][args$___] := -gA1[t, \[ScriptR][]]^2 - \
-2*gA2[t, \[ScriptR][]]^2 + TrgA\[FilledSmallCircle][g\[Digamma], t, \
-\[ScriptR][]]^2 + (4*TrgA\[FilledSmallCircle][g\[Digamma], t, \
+2*gA2[t, \[ScriptR][]]^2 - 2*\[Kappa]g*(grhob\[FilledCircle][t, \[ScriptR][]] \
++ grho\[FilledSmallCircle][t, \[ScriptR][]]) + \
+TrgA\[FilledSmallCircle][g\[Digamma], t, \[ScriptR][]]^2 + \
+(4*TrgA\[FilledSmallCircle][g\[Digamma], t, \
 \[ScriptR][]]*TrgK\[FilledSmallCircle][t, \[ScriptR][]])/3 + \
-(2*TrgK\[FilledSmallCircle][t, \[ScriptR][]]^2)/3 - \
-2*\[Kappa]g*(grho\[FilledSmallCircle][t, \[ScriptR][]] + InChart[grhob[], \
-\[ScriptCapitalS]][t, \[ScriptR][]]) + ((8*Derivative[0, \
+(2*TrgK\[FilledSmallCircle][t, \[ScriptR][]]^2)/3 + ((8*Derivative[0, \
 1][gconf\[FilledSmallCircle]][t, \[ScriptR][]]*Derivative[0, 1][g$A][t, \
 \[ScriptR][]])/g$A[t, \[ScriptR][]]^3 + (-8*Derivative[0, \
 1][gconf\[FilledSmallCircle]][t, \[ScriptR][]]^2 - (16*Derivative[0, \
@@ -45218,13 +45231,13 @@ x[]]*(Derivative[0, 1][g$A][t, x[]]*Derivative[0, 1][g$B][t, x[]] - g$A[t, \
 x[]]*Derivative[0, 2][g$B][t, x[]]))/(g$A[t, x[]]^3*g$B[t, \
 x[]]^2))/E^(4*gconf\[FilledSmallCircle][t, \[ScriptR][]]);", "InChart[cBSSN$f\
 HamiltonianConstraint[], \[ScriptCapitalS]][args$___] := -fA1[t, \
-\[ScriptR][]]^2 - 2*fA2[t, \[ScriptR][]]^2 + \
+\[ScriptR][]]^2 - 2*fA2[t, \[ScriptR][]]^2 - \
+2*\[Kappa]f*(frhob\[FilledCircle][t, \[ScriptR][]] + \
+frho\[FilledSmallCircle][t, \[ScriptR][]]) + \
 TrfA\[FilledSmallCircle][f\[Digamma], t, \[ScriptR][]]^2 + \
 (4*TrfA\[FilledSmallCircle][f\[Digamma], t, \
 \[ScriptR][]]*TrfK\[FilledSmallCircle][t, \[ScriptR][]])/3 + \
-(2*TrfK\[FilledSmallCircle][t, \[ScriptR][]]^2)/3 - \
-2*\[Kappa]f*(frho\[FilledSmallCircle][t, \[ScriptR][]] + InChart[frhob[], \
-\[ScriptCapitalS]][t, \[ScriptR][]]) + ((8*Derivative[0, \
+(2*TrfK\[FilledSmallCircle][t, \[ScriptR][]]^2)/3 + ((8*Derivative[0, \
 1][fconf\[FilledSmallCircle]][t, \[ScriptR][]]*Derivative[0, 1][f$A][t, \
 \[ScriptR][]])/f$A[t, \[ScriptR][]]^3 + (-8*Derivative[0, \
 1][fconf\[FilledSmallCircle]][t, \[ScriptR][]]^2 - (16*Derivative[0, \
@@ -45276,7 +45289,8 @@ Derivative[1, 0][fconf\[FilledSmallCircle]][t, \[ScriptR][]] - Derivative[1, \
 \[ScriptR][]]*gLap\[FilledSmallCircle][t, \[ScriptR][]] + \
 6*\[Kappa]g*gJ22\[FilledSmallCircle][t, \
 \[ScriptR][]]*gLap\[FilledSmallCircle][t, \[ScriptR][]] + \
-3*\[Kappa]g*gLap\[FilledSmallCircle][t, \
+3*\[Kappa]g*gLap\[FilledSmallCircle][t, \[ScriptR][]]*grhob\[FilledCircle][t, \
+\[ScriptR][]] + 3*\[Kappa]g*gLap\[FilledSmallCircle][t, \
 \[ScriptR][]]*grho\[FilledSmallCircle][t, \[ScriptR][]] + \
 (3*\[Kappa]g*gJb[{1, -\[ScriptCapitalS]}, {1, \
 -\[ScriptCapitalS]}]*gLap\[FilledSmallCircle][t, \
@@ -45291,9 +45305,7 @@ Derivative[1, 0][fconf\[FilledSmallCircle]][t, \[ScriptR][]] - Derivative[1, \
 \[ScriptR][]]*TrgA\[FilledSmallCircle][g\[Digamma], t, \
 \[ScriptR][]]*TrgK\[FilledSmallCircle][t, \[ScriptR][]] + \
 2*gLap\[FilledSmallCircle][t, \[ScriptR][]]*TrgK\[FilledSmallCircle][t, \
-\[ScriptR][]]^2 + 3*\[Kappa]g*gLap\[FilledSmallCircle][t, \
-\[ScriptR][]]*InChart[grhob[], \[ScriptCapitalS]][t, \[ScriptR][]] - \
-(12*Derivative[0, 1][gconf\[FilledSmallCircle]][t, \
+\[ScriptR][]]^2 - (12*Derivative[0, 1][gconf\[FilledSmallCircle]][t, \
 \[ScriptR][]]*Derivative[0, 1][gLap\[FilledSmallCircle]][t, \
 \[ScriptR][]])/(E^(4*gconf\[FilledSmallCircle][t, \[ScriptR][]])*g$A[t, \
 \[ScriptR][]]^2) + (6*Derivative[0, 1][gLap\[FilledSmallCircle]][t, \
@@ -45316,7 +45328,8 @@ t, \[ScriptR][]])/6;", "InChart[cBSSN$fEvolutionEquationK[], \
 \[ScriptR][]]*fLap\[FilledSmallCircle][t, \[ScriptR][]] + \
 6*\[Kappa]f*fJ22\[FilledSmallCircle][t, \
 \[ScriptR][]]*fLap\[FilledSmallCircle][t, \[ScriptR][]] + \
-3*\[Kappa]f*fLap\[FilledSmallCircle][t, \
+3*\[Kappa]f*fLap\[FilledSmallCircle][t, \[ScriptR][]]*frhob\[FilledCircle][t, \
+\[ScriptR][]] + 3*\[Kappa]f*fLap\[FilledSmallCircle][t, \
 \[ScriptR][]]*frho\[FilledSmallCircle][t, \[ScriptR][]] + \
 (3*\[Kappa]f*fJb[{1, -\[ScriptCapitalS]}, {1, \
 -\[ScriptCapitalS]}]*fLap\[FilledSmallCircle][t, \
@@ -45331,9 +45344,7 @@ t, \[ScriptR][]])/6;", "InChart[cBSSN$fEvolutionEquationK[], \
 \[ScriptR][]]*TrfA\[FilledSmallCircle][f\[Digamma], t, \
 \[ScriptR][]]*TrfK\[FilledSmallCircle][t, \[ScriptR][]] + \
 2*fLap\[FilledSmallCircle][t, \[ScriptR][]]*TrfK\[FilledSmallCircle][t, \
-\[ScriptR][]]^2 + 3*\[Kappa]f*fLap\[FilledSmallCircle][t, \
-\[ScriptR][]]*InChart[frhob[], \[ScriptCapitalS]][t, \[ScriptR][]] - \
-(12*Derivative[0, 1][fconf\[FilledSmallCircle]][t, \
+\[ScriptR][]]^2 - (12*Derivative[0, 1][fconf\[FilledSmallCircle]][t, \
 \[ScriptR][]]*Derivative[0, 1][fLap\[FilledSmallCircle]][t, \
 \[ScriptR][]])/(E^(4*fconf\[FilledSmallCircle][t, \[ScriptR][]])*f$A[t, \
 \[ScriptR][]]^2) + (6*Derivative[0, 1][fLap\[FilledSmallCircle]][t, \

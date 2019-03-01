@@ -1246,6 +1246,12 @@ DefScalarFunction[\[Lambda]\[FilledSmallCircle],PrintAs->"\!\(\*
 StyleBox[\"\[Lambda]\",\nFontColor->RGBColor[1, 0.5, 0]]\)"];
 DefScalarFunction[grhob\[FilledSmallCircle]];
 DefScalarFunction[frhob\[FilledSmallCircle]];
+DefScalarFunction[grhob\[FilledCircle],PrintAs->"\!\(\*
+StyleBox[SubscriptBox[
+StyleBox[\"\[Rho]\",\nFontColor->RGBColor[0, 0, 1]], \"b\"],\nFontColor->RGBColor[0, 0, 1]]\)"];
+DefScalarFunction[frhob\[FilledCircle],PrintAs->"\!\(\*
+StyleBox[SubscriptBox[
+StyleBox[OverscriptBox[\"\[Rho]\", \"~\"],\nFontColor->RGBColor[1, 0, 0]], \"b\"],\nFontColor->RGBColor[1, 0, 0]]\)"];
 DefScalarFunction[grho\[FilledSmallCircle],PrintAs->"\!\(\*
 StyleBox[\"\[Rho]\",\nFontColor->RGBColor[0, 0, 1]]\)"];
 DefScalarFunction[frho\[FilledSmallCircle],PrintAs->"\!\(\*
@@ -4528,6 +4534,8 @@ InChart[det\[Gamma]c[],OptionValue[ChartName]][args__]:=det\[Gamma]c\[FilledSmal
 InChart[det\[CurlyPhi]c[],OptionValue[ChartName]][args__]:=det\[CurlyPhi]c\[FilledSmallCircle][args];
 InChart[grho[],OptionValue[ChartName]][args__]:=grho\[FilledSmallCircle][args];
 InChart[frho[],OptionValue[ChartName]][args__]:=frho\[FilledSmallCircle][args];
+InChart[grhob[],OptionValue[ChartName]][args__]:=grhob\[FilledCircle][args];
+InChart[frhob[],OptionValue[ChartName]][args__]:=frhob\[FilledCircle][args];
 InChart[t,OptionValue[ChartName]][args___]:=t;
 Module[{temp$grhob,temp$gjb,temp$gJb,temp$frhob,temp$fjb,temp$fJb,temp$expr},
 DefTensor[temp$grhob[],{\[CapitalSigma]t,t,g\[Digamma]}];
@@ -4559,7 +4567,7 @@ UndefTensor[temp$fJb];
 
 (* ::Input::Initialization:: *)
 Clear[ToConcreteSources]
-ToConcreteSources[expr_,OptionsPattern[{ChartName:>DefaultChart,ApplyFunction->Identity}]]:=Block[{InChart},
+ToConcreteSources[expr_,OptionsPattern[{ChartName:>DefaultChart,ApplyFunction->Identity}]]:=Block[{InChart,grhob\[FilledCircle],frhob\[FilledCircle],Derivative},
 If[ChartQ[OptionValue[ChartName]],
 Null,
 Print[ToString[OptionValue[ChartName]]<>" is not a defined chart."];Abort[];
@@ -4570,8 +4578,28 @@ Print["The decomposition has not been computed in the chart "<>ToString[OptionVa
 ];
 InChart[\[Beta][i_],OptionValue[ChartName]][args__]:=\[Beta][i];
 InChart[t,OptionValue[ChartName]][args___]:=t;
-InChart[grhob[],OptionValue[ChartName]][args__]:=grhob\[FilledSmallCircle][OptionValue[ChartName]]//OptionValue[ApplyFunction];
-InChart[frhob[],OptionValue[ChartName]][args__]:=frhob\[FilledSmallCircle][OptionValue[ChartName]]//OptionValue[ApplyFunction];
+Derivative[orders__][grhob\[FilledCircle]][args__]:=Module[{list$orders,der,i,j},
+list$orders={orders};
+der=grhob\[FilledSmallCircle][OptionValue[ChartName]];
+For[i=1,i<=Length@list$orders,i++,
+For[j=1,j<=list$orders[[i]],j++,
+der=D[der,ListOfVariables[OptionValue[ChartName]][[i]]];
+];
+];
+Return[der];
+];
+Derivative[orders__][frhob\[FilledCircle]][args__]:=Module[{list$orders,der,i,j},
+list$orders={orders};
+der=frhob\[FilledSmallCircle][OptionValue[ChartName]];
+For[i=1,i<=Length@list$orders,i++,
+For[j=1,j<=list$orders[[i]],j++,
+der=D[der,ListOfVariables[OptionValue[ChartName]][[i]]];
+];
+];
+Return[der];
+];
+grhob\[FilledCircle][args__]:=Apply[grhob\[FilledSmallCircle][OptionValue[ChartName]]/.Thread[ListOfVariables[OptionValue[ChartName]]->"#"<>ToString[#]&/@Range[1,Length[ListOfVariables[OptionValue[ChartName]]]]]&,{args}];
+frhob\[FilledCircle][args__]:=Apply[frhob\[FilledSmallCircle][OptionValue[ChartName]]/.Thread[ListOfVariables[OptionValue[ChartName]]->"#"<>ToString[#]&/@Range[1,Length[ListOfVariables[OptionValue[ChartName]]]]]&,{args}];
 expr
 /.{
 grhob[]:>InChart[grhob[],OptionValue[ChartName]][Sequence@@ListOfVariables[OptionValue[ChartName]]],
